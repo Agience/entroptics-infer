@@ -1,0 +1,193 @@
+{
+  "source": {
+    "url": "https://archive.ics.uci.edu/static/public/256/daily+and+sports+activities.zip",
+    "sha256": "f42ad7744ecf14151c9fa3a86dfb5b24de9d7cb7ffe956ef5de242983459c77e"
+  },
+  "generated_contrast": {
+    "draws": 60,
+    "true_peak_agreement": 0.885372954809893,
+    "distractor_peak_agreement": 0.9095100844004843,
+    "true_breadth": 25.863441747081346,
+    "distractor_breadth": 25.46327312687836,
+    "questions_with_a_louder_distractor": 1.0
+  },
+  "design": {
+    "segments_per_cell": 6,
+    "segments": 912,
+    "candidates": 12,
+    "far": 0.05,
+    "seed": 20260915,
+    "draws": 3,
+    "queries": 300,
+    "chance": 0.08333333333333333
+  },
+  "admission": [
+    {
+      "arm": "raw",
+      "relation": "same activity",
+      "pairs": 120,
+      "margin_z": 0.12506673531261947,
+      "cutoff": 1.9599639845400543,
+      "admitted": false,
+      "rows": 125,
+      "row_autocorrelation": 0.6667779276857394
+    },
+    {
+      "arm": "raw",
+      "relation": "same subject",
+      "pairs": 120,
+      "margin_z": -0.23684237337485298,
+      "cutoff": 1.9599639845400543,
+      "admitted": false,
+      "rows": 125,
+      "row_autocorrelation": 0.6645552186147295
+    },
+    {
+      "arm": "corpus mean removed",
+      "relation": "same activity",
+      "pairs": 120,
+      "margin_z": 0.13149583333758363,
+      "cutoff": 1.9599639845400543,
+      "admitted": false,
+      "rows": 125,
+      "row_autocorrelation": 0.707999936747675
+    },
+    {
+      "arm": "corpus mean removed",
+      "relation": "same subject",
+      "pairs": 120,
+      "margin_z": -0.23118594749871654,
+      "cutoff": 1.9599639845400543,
+      "admitted": false,
+      "rows": 125,
+      "row_autocorrelation": 0.7046694032870368
+    }
+  ],
+  "facets": [
+    {
+      "arm": "raw",
+      "width": 45,
+      "mean_modes": 4.006578947368421,
+      "max_modes": 7,
+      "modes_per_channel": 0.08903508771929823
+    },
+    {
+      "arm": "corpus mean removed",
+      "width": 45,
+      "mean_modes": 3.8848684210526314,
+      "max_modes": 6,
+      "modes_per_channel": 0.08633040935672513
+    }
+  ],
+  "configuration": [
+    {
+      "arm": "raw",
+      "questions": 120,
+      "true_peak_agreement": 0.5768240297791036,
+      "distractor_peak_agreement": 0.4588574473383989,
+      "true_breadth": 14.272901490534965,
+      "distractor_breadth": 12.788468780942113,
+      "questions_with_a_louder_distractor": 0.7083333333333334
+    },
+    {
+      "arm": "corpus mean removed",
+      "questions": 120,
+      "true_peak_agreement": 0.7264874199469621,
+      "distractor_peak_agreement": 0.5531554807910052,
+      "true_breadth": 20.02064446019188,
+      "distractor_breadth": 14.343715994232193,
+      "questions_with_a_louder_distractor": 0.6666666666666666
+    }
+  ],
+  "results": [
+    {
+      "arm": "raw",
+      "task": "same activity",
+      "questions": 300,
+      "association": 0.20666666666666667,
+      "cos": 0.25,
+      "dot": 0.20666666666666667,
+      "mean channel correlation": 0.27,
+      "max channel correlation": 0.18666666666666668,
+      "leading-component correlation": 0.22333333333333333,
+      "random": 0.06333333333333334,
+      "best_scalar": 0.27,
+      "best_scalar_read": "mean channel correlation",
+      "edge": -0.06333333333333335,
+      "association_only": 27,
+      "scalar_only": 46,
+      "discordant": 73,
+      "paired_standard_error": 0.02848001248439177,
+      "edge_in_paired_standard_errors": -2.2237817967264815,
+      "separated_at_two_standard_errors": true
+    },
+    {
+      "arm": "raw",
+      "task": "same subject",
+      "questions": 300,
+      "association": 0.07666666666666666,
+      "cos": 0.09,
+      "dot": 0.09333333333333334,
+      "mean channel correlation": 0.08,
+      "max channel correlation": 0.07333333333333333,
+      "leading-component correlation": 0.06333333333333334,
+      "random": 0.06333333333333334,
+      "best_scalar": 0.09333333333333334,
+      "best_scalar_read": "dot",
+      "edge": -0.016666666666666677,
+      "association_only": 8,
+      "scalar_only": 13,
+      "discordant": 21,
+      "paired_standard_error": 0.015275252316519466,
+      "edge_in_paired_standard_errors": -1.0910894511799627,
+      "separated_at_two_standard_errors": false
+    },
+    {
+      "arm": "corpus mean removed",
+      "task": "same activity",
+      "questions": 300,
+      "association": 0.26,
+      "cos": 0.28,
+      "dot": 0.21,
+      "mean channel correlation": 0.3233333333333333,
+      "max channel correlation": 0.24,
+      "leading-component correlation": 0.25666666666666665,
+      "random": 0.06333333333333334,
+      "best_scalar": 0.3233333333333333,
+      "best_scalar_read": "mean channel correlation",
+      "edge": -0.0633333333333333,
+      "association_only": 24,
+      "scalar_only": 43,
+      "discordant": 67,
+      "paired_standard_error": 0.027284509239574834,
+      "edge_in_paired_standard_errors": -2.321219442769798,
+      "separated_at_two_standard_errors": true
+    },
+    {
+      "arm": "corpus mean removed",
+      "task": "same subject",
+      "questions": 300,
+      "association": 0.08,
+      "cos": 0.07333333333333333,
+      "dot": 0.09333333333333334,
+      "mean channel correlation": 0.08,
+      "max channel correlation": 0.06666666666666667,
+      "leading-component correlation": 0.07666666666666666,
+      "random": 0.06333333333333334,
+      "best_scalar": 0.09333333333333334,
+      "best_scalar_read": "dot",
+      "edge": -0.013333333333333336,
+      "association_only": 12,
+      "scalar_only": 16,
+      "discordant": 28,
+      "paired_standard_error": 0.017638342073763937,
+      "edge_in_paired_standard_errors": -0.7559289460184546,
+      "separated_at_two_standard_errors": false
+    }
+  ],
+  "seconds": 78.32888460159302,
+  "edge_same_activity": -0.0633333333333333,
+  "edge_same_subject": -0.013333333333333336,
+  "width": 45,
+  "mean_modes": 3.8848684210526314
+}

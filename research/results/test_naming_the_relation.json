@@ -1,0 +1,18 @@
+{
+  "asked": {
+    "source + summed": 68,
+    "source only": 68,
+    "source, selecting": 68
+  },
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "script": "test_naming_the_relation.py",
+  "top1": {
+    "source + summed": 0.0,
+    "source only": 0.1323529411764706,
+    "source, selecting": 0.27941176470588236
+  }
+}

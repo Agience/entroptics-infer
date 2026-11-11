@@ -1,0 +1,936 @@
+{
+  "a_draw_would": 0.0013935402415432285,
+  "body": "0869a1657e5f8871.txt",
+  "both_right": 2,
+  "counting": 0.07017543859649122,
+  "counting_alone": 6,
+  "detail": [
+    {
+      "a": "she",
+      "b": "tried",
+      "counting": "the",
+      "pool": 722,
+      "the_read": "",
+      "truth": "the"
+    },
+    {
+      "a": "that",
+      "b": "",
+      "counting": "you",
+      "pool": 717,
+      "the_read": "had",
+      "truth": "walk"
+    },
+    {
+      "a": "and",
+      "b": "said",
+      "counting": "alice",
+      "pool": 724,
+      "the_read": "pig",
+      "truth": "anxiously"
+    },
+    {
+      "a": "longitude",
+      "b": "i",
+      "counting": "shall",
+      "pool": 724,
+      "the_read": "shall",
+      "truth": "ve"
+    },
+    {
+      "a": "was",
+      "b": "",
+      "counting": "you",
+      "pool": 697,
+      "the_read": "playing",
+      "truth": "playing"
+    },
+    {
+      "a": "of",
+      "b": "",
+      "counting": "you",
+      "pool": 697,
+      "the_read": "own",
+      "truth": "way"
+    },
+    {
+      "a": "to",
+      "b": "",
+      "counting": "you",
+      "pool": 686,
+      "the_read": "know",
+      "truth": "taste"
+    },
+    {
+      "a": "s",
+      "b": "",
+      "counting": "you",
+      "pool": 713,
+      "the_read": "",
+      "truth": "right"
+    },
+    {
+      "a": "into",
+      "b": "the",
+      "counting": "rabbit",
+      "pool": 721,
+      "the_read": "table",
+      "truth": "way"
+    },
+    {
+      "a": "waited",
+      "b": "for",
+      "counting": "it",
+      "pool": 724,
+      "the_read": "you",
+      "truth": "a"
+    },
+    {
+      "a": "finger",
+      "b": "",
+      "counting": "you",
+      "pool": 724,
+      "the_read": "stop",
+      "truth": "very"
+    },
+    {
+      "a": "myself",
+      "b": "",
+      "counting": "you",
+      "pool": 724,
+      "the_read": "stop",
+      "truth": "about"
+    },
+    {
+      "a": "finished",
+      "b": "off",
+      "counting": "to",
+      "pool": 724,
+      "the_read": "and",
+      "truth": "the"
+    },
+    {
+      "a": "could",
+      "b": "not",
+      "counting": "a",
+      "pool": 722,
+      "the_read": "open",
+      "truth": "possibly"
+    },
+    {
+      "a": "little",
+      "b": "",
+      "counting": "you",
+      "pool": 714,
+      "the_read": "deep",
+      "truth": "glass"
+    },
+    {
+      "a": "which",
+      "b": "",
+      "counting": "you",
+      "pool": 722,
+      "the_read": "hall",
+      "truth": "happens"
+    },
+    {
+      "a": "for",
+      "b": "the",
+      "counting": "way",
+      "pool": 723,
+      "the_read": "seemed",
+      "truth": "hot"
+    },
+    {
+      "a": "off",
+      "b": "to",
+      "counting": "be",
+      "pool": 723,
+      "the_read": "hearthrug",
+      "truth": "trouble"
+    },
+    {
+      "a": "but",
+      "b": "",
+      "counting": "very",
+      "pool": 721,
+      "the_read": "looked",
+      "truth": "alas"
+    },
+    {
+      "a": "paper",
+      "b": "",
+      "counting": "you",
+      "pool": 724,
+      "the_read": "girl",
+      "truth": "label"
+    },
+    {
+      "a": "to",
+      "b": "",
+      "counting": "you",
+      "pool": 686,
+      "the_read": "know",
+      "truth": "feel"
+    },
+    {
+      "a": "dark",
+      "b": "",
+      "counting": "you",
+      "pool": 723,
+      "the_read": "true",
+      "truth": "hall"
+    },
+    {
+      "a": "roof",
+      "b": "of",
+      "counting": "the",
+      "pool": 724,
+      "the_read": "a",
+      "truth": "the"
+    },
+    {
+      "a": "the",
+      "b": "",
+      "counting": "you",
+      "pool": 656,
+      "the_read": "bottle",
+      "truth": "mock"
+    },
+    {
+      "a": "once",
+      "b": "",
+      "counting": "you",
+      "pool": 722,
+      "the_read": "now",
+      "truth": "or"
+    },
+    {
+      "a": "i",
+      "b": "wonder",
+      "counting": "the",
+      "pool": 721,
+      "the_read": "for",
+      "truth": "how"
+    },
+    {
+      "a": "to",
+      "b": "",
+      "counting": "you",
+      "pool": 686,
+      "the_read": "know",
+      "truth": "them"
+    },
+    {
+      "a": "the",
+      "b": "key",
+      "counting": "in",
+      "pool": 723,
+      "the_read": "pig",
+      "truth": "was"
+    },
+    {
+      "a": "well",
+      "b": "and",
+      "counting": "she",
+      "pool": 724,
+      "the_read": "i",
+      "truth": "noticed"
+    },
+    {
+      "a": "looked",
+      "b": "at",
+      "counting": "any",
+      "pool": 723,
+      "the_read": "hearthrug",
+      "truth": "it"
+    },
+    {
+      "a": "you",
+      "b": "",
+      "counting": "very",
+      "pool": 713,
+      "the_read": "be",
+      "truth": "cut"
+    },
+    {
+      "a": "across",
+      "b": "her",
+      "counting": "feet",
+      "pool": 724,
+      "the_read": "was",
+      "truth": "mind"
+    },
+    {
+      "a": "could",
+      "b": "",
+      "counting": "you",
+      "pool": 722,
+      "the_read": "be",
+      "truth": "see"
+    },
+    {
+      "a": "so",
+      "b": "",
+      "counting": "you",
+      "pool": 718,
+      "the_read": "deep",
+      "truth": "very"
+    },
+    {
+      "a": "a",
+      "b": "",
+      "counting": "you",
+      "pool": 688,
+      "the_read": "earth",
+      "truth": "caterpillar"
+    },
+    {
+      "a": "until",
+      "b": "there",
+      "counting": "was",
+      "pool": 724,
+      "the_read": "was",
+      "truth": "was"
+    },
+    {
+      "a": "perhaps",
+      "b": "i",
+      "counting": "ll",
+      "pool": 724,
+      "the_read": "ve",
+      "truth": "shall"
+    },
+    {
+      "a": "left",
+      "b": "to",
+      "counting": "be",
+      "pool": 724,
+      "the_read": "be",
+      "truth": "make"
+    },
+    {
+      "a": "out",
+      "b": "",
+      "counting": "you",
+      "pool": 721,
+      "the_read": "hole",
+      "truth": "again"
+    },
+    {
+      "a": "beautifully",
+      "b": "",
+      "counting": "you",
+      "pool": 724,
+      "the_read": "impossible",
+      "truth": "printed"
+    },
+    {
+      "a": "histories",
+      "b": "",
+      "counting": "you",
+      "pool": 724,
+      "the_read": "stop",
+      "truth": "about"
+    },
+    {
+      "a": "it",
+      "b": "",
+      "counting": "you",
+      "pool": 702,
+      "the_read": "opened",
+      "truth": "might"
+    },
+    {
+      "a": "knife",
+      "b": "it",
+      "counting": "was",
+      "pool": 724,
+      "the_read": "ll",
+      "truth": "usually"
+    },
+    {
+      "a": "wonder",
+      "b": "if",
+      "counting": "you",
+      "pool": 724,
+      "the_read": "it",
+      "truth": "i"
+    },
+    {
+      "a": "then",
+      "b": "her",
+      "counting": "feet",
+      "pool": 724,
+      "the_read": "and",
+      "truth": "head"
+    },
+    {
+      "a": "coming",
+      "b": "to",
+      "counting": "be",
+      "pool": 724,
+      "the_read": "do",
+      "truth": "but"
+    },
+    {
+      "a": "by",
+      "b": "a",
+      "counting": "little",
+      "pool": 724,
+      "the_read": "candle",
+      "truth": "row"
+    },
+    {
+      "a": "open",
+      "b": "any",
+      "counting": "rate",
+      "pool": 724,
+      "the_read": "further",
+      "truth": "of"
+    },
+    {
+      "a": "was",
+      "b": "",
+      "counting": "you",
+      "pool": 697,
+      "the_read": "dozing",
+      "truth": "dozing"
+    },
+    {
+      "a": "truth",
+      "b": "",
+      "counting": "you",
+      "pool": 724,
+      "the_read": "you",
+      "truth": "did"
+    },
+    {
+      "a": "do",
+      "b": "to",
+      "counting": "be",
+      "pool": 724,
+      "the_read": "her",
+      "truth": "ask"
+    },
+    {
+      "a": "of",
+      "b": "",
+      "counting": "you",
+      "pool": 697,
+      "the_read": "own",
+      "truth": "sitting"
+    },
+    {
+      "a": "you",
+      "b": "",
+      "counting": "very",
+      "pool": 713,
+      "the_read": "be",
+      "truth": "were"
+    },
+    {
+      "a": "not",
+      "b": "a",
+      "counting": "little",
+      "pool": 722,
+      "the_read": "seemed",
+      "truth": "very"
+    },
+    {
+      "a": "enough",
+      "b": "of",
+      "counting": "the",
+      "pool": 724,
+      "the_read": "tears",
+      "truth": "me"
+    },
+    {
+      "a": "would",
+      "b": "the",
+      "counting": "way",
+      "pool": 724,
+      "the_read": "table",
+      "truth": "fall"
+    },
+    {
+      "a": "people",
+      "b": "up",
+      "counting": "by",
+      "pool": 724,
+      "the_read": "like",
+      "truth": "like"
+    },
+    {
+      "a": "with",
+      "b": "",
+      "counting": "you",
+      "pool": 716,
+      "the_read": "they",
+      "truth": "you"
+    },
+    {
+      "a": "i",
+      "b": "",
+      "counting": "you",
+      "pool": 707,
+      "the_read": "must",
+      "truth": "wonder"
+    },
+    {
+      "a": "would",
+      "b": "not",
+      "counting": "a",
+      "pool": 723,
+      "the_read": "remember",
+      "truth": "remember"
+    },
+    {
+      "a": "no",
+      "b": "it",
+      "counting": "was",
+      "pool": 724,
+      "the_read": "was",
+      "truth": "ll"
+    },
+    {
+      "a": "the",
+      "b": "rabbit",
+      "counting": "with",
+      "pool": 720,
+      "the_read": "look",
+      "truth": "was"
+    },
+    {
+      "a": "considering",
+      "b": "",
+      "counting": "you",
+      "pool": 724,
+      "the_read": "able",
+      "truth": "how"
+    },
+    {
+      "a": "she",
+      "b": "tried",
+      "counting": "a",
+      "pool": 722,
+      "the_read": "",
+      "truth": "her"
+    },
+    {
+      "a": "once",
+      "b": "she",
+      "counting": "was",
+      "pool": 724,
+      "the_read": "was",
+      "truth": "remembered"
+    },
+    {
+      "a": "late",
+      "b": "it",
+      "counting": "was",
+      "pool": 724,
+      "the_read": "ll",
+      "truth": "s"
+    },
+    {
+      "a": "not",
+      "b": "",
+      "counting": "you",
+      "pool": 719,
+      "the_read": "good",
+      "truth": "remember"
+    },
+    {
+      "a": "her",
+      "b": "",
+      "counting": "you",
+      "pool": 707,
+      "the_read": "little",
+      "truth": "mind"
+    },
+    {
+      "a": "herself",
+      "b": "in",
+      "counting": "the",
+      "pool": 723,
+      "the_read": "poor",
+      "truth": "my"
+    },
+    {
+      "a": "here",
+      "b": "alice",
+      "counting": "had",
+      "pool": 724,
+      "the_read": "she",
+      "truth": "began"
+    },
+    {
+      "a": "and",
+      "b": "",
+      "counting": "you",
+      "pool": 694,
+      "the_read": "felt",
+      "truth": "noticed"
+    },
+    {
+      "a": "looked",
+      "b": "",
+      "counting": "you",
+      "pool": 724,
+      "the_read": "never",
+      "truth": "along"
+    },
+    {
+      "a": "to",
+      "b": "",
+      "counting": "you",
+      "pool": 686,
+      "the_read": "know",
+      "truth": "take"
+    },
+    {
+      "a": "bleeds",
+      "b": "and",
+      "counting": "she",
+      "pool": 724,
+      "the_read": "she",
+      "truth": "she"
+    },
+    {
+      "a": "climb",
+      "b": "up",
+      "counting": "like",
+      "pool": 724,
+      "the_read": "like",
+      "truth": "one"
+    },
+    {
+      "a": "fall",
+      "b": "",
+      "counting": "you",
+      "pool": 723,
+      "the_read": "table",
+      "truth": "never"
+    },
+    {
+      "a": "found",
+      "b": "she",
+      "counting": "was",
+      "pool": 723,
+      "the_read": "looked",
+      "truth": "could"
+    },
+    {
+      "a": "and",
+      "b": "found",
+      "counting": "herself",
+      "pool": 723,
+      "the_read": "oh",
+      "truth": "that"
+    },
+    {
+      "a": "by",
+      "b": "",
+      "counting": "you",
+      "pool": 721,
+      "the_read": "holding",
+      "truth": "wild"
+    },
+    {
+      "a": "with",
+      "b": "a",
+      "counting": "little",
+      "pool": 723,
+      "the_read": "sort",
+      "truth": "knife"
+    },
+    {
+      "a": "should",
+      "b": "",
+      "counting": "you",
+      "pool": 723,
+      "the_read": "look",
+      "truth": "think"
+    },
+    {
+      "a": "were",
+      "b": "",
+      "counting": "you",
+      "pool": 718,
+      "the_read": "coming",
+      "truth": "beautifully"
+    },
+    {
+      "a": "moment",
+      "b": "she",
+      "counting": "was",
+      "pool": 723,
+      "the_read": "now",
+      "truth": "looked"
+    },
+    {
+      "a": "well",
+      "b": "i",
+      "counting": "shall",
+      "pool": 724,
+      "the_read": "ll",
+      "truth": "ll"
+    },
+    {
+      "a": "just",
+      "b": "in",
+      "counting": "a",
+      "pool": 724,
+      "the_read": "fact",
+      "truth": "time"
+    },
+    {
+      "a": "in",
+      "b": "time",
+      "counting": "as",
+      "pool": 724,
+      "the_read": "she",
+      "truth": "to"
+    },
+    {
+      "a": "that",
+      "b": "",
+      "counting": "you",
+      "pool": 717,
+      "the_read": "had",
+      "truth": "lovely"
+    },
+    {
+      "a": "moment",
+      "b": "i",
+      "counting": "shall",
+      "pool": 724,
+      "the_read": "wonder",
+      "truth": "tell"
+    },
+    {
+      "a": "there",
+      "b": "was",
+      "counting": "not",
+      "pool": 721,
+      "the_read": "poor",
+      "truth": "not"
+    },
+    {
+      "a": "under",
+      "b": "the",
+      "counting": "way",
+      "pool": 722,
+      "the_read": "garden",
+      "truth": "hedge"
+    },
+    {
+      "a": "s",
+      "b": "",
+      "counting": "you",
+      "pool": 713,
+      "the_read": "",
+      "truth": "hardly"
+    },
+    {
+      "a": "came",
+      "b": "",
+      "counting": "you",
+      "pool": 723,
+      "the_read": "shoulders",
+      "truth": "trotting"
+    },
+    {
+      "a": "other",
+      "b": "",
+      "counting": "you",
+      "pool": 723,
+      "the_read": "you",
+      "truth": "unpleasant"
+    },
+    {
+      "a": "down",
+      "b": "on",
+      "counting": "it",
+      "pool": 724,
+      "the_read": "it",
+      "truth": "one"
+    },
+    {
+      "a": "took",
+      "b": "down",
+      "counting": "and",
+      "pool": 724,
+      "the_read": "at",
+      "truth": "a"
+    },
+    {
+      "a": "planning",
+      "b": "to",
+      "counting": "be",
+      "pool": 724,
+      "the_read": "her",
+      "truth": "herself"
+    },
+    {
+      "a": "high",
+      "b": "and",
+      "counting": "she",
+      "pool": 723,
+      "the_read": "holding",
+      "truth": "she"
+    },
+    {
+      "a": "learnt",
+      "b": "",
+      "counting": "you",
+      "pool": 724,
+      "the_read": "stop",
+      "truth": "several"
+    },
+    {
+      "a": "after",
+      "b": "a",
+      "counting": "little",
+      "pool": 723,
+      "the_read": "curtsey",
+      "truth": "while"
+    },
+    {
+      "a": "middle",
+      "b": "",
+      "counting": "you",
+      "pool": 724,
+      "the_read": "you",
+      "truth": "wondering"
+    },
+    {
+      "a": "down",
+      "b": "went",
+      "counting": "on",
+      "pool": 724,
+      "the_read": "alice",
+      "truth": "alice"
+    },
+    {
+      "a": "it",
+      "b": "",
+      "counting": "you",
+      "pool": 702,
+      "the_read": "opened",
+      "truth": "flashed"
+    },
+    {
+      "a": "shall",
+      "b": "",
+      "counting": "you",
+      "pool": 720,
+      "the_read": "look",
+      "truth": "have"
+    },
+    {
+      "a": "had",
+      "b": "got",
+      "counting": "to",
+      "pool": 723,
+      "the_read": "eaten",
+      "truth": "so"
+    },
+    {
+      "a": "the",
+      "b": "",
+      "counting": "you",
+      "pool": 656,
+      "the_read": "bottle",
+      "truth": "cat"
+    },
+    {
+      "a": "be",
+      "b": "of",
+      "counting": "the",
+      "pool": 724,
+      "the_read": "getting",
+      "truth": "very"
+    },
+    {
+      "a": "for",
+      "b": "she",
+      "counting": "was",
+      "pool": 723,
+      "the_read": "opened",
+      "truth": "could"
+    },
+    {
+      "a": "is",
+      "b": "",
+      "counting": "very",
+      "pool": 721,
+      "the_read": "life",
+      "truth": "blown"
+    },
+    {
+      "a": "and",
+      "b": "what",
+      "counting": "was",
+      "pool": 723,
+      "the_read": "for",
+      "truth": "an"
+    },
+    {
+      "a": "white",
+      "b": "",
+      "counting": "you",
+      "pool": 724,
+      "the_read": "little",
+      "truth": "kid"
+    },
+    {
+      "a": "but",
+      "b": "",
+      "counting": "very",
+      "pool": 721,
+      "the_read": "life",
+      "truth": "then"
+    },
+    {
+      "a": "all",
+      "b": "the",
+      "counting": "rabbit",
+      "pool": 722,
+      "the_read": "duchess",
+      "truth": "way"
+    },
+    {
+      "a": "end",
+      "b": "",
+      "counting": "you",
+      "pool": 724,
+      "the_read": "",
+      "truth": "you"
+    },
+    {
+      "a": "herself",
+      "b": "after",
+      "counting": "it",
+      "pool": 724,
+      "the_read": "the",
+      "truth": "such"
+    }
+  ],
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "neither_right": 100,
+  "pool": 717.8333333333334,
+  "questions": 114,
+  "read_alone": 6,
+  "recorded": "2026-11-10",
+  "script": "test_whether_the_read_predicts_the_next_token.py",
+  "seed": 0,
+  "sentences": 120,
+  "smallest_p_obtainable": 0.00048828125,
+  "spans": 2572,
+  "the_read": 0.07017543859649122
+}

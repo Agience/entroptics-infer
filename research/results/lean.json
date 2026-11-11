@@ -1,0 +1,74 @@
+{
+  "theorems": 42,
+  "definitions": 16,
+  "sorry": 0,
+  "declared_axioms": 0,
+  "files": 7,
+  "per_file": {
+    "Arrival.lean": 7,
+    "Carry.lean": 5,
+    "Horizon.lean": 3,
+    "PairSum.lean": 6,
+    "Permutation.lean": 6,
+    "RelationCount.lean": 3,
+    "SecondMoment.lean": 12
+  },
+  "names": {
+    "Arrival.lean": [
+      "answer_congr",
+      "arrive_of_some",
+      "answer_arrive",
+      "not_all_reads_are_stable",
+      "answerable_arrive",
+      "arrival_keeps_every_answer",
+      "arrival_can_add_an_answerable_question"
+    ],
+    "Carry.lean": [
+      "carry_identity",
+      "operator_append",
+      "operator_append_sub",
+      "operator_perm",
+      "operator_nil"
+    ],
+    "Horizon.lean": [
+      "below_floor_eventually",
+      "horizon_exists",
+      "constant_signal_never_falls"
+    ],
+    "PairSum.lean": [
+      "pairMover_fst",
+      "pairMover_snd",
+      "sum_perm_pair_const",
+      "offDiagonal_eq",
+      "sum_perm_offDiagonal",
+      "sum_perm_offDiagonal_centred"
+    ],
+    "Permutation.lean": [
+      "sum_perm_apply_const",
+      "sum_index_sum_perm",
+      "card_smul_sum_perm_apply",
+      "sum_perm_apply_eq_zero",
+      "alignment_factors_through_perm_sum",
+      "alignment_sum_over_perms_eq_zero"
+    ],
+    "RelationCount.lean": [
+      "roleMap_apply",
+      "roleMaps_linearIndependent",
+      "two_mul_le_finrank_of_roles"
+    ],
+    "SecondMoment.lean": [
+      "sum_perm_S_mul_eq",
+      "sum_perm_S_sq_eq",
+      "card_smul_P_diag",
+      "sum_offDiag_P",
+      "P_diag_mul",
+      "P_offDiag_const",
+      "sum_offDiag_count",
+      "P_offDiag_mul",
+      "sum_perm_S_sq",
+      "n_mul_P_gap",
+      "weighted_collapse",
+      "sum_perm_alignment_sq"
+    ]
+  }
+}

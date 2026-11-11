@@ -1,0 +1,341 @@
+{
+  "design": {
+    "T": 96,
+    "D": 64,
+    "n_vertices": 40,
+    "edges_per_relation": 12,
+    "noise": 0.1,
+    "far": 0.05,
+    "draws": 8,
+    "base_seed": 20260915,
+    "recovery_R": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      12,
+      16,
+      24,
+      32
+    ],
+    "noise_sweep": [
+      0.05,
+      0.1,
+      0.2,
+      0.4
+    ],
+    "typing_R": [
+      2,
+      4,
+      6,
+      8
+    ]
+  },
+  "calibration_disjoint": [
+    {
+      "R": 1,
+      "by_noise": {
+        "0.05": {
+          "mean": 1.0,
+          "exact_rate": 1.0
+        },
+        "0.1": {
+          "mean": 1.0,
+          "exact_rate": 1.0
+        },
+        "0.2": {
+          "mean": 1.0,
+          "exact_rate": 1.0
+        },
+        "0.4": {
+          "mean": 1.0,
+          "exact_rate": 1.0
+        }
+      }
+    },
+    {
+      "R": 2,
+      "by_noise": {
+        "0.05": {
+          "mean": 2.0,
+          "exact_rate": 1.0
+        },
+        "0.1": {
+          "mean": 2.0,
+          "exact_rate": 1.0
+        },
+        "0.2": {
+          "mean": 2.0,
+          "exact_rate": 1.0
+        },
+        "0.4": {
+          "mean": 2.0,
+          "exact_rate": 1.0
+        }
+      }
+    },
+    {
+      "R": 3,
+      "by_noise": {
+        "0.05": {
+          "mean": 3.0,
+          "exact_rate": 1.0
+        },
+        "0.1": {
+          "mean": 3.0,
+          "exact_rate": 1.0
+        },
+        "0.2": {
+          "mean": 3.0,
+          "exact_rate": 1.0
+        },
+        "0.4": {
+          "mean": 3.0,
+          "exact_rate": 1.0
+        }
+      }
+    },
+    {
+      "R": 4,
+      "by_noise": {
+        "0.05": {
+          "mean": 4.0,
+          "exact_rate": 1.0
+        },
+        "0.1": {
+          "mean": 4.0,
+          "exact_rate": 1.0
+        },
+        "0.2": {
+          "mean": 4.0,
+          "exact_rate": 1.0
+        },
+        "0.4": {
+          "mean": 4.0,
+          "exact_rate": 1.0
+        }
+      }
+    },
+    {
+      "R": 6,
+      "by_noise": {
+        "0.05": {
+          "mean": 6.0,
+          "exact_rate": 1.0
+        },
+        "0.1": {
+          "mean": 6.0,
+          "exact_rate": 1.0
+        },
+        "0.2": {
+          "mean": 6.0,
+          "exact_rate": 1.0
+        },
+        "0.4": {
+          "mean": 6.0,
+          "exact_rate": 1.0
+        }
+      }
+    },
+    {
+      "R": 8,
+      "by_noise": {
+        "0.05": {
+          "mean": 8.0,
+          "exact_rate": 1.0
+        },
+        "0.1": {
+          "mean": 8.0,
+          "exact_rate": 1.0
+        },
+        "0.2": {
+          "mean": 8.0,
+          "exact_rate": 1.0
+        },
+        "0.4": {
+          "mean": 8.0,
+          "exact_rate": 1.0
+        }
+      }
+    },
+    {
+      "R": 12,
+      "by_noise": {
+        "0.05": {
+          "mean": 12.0,
+          "exact_rate": 1.0
+        },
+        "0.1": {
+          "mean": 12.0,
+          "exact_rate": 1.0
+        },
+        "0.2": {
+          "mean": 12.0,
+          "exact_rate": 1.0
+        },
+        "0.4": {
+          "mean": 12.0,
+          "exact_rate": 1.0
+        }
+      }
+    },
+    {
+      "R": 16,
+      "by_noise": {
+        "0.05": {
+          "mean": 16.0,
+          "exact_rate": 1.0
+        },
+        "0.1": {
+          "mean": 16.0,
+          "exact_rate": 1.0
+        },
+        "0.2": {
+          "mean": 16.0,
+          "exact_rate": 1.0
+        },
+        "0.4": {
+          "mean": 16.0,
+          "exact_rate": 1.0
+        }
+      }
+    },
+    {
+      "R": 24,
+      "by_noise": {
+        "0.05": {
+          "mean": 24.0,
+          "exact_rate": 1.0
+        },
+        "0.1": {
+          "mean": 24.0,
+          "exact_rate": 1.0
+        },
+        "0.2": {
+          "mean": 24.0,
+          "exact_rate": 1.0
+        },
+        "0.4": {
+          "mean": 24.0,
+          "exact_rate": 1.0
+        }
+      }
+    },
+    {
+      "R": 32,
+      "by_noise": {
+        "0.05": {
+          "mean": 32.0,
+          "exact_rate": 1.0
+        },
+        "0.1": {
+          "mean": 32.0,
+          "exact_rate": 1.0
+        },
+        "0.2": {
+          "mean": 32.0,
+          "exact_rate": 1.0
+        },
+        "0.4": {
+          "mean": 32.0,
+          "exact_rate": 1.0
+        }
+      }
+    }
+  ],
+  "shared_vertices": [
+    {
+      "R": 2,
+      "counted": 2.25,
+      "excess": 0.25
+    },
+    {
+      "R": 4,
+      "counted": 4.625,
+      "excess": 0.625
+    },
+    {
+      "R": 6,
+      "counted": 7.75,
+      "excess": 1.75
+    },
+    {
+      "R": 8,
+      "counted": 10.25,
+      "excess": 2.25
+    },
+    {
+      "R": 12,
+      "counted": 15.375,
+      "excess": 3.375
+    }
+  ],
+  "typing": [
+    {
+      "R": 2,
+      "K_counted": 2.25,
+      "within_kind": 0.9515196970612605,
+      "between_kind": -0.9526467259734577,
+      "separation": 1.9041664230347182
+    },
+    {
+      "R": 4,
+      "K_counted": 4.625,
+      "within_kind": 0.9582608958728415,
+      "between_kind": -0.31939112320655844,
+      "separation": 1.2776520190793998
+    },
+    {
+      "R": 6,
+      "K_counted": 7.75,
+      "within_kind": 0.9207281807162786,
+      "between_kind": -0.18396051483755646,
+      "separation": 1.104688695553835
+    },
+    {
+      "R": 8,
+      "K_counted": 10.25,
+      "within_kind": 0.902723193115034,
+      "between_kind": -0.12870269143707683,
+      "separation": 1.031425884552111
+    }
+  ],
+  "through_store": [
+    {
+      "R": 2,
+      "edges_written": 24,
+      "edges_read": 24,
+      "modes_direct": 2,
+      "modes_through_store": 2
+    },
+    {
+      "R": 4,
+      "edges_written": 48,
+      "edges_read": 48,
+      "modes_direct": 6,
+      "modes_through_store": 6
+    },
+    {
+      "R": 6,
+      "edges_written": 72,
+      "edges_read": 71,
+      "modes_direct": 8,
+      "modes_through_store": 8
+    },
+    {
+      "R": 8,
+      "edges_written": 96,
+      "edges_read": 93,
+      "modes_direct": 10,
+      "modes_through_store": 10
+    }
+  ],
+  "negative_control": {
+    "draws": 8,
+    "mean_modes": 0.875,
+    "max": 2
+  },
+  "seconds": 3099.4177055358887
+}

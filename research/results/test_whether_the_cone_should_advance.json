@@ -1,0 +1,46 @@
+{
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "references": {
+    "accumulated, has it": {
+      "joined": 0.9734513274336283,
+      "ran": 0.9733333333333334,
+      "reached": 113,
+      "steps": 1.4933333333333334
+    },
+    "accumulated, has none": {
+      "joined": 0.7134502923976608,
+      "ran": 0.26666666666666666,
+      "reached": 171,
+      "steps": 0.4666666666666667
+    },
+    "the frontier, has it": {
+      "joined": 0.9734513274336283,
+      "ran": 0.9733333333333334,
+      "reached": 113,
+      "steps": 1.4933333333333334
+    },
+    "the frontier, has none": {
+      "joined": 0.6321243523316062,
+      "ran": 0.28421052631578947,
+      "reached": 193,
+      "steps": 0.45263157894736844
+    },
+    "the query, has it": {
+      "joined": 0.9605263157894737,
+      "ran": 0.9733333333333334,
+      "reached": 76,
+      "steps": 1.0
+    },
+    "the query, has none": {
+      "joined": 0.6386554621848739,
+      "ran": 0.26666666666666666,
+      "reached": 119,
+      "steps": 0.3157894736842105
+    }
+  },
+  "script": "test_whether_the_cone_should_advance.py"
+}

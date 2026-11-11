@@ -1,0 +1,41 @@
+{
+  "by_arm": {
+    "ontology/its own aperture": {
+      "asked": 68,
+      "named": 0.36764705882352944,
+      "of_vertices": 150,
+      "resolved_mean": 4.12,
+      "seconds": 0.5375499832443893
+    },
+    "ontology/read to its end": {
+      "asked": 68,
+      "named": 0.3235294117647059,
+      "of_vertices": 150,
+      "resolved_mean": 150.0,
+      "seconds": 3.0171469701454043
+    },
+    "prose/its own aperture": {
+      "asked": 184,
+      "named": 0.14673913043478262,
+      "of_vertices": 2668,
+      "resolved_mean": 4.916264090177133,
+      "seconds": 0.12143822014331818
+    },
+    "prose/read to its end": {
+      "asked": 184,
+      "named": 0.10869565217391304,
+      "of_vertices": 2668,
+      "resolved_mean": 2668.0,
+      "seconds": 4.611964429728687
+    }
+  },
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "questions": 300,
+  "recorded": "2026-11-10",
+  "script": "test_whether_the_walk_can_stop_at_its_own_aperture.py",
+  "seed": 0,
+  "sentences": 120
+}

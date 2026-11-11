@@ -1,0 +1,124 @@
+{
+  "balls": [
+    150,
+    300,
+    600,
+    1200,
+    2400
+  ],
+  "by_size": [
+    {
+      "axes": 172,
+      "ball": 300,
+      "dense_entries": 15136,
+      "nonzero_entries": 15136,
+      "share_mean": 1.0,
+      "share_widest": 1.0,
+      "statements": 50,
+      "touched_mean": 172.0,
+      "touched_narrowest": 172,
+      "touched_widest": 172,
+      "vertices": 88
+    },
+    {
+      "axes": 205,
+      "ball": 600,
+      "dense_entries": 21320,
+      "nonzero_entries": 21320,
+      "share_mean": 1.0,
+      "share_widest": 1.0,
+      "statements": 60,
+      "touched_mean": 205.0,
+      "touched_narrowest": 205,
+      "touched_widest": 205,
+      "vertices": 104
+    },
+    {
+      "axes": 584,
+      "ball": 1200,
+      "dense_entries": 169360,
+      "nonzero_entries": 169360,
+      "share_mean": 1.0,
+      "share_widest": 1.0,
+      "statements": 172,
+      "touched_mean": 584.0,
+      "touched_narrowest": 584,
+      "touched_widest": 584,
+      "vertices": 290
+    },
+    {
+      "axes": 1217,
+      "ball": 2400,
+      "dense_entries": 735068,
+      "nonzero_entries": 735068,
+      "share_mean": 1.0,
+      "share_widest": 1.0,
+      "statements": 363,
+      "touched_mean": 1217.0,
+      "touched_narrowest": 1217,
+      "touched_widest": 1217,
+      "vertices": 604
+    }
+  ],
+  "by_size_shipped": [
+    {
+      "axes": 172,
+      "ball": 300,
+      "dense_entries": 15136,
+      "nonzero_entries": 2135,
+      "share_mean": 0.14105443974630022,
+      "share_widest": 0.28488372093023256,
+      "statements": 50,
+      "touched_mean": 24.261363636363637,
+      "touched_narrowest": 4,
+      "touched_widest": 49,
+      "vertices": 88
+    },
+    {
+      "axes": 205,
+      "ball": 600,
+      "dense_entries": 21320,
+      "nonzero_entries": 2920,
+      "share_mean": 0.13696060037523453,
+      "share_widest": 0.2780487804878049,
+      "statements": 60,
+      "touched_mean": 28.076923076923077,
+      "touched_narrowest": 4,
+      "touched_widest": 57,
+      "vertices": 104
+    },
+    {
+      "axes": 584,
+      "ball": 1200,
+      "dense_entries": 169360,
+      "nonzero_entries": 19568,
+      "share_mean": 0.11554085970713272,
+      "share_widest": 0.2517123287671233,
+      "statements": 172,
+      "touched_mean": 67.47586206896551,
+      "touched_narrowest": 4,
+      "touched_widest": 147,
+      "vertices": 290
+    },
+    {
+      "axes": 1217,
+      "ball": 2400,
+      "dense_entries": 735068,
+      "nonzero_entries": 80799,
+      "share_mean": 0.10992044273454973,
+      "share_widest": 0.2341824157764996,
+      "statements": 363,
+      "touched_mean": 133.77317880794703,
+      "touched_narrowest": 4,
+      "touched_widest": 285,
+      "vertices": 604
+    }
+  ],
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "script": "test_what_makes_the_coordinate_quadratic.py",
+  "seed": "entity.n.01"
+}

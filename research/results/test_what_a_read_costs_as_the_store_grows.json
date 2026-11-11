@@ -1,0 +1,122 @@
+{
+  "balls": [
+    150,
+    300,
+    600,
+    1200,
+    2400
+  ],
+  "by_size": [
+    {
+      "axes": 172,
+      "ball": 300,
+      "concepts": 38,
+      "operator_is_none": false,
+      "pool": 37,
+      "questions_served": 6,
+      "reached": 15,
+      "relations": 3,
+      "seconds_for_one_question": 0.0023104266729205847,
+      "seconds_for_the_coordinate": 0.002269128803163767,
+      "seconds_for_the_operator": 0.0001613488420844078,
+      "seconds_to_carry": 9.170779958367348e-05,
+      "seconds_to_serve_one_question": 0.00010106666013598442,
+      "statements": 50
+    },
+    {
+      "axes": 205,
+      "ball": 600,
+      "concepts": 44,
+      "operator_is_none": false,
+      "pool": 43,
+      "questions_served": 6,
+      "reached": 18,
+      "relations": 3,
+      "seconds_for_one_question": 0.00291773141361773,
+      "seconds_for_the_coordinate": 0.0027122609317302704,
+      "seconds_for_the_operator": 0.00017025088891386986,
+      "seconds_to_carry": 0.00010174978524446487,
+      "seconds_to_serve_one_question": 0.00012048132096727689,
+      "statements": 60
+    },
+    {
+      "axes": 584,
+      "ball": 1200,
+      "concepts": 118,
+      "operator_is_none": false,
+      "pool": 117,
+      "questions_served": 6,
+      "reached": 44,
+      "relations": 3,
+      "seconds_for_one_question": 0.01139366184361279,
+      "seconds_for_the_coordinate": 0.010733270086348057,
+      "seconds_for_the_operator": 0.0018504252657294273,
+      "seconds_to_carry": 0.0003099110908806324,
+      "seconds_to_serve_one_question": 0.0004257143009454012,
+      "statements": 172
+    },
+    {
+      "axes": 1217,
+      "ball": 2400,
+      "concepts": 241,
+      "operator_is_none": false,
+      "pool": 240,
+      "questions_served": 8,
+      "reached": 88,
+      "relations": 4,
+      "seconds_for_one_question": 0.034296049969270825,
+      "seconds_for_the_coordinate": 0.030906093772500753,
+      "seconds_for_the_operator": 0.015339062083512545,
+      "seconds_to_carry": 0.0014021079987287521,
+      "seconds_to_serve_one_question": 0.0013731135986745358,
+      "statements": 363
+    }
+  ],
+  "by_step": [
+    {
+      "from": 50,
+      "linear_would_be": 1.2,
+      "quadratic_would_be": 1.44,
+      "statements_grew": 1.2,
+      "to": 60
+    },
+    {
+      "from": 60,
+      "linear_would_be": 2.8666666666666667,
+      "quadratic_would_be": 8.217777777777778,
+      "statements_grew": 2.8666666666666667,
+      "to": 172
+    },
+    {
+      "from": 172,
+      "linear_would_be": 2.11046511627907,
+      "quadratic_would_be": 4.454063007030828,
+      "statements_grew": 2.11046511627907,
+      "to": 363
+    }
+  ],
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "repeats": 3,
+  "script": "test_what_a_read_costs_as_the_store_grows.py",
+  "seed": "entity.n.01",
+  "timings": {
+    "by_step": [
+      {
+        "coordinate_grew": 1.1952873402112123,
+        "question_grew": 1.2628539342170328
+      },
+      {
+        "coordinate_grew": 3.9573147114207896,
+        "question_grew": 3.9049728122458167
+      },
+      {
+        "coordinate_grew": 2.8794666978343413,
+        "question_grew": 3.010098986613067
+      }
+    ]
+  }
+}

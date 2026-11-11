@@ -1,0 +1,43 @@
+{
+  "across_stores": {
+    "0.2": {
+      "floor": 0.1372778454251912,
+      "least": 0.8240740740740741,
+      "median": 0.9305555555555556,
+      "most": 0.9814814814814815,
+      "observed": 0.2,
+      "questions": 107,
+      "spread": 0.15740740740740744,
+      "stores": 20,
+      "what_the_others_quote": 0.944021164021164
+    },
+    "0.4": {
+      "floor": 0.10649050628933956,
+      "least": 0.9626168224299065,
+      "median": 1.0,
+      "most": 1.0,
+      "observed": 0.4,
+      "questions": 107,
+      "spread": 0.03738317757009346,
+      "stores": 20,
+      "what_the_others_quote": 0.9962616822429906
+    },
+    "0.6": {
+      "floor": 0.0770730416966849,
+      "least": 0.9809523809523809,
+      "median": 1.0,
+      "most": 1.0,
+      "observed": 0.6,
+      "questions": 102,
+      "spread": 0.01904761904761909,
+      "stores": 20,
+      "what_the_others_quote": 1.0
+    }
+  },
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "script": "test_how_much_the_generator_decides.py"
+}

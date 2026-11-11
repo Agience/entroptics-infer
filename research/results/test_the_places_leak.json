@@ -1,0 +1,24 @@
+{
+  "asked": {
+    "typed, built once": 81,
+    "typed, rebuilt": 68,
+    "vertex, bound, built once": 81,
+    "vertex, bound, rebuilt": 68,
+    "vertex, built once": 81,
+    "vertex, rebuilt": 68
+  },
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "script": "test_the_places_leak.py",
+  "top1": {
+    "typed, built once": 0.6049382716049383,
+    "typed, rebuilt": 0.2647058823529412,
+    "vertex, bound, built once": 0.6049382716049383,
+    "vertex, bound, rebuilt": 0.27941176470588236,
+    "vertex, built once": 0.4074074074074074,
+    "vertex, rebuilt": 0.17647058823529413
+  }
+}

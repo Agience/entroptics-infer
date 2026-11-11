@@ -1,0 +1,195 @@
+{
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "readers": {
+    "0.2 observed, above its own floor": {
+      "asked": 429,
+      "chose_the_right_relation": 0.039627039627039624,
+      "floor": 0.13745665703682783,
+      "lands_in_the_source's_own_group": NaN,
+      "observed": 0.2,
+      "read": 0.1258741258741259,
+      "relations": 3,
+      "repaired": 0.15384615384615385,
+      "right_relation_by_chance": 0.3333333333333333
+    },
+    "0.2 observed, at random": {
+      "asked": 429,
+      "chose_the_right_relation": NaN,
+      "floor": 0.13745665703682783,
+      "lands_in_the_source's_own_group": NaN,
+      "observed": 0.2,
+      "read": 0.3776223776223776,
+      "relations": 3,
+      "repaired": 0.1655011655011655,
+      "right_relation_by_chance": 0.3333333333333333
+    },
+    "0.2 observed, choosing": {
+      "asked": 429,
+      "chose_the_right_relation": 0.04195804195804196,
+      "floor": 0.13745665703682783,
+      "lands_in_the_source's_own_group": 0.16317016317016317,
+      "observed": 0.2,
+      "read": 0.11421911421911422,
+      "relations": 3,
+      "repaired": 0.1561771561771562,
+      "right_relation_by_chance": 0.3333333333333333
+    },
+    "0.2 observed, the best on offer": {
+      "asked": 429,
+      "chose_the_right_relation": NaN,
+      "floor": 0.13745665703682783,
+      "lands_in_the_source's_own_group": NaN,
+      "observed": 0.2,
+      "read": 0.9417249417249417,
+      "relations": 3,
+      "repaired": 0.41025641025641024,
+      "right_relation_by_chance": 0.3333333333333333
+    },
+    "0.2 observed, told": {
+      "asked": 429,
+      "chose_the_right_relation": NaN,
+      "floor": 0.13745665703682783,
+      "lands_in_the_source's_own_group": 0.1585081585081585,
+      "observed": 0.2,
+      "read": 0.9300699300699301,
+      "relations": 3,
+      "repaired": 0.2517482517482518,
+      "right_relation_by_chance": 0.3333333333333333
+    },
+    "0.4 observed, above its own floor": {
+      "asked": 427,
+      "chose_the_right_relation": 0.03278688524590164,
+      "floor": 0.10519865101946745,
+      "lands_in_the_source's_own_group": NaN,
+      "observed": 0.4,
+      "read": 0.117096018735363,
+      "relations": 3,
+      "repaired": 0.11943793911007025,
+      "right_relation_by_chance": 0.3333333333333333
+    },
+    "0.4 observed, at random": {
+      "asked": 427,
+      "chose_the_right_relation": NaN,
+      "floor": 0.10519865101946745,
+      "lands_in_the_source's_own_group": NaN,
+      "observed": 0.4,
+      "read": 0.4028103044496487,
+      "relations": 3,
+      "repaired": 0.14988290398126464,
+      "right_relation_by_chance": 0.3333333333333333
+    },
+    "0.4 observed, choosing": {
+      "asked": 427,
+      "chose_the_right_relation": 0.03044496487119438,
+      "floor": 0.10519865101946745,
+      "lands_in_the_source's_own_group": 0.14754098360655737,
+      "observed": 0.4,
+      "read": 0.11943793911007025,
+      "relations": 3,
+      "repaired": 0.117096018735363,
+      "right_relation_by_chance": 0.3333333333333333
+    },
+    "0.4 observed, the best on offer": {
+      "asked": 427,
+      "chose_the_right_relation": NaN,
+      "floor": 0.10519865101946745,
+      "lands_in_the_source's_own_group": NaN,
+      "observed": 0.4,
+      "read": 0.9953161592505855,
+      "relations": 3,
+      "repaired": 0.3864168618266979,
+      "right_relation_by_chance": 0.3333333333333333
+    },
+    "0.4 observed, told": {
+      "asked": 427,
+      "chose_the_right_relation": NaN,
+      "floor": 0.10519865101946745,
+      "lands_in_the_source's_own_group": 0.16159250585480095,
+      "observed": 0.4,
+      "read": 0.9953161592505855,
+      "relations": 3,
+      "repaired": 0.25995316159250587,
+      "right_relation_by_chance": 0.3333333333333333
+    },
+    "0.6 observed, above its own floor": {
+      "asked": 405,
+      "chose_the_right_relation": 0.07901234567901234,
+      "floor": 0.07505364947832795,
+      "lands_in_the_source's_own_group": NaN,
+      "observed": 0.6,
+      "read": 0.12839506172839507,
+      "relations": 3,
+      "repaired": 0.11604938271604938,
+      "right_relation_by_chance": 0.3333333333333333
+    },
+    "0.6 observed, at random": {
+      "asked": 405,
+      "chose_the_right_relation": NaN,
+      "floor": 0.07505364947832795,
+      "lands_in_the_source's_own_group": NaN,
+      "observed": 0.6,
+      "read": 0.4419753086419753,
+      "relations": 3,
+      "repaired": 0.14074074074074075,
+      "right_relation_by_chance": 0.3333333333333333
+    },
+    "0.6 observed, choosing": {
+      "asked": 405,
+      "chose_the_right_relation": 0.07407407407407407,
+      "floor": 0.07505364947832795,
+      "lands_in_the_source's_own_group": 0.1308641975308642,
+      "observed": 0.6,
+      "read": 0.12098765432098765,
+      "relations": 3,
+      "repaired": 0.12098765432098765,
+      "right_relation_by_chance": 0.3333333333333333
+    },
+    "0.6 observed, the best on offer": {
+      "asked": 405,
+      "chose_the_right_relation": NaN,
+      "floor": 0.07505364947832795,
+      "lands_in_the_source's_own_group": NaN,
+      "observed": 0.6,
+      "read": 1.0,
+      "relations": 3,
+      "repaired": 0.4246913580246914,
+      "right_relation_by_chance": 0.3333333333333333
+    },
+    "0.6 observed, told": {
+      "asked": 405,
+      "chose_the_right_relation": NaN,
+      "floor": 0.07505364947832795,
+      "lands_in_the_source's_own_group": 0.15555555555555556,
+      "observed": 0.6,
+      "read": 1.0,
+      "relations": 3,
+      "repaired": 0.2938271604938272,
+      "right_relation_by_chance": 0.3333333333333333
+    }
+  },
+  "recorded": "2026-11-10",
+  "script": "test_choosing_the_relation_to_infer_with.py",
+  "told_against_choosing": {
+    "0.2": {
+      "choosing": 1,
+      "p": 7.695666296437131e-104,
+      "questions": 429,
+      "told": 351
+    },
+    "0.4": {
+      "choosing": 0,
+      "p": 5.19770488282245e-113,
+      "questions": 427,
+      "told": 374
+    },
+    "0.6": {
+      "choosing": 0,
+      "p": 1.3625471488026082e-107,
+      "questions": 405,
+      "told": 356
+    }
+  }
+}

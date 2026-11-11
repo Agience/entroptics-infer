@@ -1,0 +1,71 @@
+{
+  "design": {
+    "T": 96,
+    "D": 32,
+    "n_candidates": 8,
+    "trials": 200,
+    "far": 0.05,
+    "noise": 0.1,
+    "base_seed": 20260915,
+    "lambdas": [
+      0.0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "chance": 0.125
+  },
+  "rows": [
+    {
+      "lambda": 0.0,
+      "association": 0.115,
+      "cosine": 0.39,
+      "edge": -0.275
+    },
+    {
+      "lambda": 0.2,
+      "association": 0.67,
+      "cosine": 0.415,
+      "edge": 0.25500000000000006
+    },
+    {
+      "lambda": 0.4,
+      "association": 0.98,
+      "cosine": 0.495,
+      "edge": 0.485
+    },
+    {
+      "lambda": 0.6,
+      "association": 1.0,
+      "cosine": 0.555,
+      "edge": 0.44499999999999995
+    },
+    {
+      "lambda": 0.8,
+      "association": 1.0,
+      "cosine": 0.605,
+      "edge": 0.395
+    },
+    {
+      "lambda": 0.9,
+      "association": 1.0,
+      "cosine": 0.675,
+      "edge": 0.32499999999999996
+    },
+    {
+      "lambda": 1.0,
+      "association": 1.0,
+      "cosine": 0.73,
+      "edge": 0.27
+    }
+  ],
+  "prediction_held": {
+    "association_wins_on_axis": true,
+    "cosine_wins_off_axis": true,
+    "crossover": true
+  },
+  "seconds": 3.686014413833618
+}

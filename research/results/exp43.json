@@ -1,0 +1,1430 @@
+{
+  "design": {
+    "far": 0.05,
+    "seed": 5,
+    "sources": 24,
+    "blurs": [
+      0.0,
+      0.3,
+      0.6,
+      0.75,
+      0.85,
+      0.9
+    ],
+    "questions": 100,
+    "smoke": false
+  },
+  "levels": [
+    {
+      "fixed": {
+        "1": {
+          "asked": 100,
+          "answered": 92,
+          "right": 92,
+          "answered_share": 0.92,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.92
+        },
+        "2": {
+          "asked": 100,
+          "answered": 94,
+          "right": 94,
+          "answered_share": 0.94,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.94
+        },
+        "3": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "4": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "5": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "6": {
+          "asked": 100,
+          "answered": 98,
+          "right": 98,
+          "answered_share": 0.98,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.98
+        },
+        "7": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "8": {
+          "asked": 100,
+          "answered": 94,
+          "right": 94,
+          "answered_share": 0.94,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.94
+        },
+        "9": {
+          "asked": 100,
+          "answered": 94,
+          "right": 94,
+          "answered_share": 0.94,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.94
+        },
+        "10": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "11": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "12": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "13": {
+          "asked": 100,
+          "answered": 93,
+          "right": 93,
+          "answered_share": 0.93,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.93
+        },
+        "14": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "15": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "16": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "17": {
+          "asked": 100,
+          "answered": 93,
+          "right": 93,
+          "answered_share": 0.93,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.93
+        },
+        "18": {
+          "asked": 100,
+          "answered": 93,
+          "right": 93,
+          "answered_share": 0.93,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.93
+        },
+        "19": {
+          "asked": 100,
+          "answered": 88,
+          "right": 88,
+          "answered_share": 0.88,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.88
+        },
+        "20": {
+          "asked": 100,
+          "answered": 88,
+          "right": 88,
+          "answered_share": 0.88,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.88
+        },
+        "21": {
+          "asked": 100,
+          "answered": 84,
+          "right": 84,
+          "answered_share": 0.84,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.84
+        },
+        "22": {
+          "asked": 100,
+          "answered": 76,
+          "right": 76,
+          "answered_share": 0.76,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.76
+        },
+        "23": {
+          "asked": 100,
+          "answered": 71,
+          "right": 71,
+          "answered_share": 0.71,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.71
+        }
+      },
+      "best_fixed_backing_in_hindsight": 6,
+      "best_fixed": {
+        "asked": 100,
+        "answered": 98,
+        "right": 98,
+        "answered_share": 0.98,
+        "accuracy": 1.0,
+        "share_of_all_asked": 0.98
+      },
+      "rules": {
+        "most": {
+          "asked": 100,
+          "answered": 100,
+          "right": 100,
+          "answered_share": 1.0,
+          "accuracy": 1.0,
+          "share_of_all_asked": 1.0
+        },
+        "agreed": {
+          "asked": 100,
+          "answered": 100,
+          "right": 100,
+          "answered_share": 1.0,
+          "accuracy": 1.0,
+          "share_of_all_asked": 1.0
+        }
+      },
+      "backing_most_landed_on": {
+        "median": 23.0,
+        "mean": 21.98,
+        "lowest": 5,
+        "highest": 23,
+        "share_at_the_very_top": 0.71
+      },
+      "blur": 0.0,
+      "holds": 1.0
+    },
+    {
+      "fixed": {
+        "1": {
+          "asked": 100,
+          "answered": 92,
+          "right": 92,
+          "answered_share": 0.92,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.92
+        },
+        "2": {
+          "asked": 100,
+          "answered": 93,
+          "right": 93,
+          "answered_share": 0.93,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.93
+        },
+        "3": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "4": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "5": {
+          "asked": 100,
+          "answered": 99,
+          "right": 99,
+          "answered_share": 0.99,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.99
+        },
+        "6": {
+          "asked": 100,
+          "answered": 98,
+          "right": 98,
+          "answered_share": 0.98,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.98
+        },
+        "7": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "8": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "9": {
+          "asked": 100,
+          "answered": 94,
+          "right": 94,
+          "answered_share": 0.94,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.94
+        },
+        "10": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "11": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "12": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "13": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "14": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "15": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "16": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "17": {
+          "asked": 100,
+          "answered": 93,
+          "right": 93,
+          "answered_share": 0.93,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.93
+        },
+        "18": {
+          "asked": 100,
+          "answered": 90,
+          "right": 90,
+          "answered_share": 0.9,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.9
+        },
+        "19": {
+          "asked": 100,
+          "answered": 85,
+          "right": 85,
+          "answered_share": 0.85,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.85
+        },
+        "20": {
+          "asked": 100,
+          "answered": 82,
+          "right": 82,
+          "answered_share": 0.82,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.82
+        },
+        "21": {
+          "asked": 100,
+          "answered": 83,
+          "right": 83,
+          "answered_share": 0.83,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.83
+        },
+        "22": {
+          "asked": 100,
+          "answered": 74,
+          "right": 74,
+          "answered_share": 0.74,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.74
+        },
+        "23": {
+          "asked": 100,
+          "answered": 64,
+          "right": 64,
+          "answered_share": 0.64,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.64
+        }
+      },
+      "best_fixed_backing_in_hindsight": 5,
+      "best_fixed": {
+        "asked": 100,
+        "answered": 99,
+        "right": 99,
+        "answered_share": 0.99,
+        "accuracy": 1.0,
+        "share_of_all_asked": 0.99
+      },
+      "rules": {
+        "most": {
+          "asked": 100,
+          "answered": 100,
+          "right": 100,
+          "answered_share": 1.0,
+          "accuracy": 1.0,
+          "share_of_all_asked": 1.0
+        },
+        "agreed": {
+          "asked": 100,
+          "answered": 100,
+          "right": 100,
+          "answered_share": 1.0,
+          "accuracy": 1.0,
+          "share_of_all_asked": 1.0
+        }
+      },
+      "backing_most_landed_on": {
+        "median": 23.0,
+        "mean": 21.78,
+        "lowest": 6,
+        "highest": 23,
+        "share_at_the_very_top": 0.64
+      },
+      "blur": 0.3,
+      "holds": 0.7
+    },
+    {
+      "fixed": {
+        "1": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "2": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "3": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "4": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "5": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "6": {
+          "asked": 100,
+          "answered": 98,
+          "right": 98,
+          "answered_share": 0.98,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.98
+        },
+        "7": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "8": {
+          "asked": 100,
+          "answered": 99,
+          "right": 99,
+          "answered_share": 0.99,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.99
+        },
+        "9": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "10": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "11": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "12": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "13": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "14": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "15": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "16": {
+          "asked": 100,
+          "answered": 94,
+          "right": 94,
+          "answered_share": 0.94,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.94
+        },
+        "17": {
+          "asked": 100,
+          "answered": 93,
+          "right": 93,
+          "answered_share": 0.93,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.93
+        },
+        "18": {
+          "asked": 100,
+          "answered": 90,
+          "right": 90,
+          "answered_share": 0.9,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.9
+        },
+        "19": {
+          "asked": 100,
+          "answered": 83,
+          "right": 83,
+          "answered_share": 0.83,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.83
+        },
+        "20": {
+          "asked": 100,
+          "answered": 82,
+          "right": 82,
+          "answered_share": 0.82,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.82
+        },
+        "21": {
+          "asked": 100,
+          "answered": 82,
+          "right": 82,
+          "answered_share": 0.82,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.82
+        },
+        "22": {
+          "asked": 100,
+          "answered": 79,
+          "right": 79,
+          "answered_share": 0.79,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.79
+        },
+        "23": {
+          "asked": 100,
+          "answered": 78,
+          "right": 78,
+          "answered_share": 0.78,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.78
+        }
+      },
+      "best_fixed_backing_in_hindsight": 8,
+      "best_fixed": {
+        "asked": 100,
+        "answered": 99,
+        "right": 99,
+        "answered_share": 0.99,
+        "accuracy": 1.0,
+        "share_of_all_asked": 0.99
+      },
+      "rules": {
+        "most": {
+          "asked": 100,
+          "answered": 100,
+          "right": 100,
+          "answered_share": 1.0,
+          "accuracy": 1.0,
+          "share_of_all_asked": 1.0
+        },
+        "agreed": {
+          "asked": 100,
+          "answered": 100,
+          "right": 100,
+          "answered_share": 1.0,
+          "accuracy": 1.0,
+          "share_of_all_asked": 1.0
+        }
+      },
+      "backing_most_landed_on": {
+        "median": 23.0,
+        "mean": 22.11,
+        "lowest": 8,
+        "highest": 23,
+        "share_at_the_very_top": 0.78
+      },
+      "blur": 0.6,
+      "holds": 0.4
+    },
+    {
+      "fixed": {
+        "1": {
+          "asked": 100,
+          "answered": 83,
+          "right": 83,
+          "answered_share": 0.83,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.83
+        },
+        "2": {
+          "asked": 100,
+          "answered": 94,
+          "right": 94,
+          "answered_share": 0.94,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.94
+        },
+        "3": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "4": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "5": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "6": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "7": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "8": {
+          "asked": 100,
+          "answered": 98,
+          "right": 98,
+          "answered_share": 0.98,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.98
+        },
+        "9": {
+          "asked": 100,
+          "answered": 99,
+          "right": 99,
+          "answered_share": 0.99,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.99
+        },
+        "10": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "11": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "12": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "13": {
+          "asked": 100,
+          "answered": 99,
+          "right": 99,
+          "answered_share": 0.99,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.99
+        },
+        "14": {
+          "asked": 100,
+          "answered": 99,
+          "right": 99,
+          "answered_share": 0.99,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.99
+        },
+        "15": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "16": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "17": {
+          "asked": 100,
+          "answered": 98,
+          "right": 98,
+          "answered_share": 0.98,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.98
+        },
+        "18": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "19": {
+          "asked": 100,
+          "answered": 92,
+          "right": 92,
+          "answered_share": 0.92,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.92
+        },
+        "20": {
+          "asked": 100,
+          "answered": 95,
+          "right": 95,
+          "answered_share": 0.95,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.95
+        },
+        "21": {
+          "asked": 100,
+          "answered": 90,
+          "right": 90,
+          "answered_share": 0.9,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.9
+        },
+        "22": {
+          "asked": 100,
+          "answered": 91,
+          "right": 91,
+          "answered_share": 0.91,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.91
+        },
+        "23": {
+          "asked": 100,
+          "answered": 86,
+          "right": 86,
+          "answered_share": 0.86,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.86
+        }
+      },
+      "best_fixed_backing_in_hindsight": 9,
+      "best_fixed": {
+        "asked": 100,
+        "answered": 99,
+        "right": 99,
+        "answered_share": 0.99,
+        "accuracy": 1.0,
+        "share_of_all_asked": 0.99
+      },
+      "rules": {
+        "most": {
+          "asked": 100,
+          "answered": 100,
+          "right": 100,
+          "answered_share": 1.0,
+          "accuracy": 1.0,
+          "share_of_all_asked": 1.0
+        },
+        "agreed": {
+          "asked": 100,
+          "answered": 100,
+          "right": 100,
+          "answered_share": 1.0,
+          "accuracy": 1.0,
+          "share_of_all_asked": 1.0
+        }
+      },
+      "backing_most_landed_on": {
+        "median": 23.0,
+        "mean": 22.73,
+        "lowest": 17,
+        "highest": 23,
+        "share_at_the_very_top": 0.86
+      },
+      "blur": 0.75,
+      "holds": 0.25
+    },
+    {
+      "fixed": {
+        "1": {
+          "asked": 100,
+          "answered": 35,
+          "right": 33,
+          "answered_share": 0.35,
+          "accuracy": 0.9428571428571428,
+          "share_of_all_asked": 0.33
+        },
+        "2": {
+          "asked": 100,
+          "answered": 68,
+          "right": 67,
+          "answered_share": 0.68,
+          "accuracy": 0.9852941176470589,
+          "share_of_all_asked": 0.67
+        },
+        "3": {
+          "asked": 100,
+          "answered": 73,
+          "right": 73,
+          "answered_share": 0.73,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.73
+        },
+        "4": {
+          "asked": 100,
+          "answered": 90,
+          "right": 90,
+          "answered_share": 0.9,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.9
+        },
+        "5": {
+          "asked": 100,
+          "answered": 90,
+          "right": 90,
+          "answered_share": 0.9,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.9
+        },
+        "6": {
+          "asked": 100,
+          "answered": 92,
+          "right": 92,
+          "answered_share": 0.92,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.92
+        },
+        "7": {
+          "asked": 100,
+          "answered": 93,
+          "right": 93,
+          "answered_share": 0.93,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.93
+        },
+        "8": {
+          "asked": 100,
+          "answered": 94,
+          "right": 94,
+          "answered_share": 0.94,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.94
+        },
+        "9": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "10": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "11": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "12": {
+          "asked": 100,
+          "answered": 98,
+          "right": 98,
+          "answered_share": 0.98,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.98
+        },
+        "13": {
+          "asked": 100,
+          "answered": 98,
+          "right": 98,
+          "answered_share": 0.98,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.98
+        },
+        "14": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "15": {
+          "asked": 100,
+          "answered": 98,
+          "right": 98,
+          "answered_share": 0.98,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.98
+        },
+        "16": {
+          "asked": 100,
+          "answered": 98,
+          "right": 98,
+          "answered_share": 0.98,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.98
+        },
+        "17": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        },
+        "18": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "19": {
+          "asked": 100,
+          "answered": 98,
+          "right": 98,
+          "answered_share": 0.98,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.98
+        },
+        "20": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "21": {
+          "asked": 100,
+          "answered": 96,
+          "right": 96,
+          "answered_share": 0.96,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.96
+        },
+        "22": {
+          "asked": 100,
+          "answered": 98,
+          "right": 98,
+          "answered_share": 0.98,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.98
+        },
+        "23": {
+          "asked": 100,
+          "answered": 97,
+          "right": 97,
+          "answered_share": 0.97,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.97
+        }
+      },
+      "best_fixed_backing_in_hindsight": 12,
+      "best_fixed": {
+        "asked": 100,
+        "answered": 98,
+        "right": 98,
+        "answered_share": 0.98,
+        "accuracy": 1.0,
+        "share_of_all_asked": 0.98
+      },
+      "rules": {
+        "most": {
+          "asked": 100,
+          "answered": 100,
+          "right": 100,
+          "answered_share": 1.0,
+          "accuracy": 1.0,
+          "share_of_all_asked": 1.0
+        },
+        "agreed": {
+          "asked": 100,
+          "answered": 100,
+          "right": 100,
+          "answered_share": 1.0,
+          "accuracy": 1.0,
+          "share_of_all_asked": 1.0
+        }
+      },
+      "backing_most_landed_on": {
+        "median": 23.0,
+        "mean": 22.92,
+        "lowest": 18,
+        "highest": 23,
+        "share_at_the_very_top": 0.97
+      },
+      "blur": 0.85,
+      "holds": 0.15000000000000002
+    },
+    {
+      "fixed": {
+        "1": {
+          "asked": 100,
+          "answered": 23,
+          "right": 17,
+          "answered_share": 0.23,
+          "accuracy": 0.7391304347826086,
+          "share_of_all_asked": 0.17
+        },
+        "2": {
+          "asked": 100,
+          "answered": 21,
+          "right": 20,
+          "answered_share": 0.21,
+          "accuracy": 0.9523809523809523,
+          "share_of_all_asked": 0.2
+        },
+        "3": {
+          "asked": 100,
+          "answered": 39,
+          "right": 36,
+          "answered_share": 0.39,
+          "accuracy": 0.9230769230769231,
+          "share_of_all_asked": 0.36
+        },
+        "4": {
+          "asked": 100,
+          "answered": 44,
+          "right": 40,
+          "answered_share": 0.44,
+          "accuracy": 0.9090909090909091,
+          "share_of_all_asked": 0.4
+        },
+        "5": {
+          "asked": 100,
+          "answered": 51,
+          "right": 49,
+          "answered_share": 0.51,
+          "accuracy": 0.9607843137254902,
+          "share_of_all_asked": 0.49
+        },
+        "6": {
+          "asked": 100,
+          "answered": 53,
+          "right": 52,
+          "answered_share": 0.53,
+          "accuracy": 0.9811320754716981,
+          "share_of_all_asked": 0.52
+        },
+        "7": {
+          "asked": 100,
+          "answered": 60,
+          "right": 58,
+          "answered_share": 0.6,
+          "accuracy": 0.9666666666666667,
+          "share_of_all_asked": 0.58
+        },
+        "8": {
+          "asked": 100,
+          "answered": 65,
+          "right": 64,
+          "answered_share": 0.65,
+          "accuracy": 0.9846153846153847,
+          "share_of_all_asked": 0.64
+        },
+        "9": {
+          "asked": 100,
+          "answered": 69,
+          "right": 69,
+          "answered_share": 0.69,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.69
+        },
+        "10": {
+          "asked": 100,
+          "answered": 70,
+          "right": 70,
+          "answered_share": 0.7,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.7
+        },
+        "11": {
+          "asked": 100,
+          "answered": 74,
+          "right": 73,
+          "answered_share": 0.74,
+          "accuracy": 0.9864864864864865,
+          "share_of_all_asked": 0.73
+        },
+        "12": {
+          "asked": 100,
+          "answered": 77,
+          "right": 76,
+          "answered_share": 0.77,
+          "accuracy": 0.987012987012987,
+          "share_of_all_asked": 0.76
+        },
+        "13": {
+          "asked": 100,
+          "answered": 81,
+          "right": 80,
+          "answered_share": 0.81,
+          "accuracy": 0.9876543209876543,
+          "share_of_all_asked": 0.8
+        },
+        "14": {
+          "asked": 100,
+          "answered": 82,
+          "right": 81,
+          "answered_share": 0.82,
+          "accuracy": 0.9878048780487805,
+          "share_of_all_asked": 0.81
+        },
+        "15": {
+          "asked": 100,
+          "answered": 84,
+          "right": 84,
+          "answered_share": 0.84,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.84
+        },
+        "16": {
+          "asked": 100,
+          "answered": 84,
+          "right": 83,
+          "answered_share": 0.84,
+          "accuracy": 0.9880952380952381,
+          "share_of_all_asked": 0.83
+        },
+        "17": {
+          "asked": 100,
+          "answered": 82,
+          "right": 82,
+          "answered_share": 0.82,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.82
+        },
+        "18": {
+          "asked": 100,
+          "answered": 84,
+          "right": 84,
+          "answered_share": 0.84,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.84
+        },
+        "19": {
+          "asked": 100,
+          "answered": 88,
+          "right": 88,
+          "answered_share": 0.88,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.88
+        },
+        "20": {
+          "asked": 100,
+          "answered": 91,
+          "right": 91,
+          "answered_share": 0.91,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.91
+        },
+        "21": {
+          "asked": 100,
+          "answered": 89,
+          "right": 89,
+          "answered_share": 0.89,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.89
+        },
+        "22": {
+          "asked": 100,
+          "answered": 92,
+          "right": 92,
+          "answered_share": 0.92,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.92
+        },
+        "23": {
+          "asked": 100,
+          "answered": 93,
+          "right": 93,
+          "answered_share": 0.93,
+          "accuracy": 1.0,
+          "share_of_all_asked": 0.93
+        }
+      },
+      "best_fixed_backing_in_hindsight": 23,
+      "best_fixed": {
+        "asked": 100,
+        "answered": 93,
+        "right": 93,
+        "answered_share": 0.93,
+        "accuracy": 1.0,
+        "share_of_all_asked": 0.93
+      },
+      "rules": {
+        "most": {
+          "asked": 100,
+          "answered": 98,
+          "right": 96,
+          "answered_share": 0.98,
+          "accuracy": 0.9795918367346939,
+          "share_of_all_asked": 0.96
+        },
+        "agreed": {
+          "asked": 100,
+          "answered": 98,
+          "right": 95,
+          "answered_share": 0.98,
+          "accuracy": 0.9693877551020408,
+          "share_of_all_asked": 0.95
+        }
+      },
+      "backing_most_landed_on": {
+        "median": 23.0,
+        "mean": 22.316326530612244,
+        "lowest": 1,
+        "highest": 23,
+        "share_at_the_very_top": 0.9489795918367347
+      },
+      "blur": 0.9,
+      "holds": 0.09999999999999998
+    }
+  ],
+  "control": {
+    "alpha": {
+      "asked": 100,
+      "one_edge": 82,
+      "most": 100,
+      "agreed": 100,
+      "one_edge_share": 0.82,
+      "most_share": 1.0,
+      "agreed_share": 1.0
+    },
+    "beta": {
+      "asked": 100,
+      "one_edge": 92,
+      "most": 100,
+      "agreed": 100,
+      "one_edge_share": 0.92,
+      "most_share": 1.0,
+      "agreed_share": 1.0
+    },
+    "gamma": {
+      "asked": 100,
+      "one_edge": 84,
+      "most": 100,
+      "agreed": 100,
+      "one_edge_share": 0.84,
+      "most_share": 1.0,
+      "agreed_share": 1.0
+    },
+    "hollow": {
+      "asked": 100,
+      "one_edge": 16,
+      "most": 67,
+      "agreed": 65,
+      "one_edge_share": 0.16,
+      "most_share": 0.67,
+      "agreed_share": 0.65
+    }
+  },
+  "the_name_with_nothing_behind_it": "hollow",
+  "hollow_answered_from_one_edge": 0.16,
+  "hollow_answered_by_most": 0.67,
+  "hollow_answered_by_agreed": 0.65,
+  "either_rule_is_admissible": false,
+  "noise_levels": 6,
+  "levels_where_most_matches_or_beats_the_best_fixed": 6,
+  "levels_where_agreed_matches_or_beats_the_best_fixed": 6,
+  "worst_shortfall_of_most": 0.010000000000000009,
+  "worst_shortfall_of_agreed": 0.010000000000000009,
+  "lowest_accuracy_of_most": 0.9795918367346939,
+  "lowest_accuracy_of_agreed": 0.9693877551020408,
+  "median_backing_landed_on_by_level": [
+    23.0,
+    23.0,
+    23.0,
+    23.0,
+    23.0,
+    23.0
+  ],
+  "share_at_the_very_top_by_level": [
+    0.71,
+    0.64,
+    0.78,
+    0.86,
+    0.97,
+    0.9489795918367347
+  ],
+  "seconds": 1383.7231431007385
+}

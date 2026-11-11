@@ -1,0 +1,116 @@
+{
+  "drift": {
+    "improving estimate": {
+      "cells": 3809,
+      "worst_cell_moves": 0.07950191570881227
+    },
+    "shipped": {
+      "cells": 3809,
+      "worst_cell_moves": 0.0
+    }
+  },
+  "hash_seeds_agreeing": {
+    "the read": 3,
+    "the shipped coordinate": 3
+  },
+  "hash_seeds_tried": 3,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "orders": 3,
+  "reads": {
+    "as given/improving estimate": {
+      "a_draw_would": 0.015463060224089612,
+      "among": 0.4067796610169492,
+      "among_asked": 59,
+      "asked": 68,
+      "closest_margin": 0.0,
+      "decided_by_nothing_at_all": 1,
+      "decided_inside_the_rounding": 1,
+      "names": 0.35294117647058826,
+      "the_bound_there": 2.4418118758377164e-14
+    },
+    "as given/shipped": {
+      "a_draw_would": 0.015463060224089612,
+      "among": 0.4067796610169492,
+      "among_asked": 59,
+      "asked": 68,
+      "closest_margin": 0.0,
+      "decided_by_nothing_at_all": 3,
+      "decided_inside_the_rounding": 3,
+      "names": 0.36764705882352944,
+      "the_bound_there": 2.0901741135590643e-14
+    },
+    "shuffled 0/improving estimate": {
+      "a_draw_would": 0.015463060224089612,
+      "among": 0.4067796610169492,
+      "among_asked": 59,
+      "asked": 68,
+      "closest_margin": 0.0,
+      "decided_by_nothing_at_all": 1,
+      "decided_inside_the_rounding": 1,
+      "names": 0.35294117647058826,
+      "the_bound_there": 2.440290879657268e-14
+    },
+    "shuffled 0/shipped": {
+      "a_draw_would": 0.015463060224089612,
+      "among": 0.4067796610169492,
+      "among_asked": 59,
+      "asked": 68,
+      "closest_margin": 0.0,
+      "decided_by_nothing_at_all": 2,
+      "decided_inside_the_rounding": 3,
+      "names": 0.36764705882352944,
+      "the_bound_there": 7.117041895999759e-15
+    },
+    "shuffled 1/improving estimate": {
+      "a_draw_would": 0.015463060224089612,
+      "among": 0.4067796610169492,
+      "among_asked": 59,
+      "asked": 68,
+      "closest_margin": 0.0,
+      "decided_by_nothing_at_all": 2,
+      "decided_inside_the_rounding": 2,
+      "names": 0.35294117647058826,
+      "the_bound_there": 2.4418213957587138e-14
+    },
+    "shuffled 1/shipped": {
+      "a_draw_would": 0.015463060224089612,
+      "among": 0.4067796610169492,
+      "among_asked": 59,
+      "asked": 68,
+      "closest_margin": 0.0,
+      "decided_by_nothing_at_all": 2,
+      "decided_inside_the_rounding": 3,
+      "names": 0.36764705882352944,
+      "the_bound_there": 2.5645844395807978e-14
+    },
+    "shuffled 2/improving estimate": {
+      "a_draw_would": 0.015463060224089612,
+      "among": 0.423728813559322,
+      "among_asked": 59,
+      "asked": 68,
+      "closest_margin": 0.0,
+      "decided_by_nothing_at_all": 1,
+      "decided_inside_the_rounding": 2,
+      "names": 0.36764705882352944,
+      "the_bound_there": 2.2999719563805818e-14
+    },
+    "shuffled 2/shipped": {
+      "a_draw_would": 0.015463060224089612,
+      "among": 0.4067796610169492,
+      "among_asked": 59,
+      "asked": 68,
+      "closest_margin": 0.0,
+      "decided_by_nothing_at_all": 3,
+      "decided_inside_the_rounding": 3,
+      "names": 0.36764705882352944,
+      "the_bound_there": 2.0901741135590643e-14
+    }
+  },
+  "recorded": "2026-11-10",
+  "script": "test_whether_the_order_a_store_was_given_in_reaches_the_read.py",
+  "share_decided_inside_the_rounding": 0.04411764705882353,
+  "statements": 84
+}

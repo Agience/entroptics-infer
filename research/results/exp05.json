@@ -1,0 +1,208 @@
+{
+  "design": {
+    "T": 96,
+    "D": 32,
+    "n_sources": 6,
+    "noise": 0.1,
+    "far": 0.05,
+    "draws": 12,
+    "base_seed": 20260915,
+    "relations": [
+      2,
+      3,
+      4,
+      6,
+      8
+    ],
+    "noise_sweep": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.4,
+      0.8,
+      1.5
+    ]
+  },
+  "accuracy": [
+    {
+      "R": 2,
+      "chance": 0.5,
+      "analogy": 0.8819444444444444,
+      "no_operator": 0.5,
+      "trials": 144,
+      "gap": 0.3819444444444444
+    },
+    {
+      "R": 3,
+      "chance": 0.3333333333333333,
+      "analogy": 0.9120370370370371,
+      "no_operator": 0.3333333333333333,
+      "trials": 216,
+      "gap": 0.5787037037037037
+    },
+    {
+      "R": 4,
+      "chance": 0.25,
+      "analogy": 0.9444444444444444,
+      "no_operator": 0.25,
+      "trials": 288,
+      "gap": 0.6944444444444444
+    },
+    {
+      "R": 6,
+      "chance": 0.16666666666666666,
+      "analogy": 0.9814814814814815,
+      "no_operator": 0.16666666666666666,
+      "trials": 432,
+      "gap": 0.8148148148148149
+    },
+    {
+      "R": 8,
+      "chance": 0.125,
+      "analogy": 0.9791666666666666,
+      "no_operator": 0.125,
+      "trials": 576,
+      "gap": 0.8541666666666666
+    }
+  ],
+  "wrong_operator": [
+    {
+      "R": 2,
+      "right": 0.8819444444444444,
+      "wrong": 0.11805555555555555,
+      "chance": 0.5
+    },
+    {
+      "R": 3,
+      "right": 0.9120370370370371,
+      "wrong": 0.05555555555555555,
+      "chance": 0.3333333333333333
+    },
+    {
+      "R": 4,
+      "right": 0.9444444444444444,
+      "wrong": 0.020833333333333332,
+      "chance": 0.25
+    },
+    {
+      "R": 6,
+      "right": 0.9814814814814815,
+      "wrong": 0.0023148148148148147,
+      "chance": 0.16666666666666666
+    },
+    {
+      "R": 8,
+      "right": 0.9791666666666666,
+      "wrong": 0.006944444444444444,
+      "chance": 0.125
+    }
+  ],
+  "envelope": [
+    {
+      "noise": 0.0,
+      "analogy": 1.0,
+      "wrong_exemplar": 0.0
+    },
+    {
+      "noise": 0.05,
+      "analogy": 0.9270833333333334,
+      "wrong_exemplar": 0.024305555555555556
+    },
+    {
+      "noise": 0.1,
+      "analogy": 0.9444444444444444,
+      "wrong_exemplar": 0.020833333333333332
+    },
+    {
+      "noise": 0.2,
+      "analogy": 0.9756944444444444,
+      "wrong_exemplar": 0.010416666666666666
+    },
+    {
+      "noise": 0.4,
+      "analogy": 0.9895833333333334,
+      "wrong_exemplar": 0.003472222222222222
+    },
+    {
+      "noise": 0.8,
+      "analogy": 0.9548611111111112,
+      "wrong_exemplar": 0.017361111111111112
+    },
+    {
+      "noise": 1.5,
+      "analogy": 0.4166666666666667,
+      "wrong_exemplar": 0.1840277777777778
+    }
+  ],
+  "decision": [
+    {
+      "R": 2,
+      "raw": 0.8819444444444444,
+      "coverage": 0.8333333333333334,
+      "precision": 1.0,
+      "reasons": {
+        "bound": 120,
+        "indistinguishable": 24
+      }
+    },
+    {
+      "R": 3,
+      "raw": 0.9120370370370371,
+      "coverage": 0.8888888888888888,
+      "precision": 1.0,
+      "reasons": {
+        "bound": 192,
+        "indistinguishable": 24
+      }
+    },
+    {
+      "R": 4,
+      "raw": 0.9444444444444444,
+      "coverage": 0.9166666666666666,
+      "precision": 1.0,
+      "reasons": {
+        "bound": 264,
+        "indistinguishable": 24
+      }
+    },
+    {
+      "R": 6,
+      "raw": 0.9814814814814815,
+      "coverage": 0.9467592592592593,
+      "precision": 1.0,
+      "reasons": {
+        "bound": 409,
+        "indistinguishable": 23
+      }
+    },
+    {
+      "R": 8,
+      "raw": 0.9791666666666666,
+      "coverage": 0.9635416666666666,
+      "precision": 1.0,
+      "reasons": {
+        "bound": 555,
+        "indistinguishable": 21
+      }
+    }
+  ],
+  "through_store": [
+    {
+      "R": 3,
+      "accuracy_via_store": 0.9444444444444444,
+      "trials": 18
+    },
+    {
+      "R": 4,
+      "accuracy_via_store": 0.9166666666666666,
+      "trials": 24
+    },
+    {
+      "R": 6,
+      "accuracy_via_store": 0.9722222222222222,
+      "trials": 36
+    }
+  ],
+  "seconds": 184.71911478042603
+}

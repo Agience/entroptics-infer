@@ -1,0 +1,49 @@
+{
+  "by_store": {
+    "ontology": {
+      "among_moved": 0.0,
+      "names_moved": 0.04411764705882354,
+      "read_to_its_end": {
+        "a_draw_would": 0.015463060224089612,
+        "among": 0.4067796610169492,
+        "among_asked": 59,
+        "asked": 68,
+        "names": 0.3235294117647059
+      },
+      "shipped": {
+        "a_draw_would": 0.015463060224089612,
+        "among": 0.4067796610169492,
+        "among_asked": 59,
+        "asked": 68,
+        "names": 0.36764705882352944
+      },
+      "statements": 84
+    },
+    "prose spans": {
+      "among_moved": 0.041666666666666664,
+      "names_moved": 0.021739130434782608,
+      "read_to_its_end": {
+        "a_draw_would": 0.0014048961574250412,
+        "among": 0.0,
+        "among_asked": 24,
+        "asked": 46,
+        "names": 0.043478260869565216
+      },
+      "shipped": {
+        "a_draw_would": 0.0014048961574250412,
+        "among": 0.041666666666666664,
+        "among_asked": 24,
+        "asked": 46,
+        "names": 0.06521739130434782
+      },
+      "statements": 2572
+    }
+  },
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "prose_questions": 60,
+  "recorded": "2026-11-10",
+  "script": "test_what_settling_the_walk_moves.py"
+}

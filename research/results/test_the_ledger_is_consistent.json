@@ -1,0 +1,16 @@
+{
+  "measured_on": {
+    "numpy": "2.4.4",
+    "python": "3.12.10"
+  },
+  "miscounted_tests": 0,
+  "missing_scripts": 0,
+  "recorded": "2026-11-11",
+  "rows": 135,
+  "script": "test_the_ledger_is_consistent.py",
+  "shared_addresses": 0,
+  "shared_prefixes": 0,
+  "stages": 23,
+  "tests_on_disk": 55,
+  "unresolved_citations": 0
+}

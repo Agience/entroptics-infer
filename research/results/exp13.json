@@ -1,0 +1,78 @@
+{
+  "source": {
+    "url": "https://corgis-edu.github.io/corgis/datasets/csv/weather/weather.csv",
+    "sha256": "4c7f09f3a2d25709e5a195ac847b1d3c4505ff095c3820388e26b430382720d0",
+    "observations": 16743
+  },
+  "design": {
+    "measurements": [
+      "Data.Precipitation",
+      "Data.Temperature.Avg Temp",
+      "Data.Temperature.Max Temp",
+      "Data.Temperature.Min Temp"
+    ],
+    "n_candidates": 8,
+    "far": 0.05,
+    "seed": 20260915,
+    "draws": 3
+  },
+  "admission": [
+    {
+      "arm": "raw, seasonal signal present",
+      "observed": 100.74998997076644,
+      "decoupled": 64.3556810051187,
+      "margin_z": 6.855589398274212,
+      "cutoff": 1.9599639845400543,
+      "admitted": true,
+      "rows": 53,
+      "row_autocorrelation": 0.6768696490031713
+    },
+    {
+      "arm": "national mean removed",
+      "observed": 12.406164282812501,
+      "decoupled": 8.644318342095326,
+      "margin_z": 3.01121295192232,
+      "cutoff": 1.9599639845400543,
+      "admitted": true,
+      "rows": 53,
+      "row_autocorrelation": 0.226969723600612
+    }
+  ],
+  "results": [
+    {
+      "arm": "raw, seasonal signal present",
+      "questions": 300,
+      "association": 0.7133333333333334,
+      "aggregate correlation": 0.81,
+      "random": 0.125,
+      "facets": {
+        "mean_rank": 0.9967532467532467,
+        "max_rank": 1,
+        "pooled_singular_values": [
+          1.0,
+          0.5767614667526467,
+          0.14591742377599862,
+          0.01816237687376186
+        ]
+      }
+    },
+    {
+      "arm": "national mean removed",
+      "questions": 300,
+      "association": 0.7666666666666667,
+      "aggregate correlation": 0.7766666666666666,
+      "random": 0.125,
+      "facets": {
+        "mean_rank": 1.0,
+        "max_rank": 1,
+        "pooled_singular_values": [
+          1.0,
+          0.849523211886243,
+          0.216069613647574,
+          0.027757894548130893
+        ]
+      }
+    }
+  ],
+  "seconds": 2.2566041946411133
+}

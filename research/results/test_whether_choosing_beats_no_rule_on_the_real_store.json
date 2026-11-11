@@ -1,0 +1,34 @@
+{
+  "a_relation_by_chance": 0.19999999999999996,
+  "arms": {
+    "at random": {
+      "picks_the_true_relation": 0.19117647058823528,
+      "read": 0.08823529411764706
+    },
+    "choosing": {
+      "picks_the_true_relation": 0.3088235294117647,
+      "read": 0.1323529411764706
+    },
+    "the best on offer": {
+      "read": 0.4264705882352941
+    },
+    "told": {
+      "read": 0.36764705882352944
+    }
+  },
+  "asked": 68,
+  "choosing_against_random": {
+    "choosing_only": 6,
+    "p": 0.5078125,
+    "questions": 68,
+    "random_only": 3
+  },
+  "floor": 0.015463060224089635,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "relations": 5.0,
+  "script": "test_whether_choosing_beats_no_rule_on_the_real_store.py"
+}

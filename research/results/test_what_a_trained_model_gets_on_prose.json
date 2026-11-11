@@ -1,0 +1,111 @@
+{
+  "a_draw_would": 0.0006203473945409409,
+  "asked": 961,
+  "bodies": [
+    "0869a1657e5f8871.txt",
+    "7bdb16e90e9d083f.txt",
+    "9ec00bbb6eee46d4.txt",
+    "a4d0344a81eeba23.txt",
+    "cc5a6b513af13800.txt",
+    "f5e6c04c26342578.txt"
+  ],
+  "by_setting": {
+    "16/0.5": {
+      "dim": 16,
+      "margin": 0.5,
+      "trained": 0.019771071800208116,
+      "trained_highest": 0.02809573361082206,
+      "trained_lowest": 0.013527575442247659
+    },
+    "16/1.0": {
+      "dim": 16,
+      "margin": 1.0,
+      "trained": 0.019424210891432536,
+      "trained_highest": 0.02081165452653486,
+      "trained_lowest": 0.01768990634755463
+    },
+    "16/2.0": {
+      "dim": 16,
+      "margin": 2.0,
+      "trained": 0.005549774540409297,
+      "trained_highest": 0.007284079084287201,
+      "trained_lowest": 0.002081165452653486
+    },
+    "32/0.5": {
+      "dim": 32,
+      "margin": 0.5,
+      "trained": 0.026708289975719737,
+      "trained_highest": 0.02809573361082206,
+      "trained_lowest": 0.023933402705515087
+    },
+    "32/1.0": {
+      "dim": 32,
+      "margin": 1.0,
+      "trained": 0.01699618453000347,
+      "trained_highest": 0.02081165452653486,
+      "trained_lowest": 0.014568158168574402
+    },
+    "32/2.0": {
+      "dim": 32,
+      "margin": 2.0,
+      "trained": 0.005896635449184877,
+      "trained_highest": 0.006243496357960458,
+      "trained_lowest": 0.005202913631633715
+    },
+    "64/0.5": {
+      "dim": 64,
+      "margin": 0.5,
+      "trained": 0.030523759972251124,
+      "trained_highest": 0.03225806451612903,
+      "trained_lowest": 0.02809573361082206
+    },
+    "64/1.0": {
+      "dim": 64,
+      "margin": 1.0,
+      "trained": 0.02150537634408602,
+      "trained_highest": 0.026014568158168574,
+      "trained_lowest": 0.013527575442247659
+    },
+    "64/2.0": {
+      "dim": 64,
+      "margin": 2.0,
+      "trained": 0.007284079084287201,
+      "trained_highest": 0.012486992715920915,
+      "trained_lowest": 0.003121748178980229
+    }
+  },
+  "counting": 0.16233090530697192,
+  "dimensions": [
+    16,
+    32,
+    64
+  ],
+  "epochs": 300,
+  "margins": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "questions": 1200,
+  "rate": 0.05,
+  "recorded": "2026-11-10",
+  "relations": 345,
+  "script": "test_what_a_trained_model_gets_on_prose.py",
+  "seed": 0,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "sentences": 800,
+  "the_read": 0.1279916753381894,
+  "the_read_over_counting": 0.7884615384615384,
+  "tokens": 1613,
+  "train_spans": 10408,
+  "trained_best": 0.030523759972251124,
+  "trained_best_over_counting": 0.188034188034188
+}

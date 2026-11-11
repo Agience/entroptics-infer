@@ -1,0 +1,47 @@
+{
+  "candidates": 31,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "paired": {
+    "unweighted": {
+      "typed vs vertex": {
+        "losses": 0,
+        "p": 0.03125,
+        "shared": 68,
+        "wins": 6
+      },
+      "typed vs vertex, bound": {
+        "losses": 3,
+        "p": 1.0,
+        "shared": 68,
+        "wins": 2
+      },
+      "vertex vs vertex, bound": {
+        "losses": 7,
+        "p": 0.015625,
+        "shared": 68,
+        "wins": 0
+      }
+    }
+  },
+  "questions": 68,
+  "recorded": "2026-11-10",
+  "repaired": [
+    0.07352941176470588,
+    0.10294117647058823,
+    0.058823529411764705,
+    0.10294117647058823,
+    0.058823529411764705
+  ],
+  "repaired_mean": 0.07941176470588236,
+  "script": "test_is_the_gap_real.py",
+  "top1": {
+    "unweighted": {
+      "typed": 0.2647058823529412,
+      "vertex": 0.17647058823529413,
+      "vertex, bound": 0.27941176470588236
+    }
+  }
+}

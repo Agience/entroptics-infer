@@ -1,0 +1,37 @@
+{
+  "a_draw_would": 0.0014253316786157829,
+  "asked_for": 120,
+  "body": "0869a1657e5f8871.txt",
+  "by_arm": {
+    "in the sentence, counting": 0.08771929824561403,
+    "in the sentence, the read": 0.03508771929824561,
+    "sentences permuted, the read": 0.043859649122807015,
+    "spans + sentences, the read": 0.017543859649122806,
+    "spans, counting": 0.07017543859649122,
+    "spans, the read": 0.07017543859649122
+  },
+  "collided": 191,
+  "draws": {
+    "in the sentence, counting": 0.011496904696960016,
+    "in the sentence, the read": 0.011496904696960016,
+    "sentences permuted, the read": 0.0014253316786157829,
+    "spans + sentences, the read": 0.0014253316786157829,
+    "spans, counting": 0.0014253316786157829,
+    "spans, the read": 0.0014253316786157829
+  },
+  "gain_over_spans": -0.05263157894736842,
+  "gain_over_the_permutation": -0.02631578947368421,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "membership_label": "placed_in_sentence",
+  "placings": 2242,
+  "questions": 114,
+  "recorded": "2026-11-10",
+  "script": "test_whether_prose_at_two_scales_changes_the_read.py",
+  "seed": 0,
+  "sentences": 120,
+  "spans": 2572,
+  "spans_the_label_collides_with": 0
+}

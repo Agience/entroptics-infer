@@ -1,0 +1,192 @@
+{
+  "by_form": {
+    "as written": {
+      "asked": 5,
+      "landed_at_all": 1.0,
+      "landed_on_the_relation": 1.0,
+      "selected_it": 1.0
+    },
+    "joined": {
+      "asked": 5,
+      "landed_at_all": 1.0,
+      "landed_on_the_relation": 0.0,
+      "selected_it": 0.0
+    },
+    "spaced": {
+      "asked": 5,
+      "landed_at_all": 1.0,
+      "landed_on_the_relation": 0.0,
+      "selected_it": 0.0
+    },
+    "the first part": {
+      "asked": 5,
+      "landed_at_all": 1.0,
+      "landed_on_the_relation": 0.0,
+      "selected_it": 0.0
+    },
+    "the last part": {
+      "asked": 5,
+      "landed_at_all": 1.0,
+      "landed_on_the_relation": 0.0,
+      "selected_it": 0.0
+    }
+  },
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "naming": {
+    "grows_in, as written": {
+      "landed_at_all": true,
+      "landed_on_the_relation": true,
+      "query": "tree grows_in",
+      "selected_it": true
+    },
+    "grows_in, joined": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "tree growsin",
+      "selected_it": false
+    },
+    "grows_in, spaced": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "tree grows in",
+      "selected_it": false
+    },
+    "grows_in, the first part": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "tree grows",
+      "selected_it": false
+    },
+    "grows_in, the last part": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "tree in",
+      "selected_it": false
+    },
+    "is_a, as written": {
+      "landed_at_all": true,
+      "landed_on_the_relation": true,
+      "query": "dog is_a",
+      "selected_it": true
+    },
+    "is_a, joined": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "dog isa",
+      "selected_it": false
+    },
+    "is_a, spaced": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "dog is a",
+      "selected_it": false
+    },
+    "is_a, the first part": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "dog is",
+      "selected_it": false
+    },
+    "is_a, the last part": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "dog a",
+      "selected_it": false
+    },
+    "lives_in, as written": {
+      "landed_at_all": true,
+      "landed_on_the_relation": true,
+      "query": "dog lives_in",
+      "selected_it": true
+    },
+    "lives_in, joined": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "dog livesin",
+      "selected_it": false
+    },
+    "lives_in, spaced": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "dog lives in",
+      "selected_it": false
+    },
+    "lives_in, the first part": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "dog lives",
+      "selected_it": false
+    },
+    "lives_in, the last part": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "dog in",
+      "selected_it": false
+    },
+    "part_of, as written": {
+      "landed_at_all": true,
+      "landed_on_the_relation": true,
+      "query": "tail part_of",
+      "selected_it": true
+    },
+    "part_of, joined": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "tail partof",
+      "selected_it": false
+    },
+    "part_of, spaced": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "tail part of",
+      "selected_it": false
+    },
+    "part_of, the first part": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "tail part",
+      "selected_it": false
+    },
+    "part_of, the last part": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "tail of",
+      "selected_it": false
+    },
+    "used_for, as written": {
+      "landed_at_all": true,
+      "landed_on_the_relation": true,
+      "query": "hammer used_for",
+      "selected_it": true
+    },
+    "used_for, joined": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "hammer usedfor",
+      "selected_it": false
+    },
+    "used_for, spaced": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "hammer used for",
+      "selected_it": false
+    },
+    "used_for, the first part": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "hammer used",
+      "selected_it": false
+    },
+    "used_for, the last part": {
+      "landed_at_all": true,
+      "landed_on_the_relation": false,
+      "query": "hammer for",
+      "selected_it": false
+    }
+  },
+  "recorded": "2026-11-10",
+  "script": "test_how_a_question_can_name_a_relation.py"
+}

@@ -1,0 +1,32 @@
+{
+  "by_arm": {
+    "ontology/shipped": {
+      "answers_asked": 68,
+      "answers_that_move": 1,
+      "of_those_decided_inside_the_rounding": 1,
+      "operator_rounding_bound": 2.702600048516096e-13,
+      "orders": 4,
+      "statements": 84,
+      "worst_cell_moves": 0.0,
+      "worst_operator_cell_moves": 3.552713678800501e-15
+    },
+    "prose spans/shipped": {
+      "answers_asked": 38,
+      "answers_that_move": 0,
+      "of_those_decided_inside_the_rounding": 0,
+      "operator_rounding_bound": 1.9726759319382845e-09,
+      "orders": 4,
+      "statements": 2572,
+      "worst_cell_moves": 0.0,
+      "worst_operator_cell_moves": 4.206412995699793e-12
+    }
+  },
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "orders": 4,
+  "prose_questions": 40,
+  "recorded": "2026-11-10",
+  "script": "test_whether_a_curriculum_can_reach_a_read.py"
+}

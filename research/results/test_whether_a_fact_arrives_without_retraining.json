@@ -1,0 +1,274 @@
+{
+  "asked": 26,
+  "by_relation": {
+    "grows_in": {
+      "answers_with": NaN,
+      "asked": 2,
+      "detail": [
+        {
+          "answered_at": null,
+          "right_at": null,
+          "seconds_per_write_and_read": 0.006879149004817009,
+          "source": "tree",
+          "truth": "forest",
+          "uses_available": 1
+        },
+        {
+          "answered_at": null,
+          "right_at": null,
+          "seconds_per_write_and_read": 0.004472288070246577,
+          "source": "grass",
+          "truth": "forest",
+          "uses_available": 1
+        }
+      ],
+      "ms_per_write_and_read": 5.675718537531793,
+      "never_right": 2,
+      "right_with": NaN,
+      "uses": 2
+    },
+    "is_a": {
+      "answers_with": 4.2,
+      "asked": 6,
+      "detail": [
+        {
+          "answered_at": 4,
+          "right_at": 4,
+          "seconds_per_write_and_read": 0.0031981738284230232,
+          "source": "dog",
+          "truth": "mammal",
+          "uses_available": 34
+        },
+        {
+          "answered_at": 4,
+          "right_at": 4,
+          "seconds_per_write_and_read": 0.002732248976826668,
+          "source": "cat",
+          "truth": "mammal",
+          "uses_available": 34
+        },
+        {
+          "answered_at": 4,
+          "right_at": null,
+          "seconds_per_write_and_read": 0.003506442066282034,
+          "source": "horse",
+          "truth": "mammal",
+          "uses_available": 34
+        },
+        {
+          "answered_at": 4,
+          "right_at": null,
+          "seconds_per_write_and_read": 0.003592147957533598,
+          "source": "whale",
+          "truth": "mammal",
+          "uses_available": 34
+        },
+        {
+          "answered_at": null,
+          "right_at": null,
+          "seconds_per_write_and_read": 3.057299181818962e-05,
+          "source": "sparrow",
+          "truth": "bird",
+          "uses_available": 34
+        },
+        {
+          "answered_at": 5,
+          "right_at": 6,
+          "seconds_per_write_and_read": 0.0028675589710474014,
+          "source": "eagle",
+          "truth": "bird",
+          "uses_available": 34
+        }
+      ],
+      "ms_per_write_and_read": 3.0328663997352123,
+      "never_right": 3,
+      "right_with": 4.666666666666667,
+      "uses": 35
+    },
+    "lives_in": {
+      "answers_with": 2.6666666666666665,
+      "asked": 6,
+      "detail": [
+        {
+          "answered_at": 2,
+          "right_at": 2,
+          "seconds_per_write_and_read": 0.003979475237429142,
+          "source": "dog",
+          "truth": "house",
+          "uses_available": 9
+        },
+        {
+          "answered_at": 2,
+          "right_at": 2,
+          "seconds_per_write_and_read": 0.004036640282720327,
+          "source": "cat",
+          "truth": "house",
+          "uses_available": 9
+        },
+        {
+          "answered_at": 3,
+          "right_at": null,
+          "seconds_per_write_and_read": 0.004500454990193248,
+          "source": "horse",
+          "truth": "stable",
+          "uses_available": 9
+        },
+        {
+          "answered_at": 3,
+          "right_at": null,
+          "seconds_per_write_and_read": 0.004590858472511172,
+          "source": "whale",
+          "truth": "ocean",
+          "uses_available": 9
+        },
+        {
+          "answered_at": 3,
+          "right_at": null,
+          "seconds_per_write_and_read": 0.004477846436202526,
+          "source": "salmon",
+          "truth": "river",
+          "uses_available": 9
+        },
+        {
+          "answered_at": 3,
+          "right_at": 4,
+          "seconds_per_write_and_read": 0.004207668825984001,
+          "source": "shark",
+          "truth": "ocean",
+          "uses_available": 9
+        }
+      ],
+      "ms_per_write_and_read": 4.342757631093264,
+      "never_right": 3,
+      "right_with": 2.6666666666666665,
+      "uses": 10
+    },
+    "part_of": {
+      "answers_with": 3.2,
+      "asked": 6,
+      "detail": [
+        {
+          "answered_at": 2,
+          "right_at": null,
+          "seconds_per_write_and_read": 0.004375885706394911,
+          "source": "tail",
+          "truth": "dog",
+          "uses_available": 28
+        },
+        {
+          "answered_at": 3,
+          "right_at": null,
+          "seconds_per_write_and_read": 0.004026610404253006,
+          "source": "tail",
+          "truth": "cat",
+          "uses_available": 28
+        },
+        {
+          "answered_at": 3,
+          "right_at": null,
+          "seconds_per_write_and_read": 0.0047499919310212135,
+          "source": "paw",
+          "truth": "dog",
+          "uses_available": 28
+        },
+        {
+          "answered_at": 3,
+          "right_at": null,
+          "seconds_per_write_and_read": 0.004209394101053476,
+          "source": "paw",
+          "truth": "cat",
+          "uses_available": 28
+        },
+        {
+          "answered_at": 5,
+          "right_at": null,
+          "seconds_per_write_and_read": 0.004222997929900885,
+          "source": "wing",
+          "truth": "bird",
+          "uses_available": 28
+        },
+        {
+          "answered_at": null,
+          "right_at": null,
+          "seconds_per_write_and_read": 3.770599141716957e-05,
+          "source": "feather",
+          "truth": "wing",
+          "uses_available": 28
+        }
+      ],
+      "ms_per_write_and_read": 4.2161960154771805,
+      "never_right": 6,
+      "right_with": NaN,
+      "uses": 29
+    },
+    "used_for": {
+      "answers_with": 2.1666666666666665,
+      "asked": 6,
+      "detail": [
+        {
+          "answered_at": 3,
+          "right_at": null,
+          "seconds_per_write_and_read": 0.005689812824130058,
+          "source": "hammer",
+          "truth": "building",
+          "uses_available": 6
+        },
+        {
+          "answered_at": 2,
+          "right_at": 2,
+          "seconds_per_write_and_read": 0.0041997781954705715,
+          "source": "saw",
+          "truth": "cutting",
+          "uses_available": 6
+        },
+        {
+          "answered_at": 2,
+          "right_at": 2,
+          "seconds_per_write_and_read": 0.00454860320314765,
+          "source": "chisel",
+          "truth": "cutting",
+          "uses_available": 6
+        },
+        {
+          "answered_at": 2,
+          "right_at": 4,
+          "seconds_per_write_and_read": 0.0043329037725925446,
+          "source": "car",
+          "truth": "travel",
+          "uses_available": 6
+        },
+        {
+          "answered_at": 2,
+          "right_at": 4,
+          "seconds_per_write_and_read": 0.004443222191184759,
+          "source": "boat",
+          "truth": "travel",
+          "uses_available": 6
+        },
+        {
+          "answered_at": 2,
+          "right_at": 4,
+          "seconds_per_write_and_read": 0.004473431967198849,
+          "source": "bicycle",
+          "truth": "travel",
+          "uses_available": 6
+        }
+      ],
+      "ms_per_write_and_read": 4.458327079191804,
+      "never_right": 1,
+      "right_with": 3.2,
+      "uses": 7
+    }
+  },
+  "furthest": 24,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "ms_per_write_and_read": 4.342757631093264,
+  "never_right": 15,
+  "questions_per_relation_at_most": 6,
+  "recorded": "2026-11-10",
+  "script": "test_whether_a_fact_arrives_without_retraining.py",
+  "statements": 84
+}

@@ -1,0 +1,93 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Inference without trained weights"
+abstract: "A vertex's coordinate and a relation's weight are derived from a store of statements at the moment a question is asked, in one shared basis, with no fitted constant. A vertex's coordinate is what it is connected to, recomputed from the edges and stored nowhere; a relation's weight is the cross-covariance of the statements that use it; and attention is an alignment standardized by the exact permutation null, with no temperature and no forced normalization. A fact enters by one write and the next read has it, with nothing retrained. The protocol makes the claim falsifiable: the statement asked about is removed from both the operator and the coordinate before anything is computed, and every answer reports whether the store, as read, still contains it. On a hand-written store of 84 statements the bare operator names 36.8% of 68 held-out facts from a pool averaging 64.7 candidates, 23.8 times a draw over the same candidates. It survives a lookup arm and a degree-preserving permutation null on two of three WordNet neighbourhoods and does not clear the null on the third. A TransE model retrained for every held-out question and tuned over dimension and margin does better at its best, at 53.4%, and on text the read does not beat counting. The algebra the engine rests on is machine-checked in Lean 4 against Mathlib, among it that the operator never has to be formed, that a statement arriving adds one rank-one term, and that the permutation null has mean zero and a closed-form second moment. Relation matrices are not new; RESCAL, DistMult, R-GCN and linearized attention all carry one, obtained by gradient descent with the relation index supplied. Here the matrix is measured and the index does not exist."
+type: software
+authors:
+  - given-names: Ikailo John
+    family-names: Sessford
+    email: john@ikailo.com
+    orcid: "https://orcid.org/0009-0002-0150-4027"
+    affiliation: "Ikailo Inc."
+    city: Whitby
+    region: Ontario
+    country: CA
+repository-code: "https://github.com/Agience/entroptics-infer"
+url: "https://agience.ai"
+license: AGPL-3.0-only
+version: 0.1.0
+date-released: 2026-11-11
+keywords:
+  - neurosymbolic
+  - inference
+  - attention
+  - model-free
+  - knowledge graph
+  - relational learning
+  - permutation null
+  - parameter-free
+  - entroptics
+  - mantle
+references:
+  - type: software
+    title: "Entroptics"
+    abstract: "Read any 2-D signal as a finite optical aperture whose resolution is fixed by the signal's own entropy."
+    authors:
+      - given-names: Ikailo John
+        family-names: Sessford
+        orcid: "https://orcid.org/0009-0002-0150-4027"
+        affiliation: "Ikailo Inc."
+    doi: "10.5281/zenodo.21273400"
+    repository-code: "https://github.com/Agience/entroptics"
+    license: Apache-2.0
+  - type: article
+    title: "A Three-Way Model for Collective Learning on Multi-Relational Data"
+    authors:
+      - family-names: Nickel
+        given-names: Maximilian
+      - family-names: Tresp
+        given-names: Volker
+      - family-names: Kriegel
+        given-names: Hans-Peter
+    year: 2011
+    collection-title: "Proceedings of the 28th International Conference on Machine Learning (ICML)"
+  - type: article
+    title: "Modeling Relational Data with Graph Convolutional Networks"
+    authors:
+      - family-names: Schlichtkrull
+        given-names: Michael
+      - family-names: Kipf
+        given-names: Thomas N.
+      - family-names: Bloem
+        given-names: Peter
+      - family-names: van den Berg
+        given-names: Rianne
+      - family-names: Titov
+        given-names: Ivan
+      - family-names: Welling
+        given-names: Max
+    year: 2018
+    collection-title: "The Semantic Web (ESWC 2018)"
+    url: "https://arxiv.org/abs/1703.06103"
+  - type: article
+    title: "Tensor product variable binding and the representation of symbolic structures in connectionist systems"
+    authors:
+      - family-names: Smolensky
+        given-names: Paul
+    year: 1990
+    journal: "Artificial Intelligence"
+    volume: 46
+    start: 159
+    end: 216
+  - type: article
+    title: "Linear Transformers Are Secretly Fast Weight Programmers"
+    authors:
+      - family-names: Schlag
+        given-names: Imanol
+      - family-names: Irie
+        given-names: Kazuki
+      - family-names: Schmidhuber
+        given-names: Jürgen
+    year: 2021
+    collection-title: "Proceedings of the 38th International Conference on Machine Learning (ICML)"
+    url: "https://arxiv.org/abs/2102.11174"

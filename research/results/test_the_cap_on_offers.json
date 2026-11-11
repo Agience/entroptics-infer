@@ -1,0 +1,52 @@
+{
+  "caps": {
+    "1": {
+      "kept": 101,
+      "kept_joined": 0.8415841584158416,
+      "offered": 547,
+      "steps": 137,
+      "walks": 66
+    },
+    "2": {
+      "kept": 168,
+      "kept_joined": 0.44047619047619047,
+      "offered": 1326,
+      "steps": 151,
+      "walks": 66
+    },
+    "3": {
+      "kept": 165,
+      "kept_joined": 0.3090909090909091,
+      "offered": 2001,
+      "steps": 148,
+      "walks": 66
+    },
+    "5": {
+      "kept": 134,
+      "kept_joined": 0.17164179104477612,
+      "offered": 2946,
+      "steps": 133,
+      "walks": 66
+    },
+    "all of them": {
+      "kept": 0,
+      "kept_joined": 0.0,
+      "offered": 9834,
+      "steps": 66,
+      "walks": 66
+    },
+    "best available": {
+      "kept": 303,
+      "kept_joined": 0.28052805280528054,
+      "offered": 1492,
+      "steps": 283,
+      "walks": 66
+    }
+  },
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "script": "test_the_cap_on_offers.py"
+}

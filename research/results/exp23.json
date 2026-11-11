@@ -1,0 +1,905 @@
+{
+  "design": {
+    "T": 96,
+    "edges_per_relation": 12,
+    "n_vertices": 40,
+    "far": 0.05,
+    "draws": 6,
+    "base_seed": 20260915,
+    "widths": [
+      16,
+      32,
+      64,
+      128
+    ],
+    "noises": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "published_cell": {
+      "width": 64,
+      "source": "exp03 part A"
+    }
+  },
+  "rows": [
+    {
+      "width": 16,
+      "noise": 0.05,
+      "R": 1,
+      "counted": 1.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 16,
+      "noise": 0.05,
+      "R": 2,
+      "counted": 2.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 16,
+      "noise": 0.05,
+      "R": 3,
+      "counted": 3.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 16,
+      "noise": 0.05,
+      "R": 4,
+      "counted": 4.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 16,
+      "noise": 0.05,
+      "R": 6,
+      "counted": 6.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 16,
+      "noise": 0.05,
+      "R": 8,
+      "counted": 8.0,
+      "exact_rate": 1.0,
+      "at_ceiling": true
+    },
+    {
+      "width": 16,
+      "noise": 0.1,
+      "R": 1,
+      "counted": 1.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 16,
+      "noise": 0.1,
+      "R": 2,
+      "counted": 2.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 16,
+      "noise": 0.1,
+      "R": 3,
+      "counted": 3.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 16,
+      "noise": 0.1,
+      "R": 4,
+      "counted": 4.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 16,
+      "noise": 0.1,
+      "R": 6,
+      "counted": 6.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 16,
+      "noise": 0.1,
+      "R": 8,
+      "counted": 8.0,
+      "exact_rate": 1.0,
+      "at_ceiling": true
+    },
+    {
+      "width": 16,
+      "noise": 0.2,
+      "R": 1,
+      "counted": 1.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 16,
+      "noise": 0.2,
+      "R": 2,
+      "counted": 2.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 16,
+      "noise": 0.2,
+      "R": 3,
+      "counted": 3.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 16,
+      "noise": 0.2,
+      "R": 4,
+      "counted": 4.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 16,
+      "noise": 0.2,
+      "R": 6,
+      "counted": 6.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 16,
+      "noise": 0.2,
+      "R": 8,
+      "counted": 8.0,
+      "exact_rate": 1.0,
+      "at_ceiling": true
+    },
+    {
+      "width": 32,
+      "noise": 0.05,
+      "R": 1,
+      "counted": 1.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.05,
+      "R": 2,
+      "counted": 2.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.05,
+      "R": 3,
+      "counted": 3.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.05,
+      "R": 4,
+      "counted": 4.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.05,
+      "R": 6,
+      "counted": 6.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.05,
+      "R": 8,
+      "counted": 8.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.05,
+      "R": 12,
+      "counted": 12.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.05,
+      "R": 16,
+      "counted": 16.0,
+      "exact_rate": 1.0,
+      "at_ceiling": true
+    },
+    {
+      "width": 32,
+      "noise": 0.1,
+      "R": 1,
+      "counted": 1.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.1,
+      "R": 2,
+      "counted": 2.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.1,
+      "R": 3,
+      "counted": 3.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.1,
+      "R": 4,
+      "counted": 4.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.1,
+      "R": 6,
+      "counted": 6.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.1,
+      "R": 8,
+      "counted": 8.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.1,
+      "R": 12,
+      "counted": 12.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.1,
+      "R": 16,
+      "counted": 16.0,
+      "exact_rate": 1.0,
+      "at_ceiling": true
+    },
+    {
+      "width": 32,
+      "noise": 0.2,
+      "R": 1,
+      "counted": 1.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.2,
+      "R": 2,
+      "counted": 2.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.2,
+      "R": 3,
+      "counted": 3.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.2,
+      "R": 4,
+      "counted": 4.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.2,
+      "R": 6,
+      "counted": 6.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.2,
+      "R": 8,
+      "counted": 8.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.2,
+      "R": 12,
+      "counted": 12.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 32,
+      "noise": 0.2,
+      "R": 16,
+      "counted": 16.0,
+      "exact_rate": 1.0,
+      "at_ceiling": true
+    },
+    {
+      "width": 64,
+      "noise": 0.05,
+      "R": 1,
+      "counted": 1.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.05,
+      "R": 2,
+      "counted": 2.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.05,
+      "R": 3,
+      "counted": 3.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.05,
+      "R": 4,
+      "counted": 4.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.05,
+      "R": 6,
+      "counted": 6.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.05,
+      "R": 8,
+      "counted": 8.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.05,
+      "R": 12,
+      "counted": 12.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.05,
+      "R": 16,
+      "counted": 16.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.05,
+      "R": 24,
+      "counted": 24.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.05,
+      "R": 32,
+      "counted": 32.0,
+      "exact_rate": 1.0,
+      "at_ceiling": true
+    },
+    {
+      "width": 64,
+      "noise": 0.1,
+      "R": 1,
+      "counted": 1.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.1,
+      "R": 2,
+      "counted": 2.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.1,
+      "R": 3,
+      "counted": 3.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.1,
+      "R": 4,
+      "counted": 4.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.1,
+      "R": 6,
+      "counted": 6.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.1,
+      "R": 8,
+      "counted": 8.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.1,
+      "R": 12,
+      "counted": 12.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.1,
+      "R": 16,
+      "counted": 16.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.1,
+      "R": 24,
+      "counted": 24.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.1,
+      "R": 32,
+      "counted": 32.0,
+      "exact_rate": 1.0,
+      "at_ceiling": true
+    },
+    {
+      "width": 64,
+      "noise": 0.2,
+      "R": 1,
+      "counted": 1.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.2,
+      "R": 2,
+      "counted": 2.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.2,
+      "R": 3,
+      "counted": 3.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.2,
+      "R": 4,
+      "counted": 4.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.2,
+      "R": 6,
+      "counted": 6.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.2,
+      "R": 8,
+      "counted": 8.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.2,
+      "R": 12,
+      "counted": 12.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.2,
+      "R": 16,
+      "counted": 16.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.2,
+      "R": 24,
+      "counted": 24.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 64,
+      "noise": 0.2,
+      "R": 32,
+      "counted": 32.0,
+      "exact_rate": 1.0,
+      "at_ceiling": true
+    },
+    {
+      "width": 128,
+      "noise": 0.05,
+      "R": 1,
+      "counted": 1.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.05,
+      "R": 2,
+      "counted": 2.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.05,
+      "R": 3,
+      "counted": 3.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.05,
+      "R": 4,
+      "counted": 4.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.05,
+      "R": 6,
+      "counted": 6.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.05,
+      "R": 8,
+      "counted": 8.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.05,
+      "R": 12,
+      "counted": 12.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.05,
+      "R": 16,
+      "counted": 16.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.05,
+      "R": 24,
+      "counted": 24.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.05,
+      "R": 32,
+      "counted": 32.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.05,
+      "R": 48,
+      "counted": 48.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.05,
+      "R": 64,
+      "counted": 64.0,
+      "exact_rate": 1.0,
+      "at_ceiling": true
+    },
+    {
+      "width": 128,
+      "noise": 0.1,
+      "R": 1,
+      "counted": 1.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.1,
+      "R": 2,
+      "counted": 2.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.1,
+      "R": 3,
+      "counted": 3.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.1,
+      "R": 4,
+      "counted": 4.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.1,
+      "R": 6,
+      "counted": 6.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.1,
+      "R": 8,
+      "counted": 8.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.1,
+      "R": 12,
+      "counted": 12.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.1,
+      "R": 16,
+      "counted": 16.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.1,
+      "R": 24,
+      "counted": 24.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.1,
+      "R": 32,
+      "counted": 32.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.1,
+      "R": 48,
+      "counted": 48.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.1,
+      "R": 64,
+      "counted": 64.0,
+      "exact_rate": 1.0,
+      "at_ceiling": true
+    },
+    {
+      "width": 128,
+      "noise": 0.2,
+      "R": 1,
+      "counted": 1.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.2,
+      "R": 2,
+      "counted": 2.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.2,
+      "R": 3,
+      "counted": 3.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.2,
+      "R": 4,
+      "counted": 4.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.2,
+      "R": 6,
+      "counted": 6.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.2,
+      "R": 8,
+      "counted": 8.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.2,
+      "R": 12,
+      "counted": 12.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.2,
+      "R": 16,
+      "counted": 16.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.2,
+      "R": 24,
+      "counted": 24.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.2,
+      "R": 32,
+      "counted": 32.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.2,
+      "R": 48,
+      "counted": 48.0,
+      "exact_rate": 1.0,
+      "at_ceiling": false
+    },
+    {
+      "width": 128,
+      "noise": 0.2,
+      "R": 64,
+      "counted": 64.0,
+      "exact_rate": 1.0,
+      "at_ceiling": true
+    }
+  ],
+  "cells": 108,
+  "generator_refuses_past_the_ceiling": {
+    "16": true,
+    "32": true,
+    "64": true,
+    "128": true
+  },
+  "all_widths_refuse_past_the_ceiling": true,
+  "quiet_cells": 36,
+  "quiet_cells_recovered_exactly": 36,
+  "ceilings_run": 4,
+  "ceilings_recovered_exactly": 4,
+  "largest_kind_count_recovered": 64,
+  "seconds": 13012.933386087418
+}

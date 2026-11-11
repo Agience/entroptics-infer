@@ -1,0 +1,41 @@
+{
+  "axes": {
+    "typed": 720,
+    "vertex": 450,
+    "vertex, bound": 284
+  },
+  "best": {
+    "typed": {
+      "mean_rank": 8.294117647058824,
+      "top1": 0.2647058823529412
+    },
+    "vertex": {
+      "mean_rank": 8.029411764705882,
+      "top1": 0.17647058823529413
+    },
+    "vertex, bound": {
+      "mean_rank": 9.161764705882353,
+      "top1": 0.27941176470588236
+    }
+  },
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "paired": {
+    "bound vs typed": {
+      "losses": 2,
+      "p": 1.0,
+      "shared": 68,
+      "wins": 3
+    },
+    "bound vs vertex": {
+      "losses": 0,
+      "p": 0.015625,
+      "shared": 68,
+      "wins": 7
+    }
+  },
+  "recorded": "2026-11-10",
+  "script": "test_binding_the_coordinate.py"
+}

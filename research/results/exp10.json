@@ -1,0 +1,58 @@
+{
+  "design": {
+    "T": 96,
+    "D": 32,
+    "n_relations": 4,
+    "train_sources": 60,
+    "test_sources": 16,
+    "noise": 0.1,
+    "far": 0.05,
+    "base_seed": 20260915,
+    "n_targets": 24,
+    "ranks": [
+      4,
+      8,
+      16
+    ],
+    "rates": [
+      0.2,
+      0.5
+    ],
+    "epoch_grid": [
+      2000,
+      8000
+    ],
+    "negatives": 4
+  },
+  "admission": {
+    "margin_z": 19.575184482905634,
+    "cutoff": 1.9599639845400543,
+    "admitted": true
+  },
+  "baseline": {
+    "rank": 4,
+    "rate": 0.2,
+    "epochs": 8000,
+    "validation_top1": 1.0,
+    "fit_on_training_triples": 1.0
+  },
+  "results": [
+    {
+      "regime": "seen entities",
+      "questions": 42,
+      "trained": 0.9047619047619048,
+      "measured": 0.8095238095238095,
+      "chance": 0.25,
+      "gap": -0.09523809523809523
+    },
+    {
+      "regime": "UNSEEN entities",
+      "questions": 64,
+      "trained": 0.171875,
+      "measured": 0.875,
+      "chance": 0.25,
+      "gap": 0.703125
+    }
+  ],
+  "seconds": 114.39314603805542
+}

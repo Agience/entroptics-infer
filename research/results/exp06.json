@@ -1,0 +1,158 @@
+{
+  "design": {
+    "T": 96,
+    "D": 32,
+    "far": 0.05,
+    "draws": 12,
+    "base_seed": 20260915,
+    "rows_seen": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48,
+      64,
+      96
+    ],
+    "growth_steps": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "corpus_sizes": [
+      10,
+      20,
+      40,
+      80,
+      160
+    ]
+  },
+  "evidence": [
+    {
+      "rows_seen": 4,
+      "refused": 0.6666666666666666,
+      "answered": 0.3333333333333333,
+      "precision": 0.75
+    },
+    {
+      "rows_seen": 8,
+      "refused": 1.0,
+      "answered": 0.0,
+      "precision": null
+    },
+    {
+      "rows_seen": 12,
+      "refused": 1.0,
+      "answered": 0.0,
+      "precision": null
+    },
+    {
+      "rows_seen": 16,
+      "refused": 1.0,
+      "answered": 0.0,
+      "precision": null
+    },
+    {
+      "rows_seen": 24,
+      "refused": 0.75,
+      "answered": 0.25,
+      "precision": 1.0
+    },
+    {
+      "rows_seen": 32,
+      "refused": 0.3333333333333333,
+      "answered": 0.6666666666666666,
+      "precision": 1.0
+    },
+    {
+      "rows_seen": 48,
+      "refused": 0.0,
+      "answered": 1.0,
+      "precision": 1.0
+    },
+    {
+      "rows_seen": 64,
+      "refused": 0.0,
+      "answered": 1.0,
+      "precision": 1.0
+    },
+    {
+      "rows_seen": 96,
+      "refused": 0.0,
+      "answered": 1.0,
+      "precision": 1.0
+    }
+  ],
+  "new_vs_repeated": [
+    {
+      "step": 0,
+      "kinds_present": 4,
+      "new_structure": 4.0,
+      "repeated_structure": 4.0
+    },
+    {
+      "step": 1,
+      "kinds_present": 5,
+      "new_structure": 5.0,
+      "repeated_structure": 4.0
+    },
+    {
+      "step": 2,
+      "kinds_present": 6,
+      "new_structure": 6.0,
+      "repeated_structure": 4.0
+    },
+    {
+      "step": 3,
+      "kinds_present": 7,
+      "new_structure": 7.0,
+      "repeated_structure": 4.0
+    },
+    {
+      "step": 4,
+      "kinds_present": 8,
+      "new_structure": 8.0,
+      "repeated_structure": 4.0
+    }
+  ],
+  "order_independence": {
+    "checks": 48,
+    "mismatches": 0
+  },
+  "locality": {
+    "checks": 12,
+    "changed": 0
+  },
+  "cost": [
+    {
+      "candidates": 10,
+      "ms_per_question": 260.5063725883762,
+      "ms_per_candidate": 26.05063725883762
+    },
+    {
+      "candidates": 20,
+      "ms_per_question": 504.81789434949553,
+      "ms_per_candidate": 25.240894717474777
+    },
+    {
+      "candidates": 40,
+      "ms_per_question": 1005.58822741732,
+      "ms_per_candidate": 25.139705685433
+    },
+    {
+      "candidates": 80,
+      "ms_per_question": 1996.5672266359131,
+      "ms_per_candidate": 24.957090332948916
+    },
+    {
+      "candidates": 160,
+      "ms_per_question": 4363.286402697365,
+      "ms_per_candidate": 27.27054001685853
+    }
+  ],
+  "seconds": 101.71731376647949
+}

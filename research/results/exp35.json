@@ -1,0 +1,403 @@
+{
+  "sources": [
+    {
+      "url": "https://www.gutenberg.org/files/11/11-0.txt",
+      "sha256": "a3a27f8edbf7fcd9b8ba8435494440e24952deaa3e2f2d65192d4cb7ca403754",
+      "tokens": 27427
+    },
+    {
+      "url": "https://www.gutenberg.org/files/2701/2701-0.txt",
+      "sha256": "547de799c1643ef231cc1efe45ffccefcb876ff3fe8f2206e7488529ad08f999",
+      "tokens": 219054
+    },
+    {
+      "url": "https://www.gutenberg.org/files/1342/1342-0.txt",
+      "sha256": "81300b79e8a8d65ac530a97578417d06137e3bbc90622a10a65e5036183d2500",
+      "tokens": 128565
+    },
+    {
+      "url": "https://www.gutenberg.org/files/84/84-0.txt",
+      "sha256": "06c37d2c52d208d3d81eb12c3b10b5edbd7728b73554325ddceadbe2fb427e77",
+      "tokens": 75328
+    },
+    {
+      "url": "https://www.gutenberg.org/files/1661/1661-0.txt",
+      "sha256": "b9c105a5c0cf9fcb37c7d0211658851ed56074519c9455d15e20f04c0c5a3174",
+      "tokens": 108924
+    },
+    {
+      "url": "https://www.gutenberg.org/files/98/98-0.txt",
+      "sha256": "e3dfeb67feb904ac0f73a35204a175c58248422c2be8556802cb8820d958d67c",
+      "tokens": 138490
+    }
+  ],
+  "design": {
+    "far": 0.05,
+    "seed": 11,
+    "vocabulary": 256,
+    "window": 8,
+    "cone": 2,
+    "cache": 500,
+    "tests": 500,
+    "weightings": [
+      "cosine",
+      "association",
+      "aperture"
+    ],
+    "normalisations": [
+      "none",
+      "root"
+    ],
+    "smoke": false,
+    "word_positions": 697788
+  },
+  "cells": [
+    {
+      "weighting": "cosine",
+      "normalisation": "none",
+      "tests": 500,
+      "cache": 500,
+      "mrr_read": 0.20292789865352753,
+      "mrr_n_gram": 0.2821481852964358,
+      "mrr_unigram": 0.18268980359268902,
+      "mrr_rarity": 0.011543708990924061,
+      "se_read": 0.013922286214445367,
+      "live_share": 0.672064,
+      "rarest_read": 0.016205876303714305,
+      "rarest_n_gram": 0.10437568204026493,
+      "rarest_rarity_control": 0.034493266019141565,
+      "se_rarest": 0.0027185987620404455,
+      "bands": [
+        {
+          "quartile": 0,
+          "n": 122,
+          "read": 0.016205876303714305,
+          "n_gram": 0.10437568204026493,
+          "unigram": 0.009132420888339944,
+          "rarity": 0.034493266019141565
+        },
+        {
+          "quartile": 1,
+          "n": 126,
+          "read": 0.06226768970351357,
+          "n_gram": 0.23022154958124189,
+          "unigram": 0.035076185913137437,
+          "rarity": 0.0044406402116555
+        },
+        {
+          "quartile": 2,
+          "n": 115,
+          "read": 0.09844556561047346,
+          "n_gram": 0.17737763602735293,
+          "unigram": 0.11154620599633389,
+          "rarity": 0.004048604966844853
+        },
+        {
+          "quartile": 3,
+          "n": 137,
+          "read": 0.5862763756924341,
+          "n_gram": 0.5761599711600259,
+          "unigram": 0.5327250608272506,
+          "rarity": 0.003931137250153351
+        }
+      ],
+      "floor_margin": 0.020238095060838512,
+      "floor_margin_in_standard_errors": 1.4536473930438265,
+      "rarest_over_control": -0.01828738971542726,
+      "rarest_band_is_resolvable": true,
+      "rarest_over_control_in_standard_errors": -6.7267704123066885,
+      "clears_both": false
+    },
+    {
+      "weighting": "cosine",
+      "normalisation": "root",
+      "tests": 500,
+      "cache": 500,
+      "mrr_read": 0.1748834916173775,
+      "mrr_n_gram": 0.2821481852964358,
+      "mrr_unigram": 0.18268980359268902,
+      "mrr_rarity": 0.011543708990924061,
+      "se_read": 0.012614690418738795,
+      "live_share": 0.672064,
+      "rarest_read": 0.02906889113657265,
+      "rarest_n_gram": 0.10437568204026493,
+      "rarest_rarity_control": 0.034493266019141565,
+      "se_rarest": 0.00967466821216017,
+      "bands": [
+        {
+          "quartile": 0,
+          "n": 122,
+          "read": 0.02906889113657265,
+          "n_gram": 0.10437568204026493,
+          "unigram": 0.009132420888339944,
+          "rarity": 0.034493266019141565
+        },
+        {
+          "quartile": 1,
+          "n": 126,
+          "read": 0.07675549190647192,
+          "n_gram": 0.23022154958124189,
+          "unigram": 0.035076185913137437,
+          "rarity": 0.0044406402116555
+        },
+        {
+          "quartile": 2,
+          "n": 115,
+          "read": 0.10064227940737831,
+          "n_gram": 0.17737763602735293,
+          "unigram": 0.11154620599633389,
+          "rarity": 0.004048604966844853
+        },
+        {
+          "quartile": 3,
+          "n": 137,
+          "read": 0.45730136480264894,
+          "n_gram": 0.5761599711600259,
+          "unigram": 0.5327250608272506,
+          "rarity": 0.003931137250153351
+        }
+      ],
+      "floor_margin": -0.0078063119753115084,
+      "floor_margin_in_standard_errors": -0.6188270751151717,
+      "rarest_over_control": -0.005424374882568916,
+      "rarest_band_is_resolvable": true,
+      "rarest_over_control_in_standard_errors": -0.5606781301038287,
+      "clears_both": false
+    },
+    {
+      "weighting": "association",
+      "normalisation": "none",
+      "tests": 500,
+      "cache": 500,
+      "mrr_read": 0.18677759892464038,
+      "mrr_n_gram": 0.2821481852964358,
+      "mrr_unigram": 0.18268980359268902,
+      "mrr_rarity": 0.011543708990924061,
+      "se_read": 0.01287299127483506,
+      "live_share": 0.975604,
+      "rarest_read": 0.012874774140786704,
+      "rarest_n_gram": 0.10437568204026493,
+      "rarest_rarity_control": 0.034493266019141565,
+      "se_rarest": 0.0012681368978061688,
+      "bands": [
+        {
+          "quartile": 0,
+          "n": 122,
+          "read": 0.012874774140786704,
+          "n_gram": 0.10437568204026493,
+          "unigram": 0.009132420888339944,
+          "rarity": 0.034493266019141565
+        },
+        {
+          "quartile": 1,
+          "n": 126,
+          "read": 0.0354123251810344,
+          "n_gram": 0.23022154958124189,
+          "unigram": 0.035076185913137437,
+          "rarity": 0.0044406402116555
+        },
+        {
+          "quartile": 2,
+          "n": 115,
+          "read": 0.09671407965503483,
+          "n_gram": 0.17737763602735293,
+          "unigram": 0.11154620599633389,
+          "rarity": 0.004048604966844853
+        },
+        {
+          "quartile": 3,
+          "n": 137,
+          "read": 0.5564525903941963,
+          "n_gram": 0.5761599711600259,
+          "unigram": 0.5327250608272506,
+          "rarity": 0.003931137250153351
+        }
+      ],
+      "floor_margin": 0.0040877953319513605,
+      "floor_margin_in_standard_errors": 0.31754820963348607,
+      "rarest_over_control": -0.02161849187835486,
+      "rarest_band_is_resolvable": true,
+      "rarest_over_control_in_standard_errors": -17.047443312905788,
+      "clears_both": false
+    },
+    {
+      "weighting": "association",
+      "normalisation": "root",
+      "tests": 500,
+      "cache": 500,
+      "mrr_read": 0.19275179218856267,
+      "mrr_n_gram": 0.2821481852964358,
+      "mrr_unigram": 0.18268980359268902,
+      "mrr_rarity": 0.011543708990924061,
+      "se_read": 0.01378158566152143,
+      "live_share": 0.975604,
+      "rarest_read": 0.016613487934226023,
+      "rarest_n_gram": 0.10437568204026493,
+      "rarest_rarity_control": 0.034493266019141565,
+      "se_rarest": 0.0024691971029669716,
+      "bands": [
+        {
+          "quartile": 0,
+          "n": 122,
+          "read": 0.016613487934226023,
+          "n_gram": 0.10437568204026493,
+          "unigram": 0.009132420888339944,
+          "rarity": 0.034493266019141565
+        },
+        {
+          "quartile": 1,
+          "n": 126,
+          "read": 0.05176385542987862,
+          "n_gram": 0.23022154958124189,
+          "unigram": 0.035076185913137437,
+          "rarity": 0.0044406402116555
+        },
+        {
+          "quartile": 2,
+          "n": 115,
+          "read": 0.08499888334451851,
+          "n_gram": 0.17737763602735293,
+          "unigram": 0.11154620599633389,
+          "rarity": 0.004048604966844853
+        },
+        {
+          "quartile": 3,
+          "n": 137,
+          "read": 0.5697221401278937,
+          "n_gram": 0.5761599711600259,
+          "unigram": 0.5327250608272506,
+          "rarity": 0.003931137250153351
+        }
+      ],
+      "floor_margin": 0.01006198859587365,
+      "floor_margin_in_standard_errors": 0.7301038387743002,
+      "rarest_over_control": -0.017879778084915542,
+      "rarest_band_is_resolvable": true,
+      "rarest_over_control_in_standard_errors": -7.241130351008153,
+      "clears_both": false
+    },
+    {
+      "weighting": "aperture",
+      "normalisation": "none",
+      "tests": 500,
+      "cache": 500,
+      "mrr_read": 0.18678134249942197,
+      "mrr_n_gram": 0.2821481852964358,
+      "mrr_unigram": 0.18268980359268902,
+      "mrr_rarity": 0.011543708990924061,
+      "se_read": 0.013931796512784514,
+      "live_share": 0.2156,
+      "rarest_read": 0.014349733312601197,
+      "rarest_n_gram": 0.10437568204026493,
+      "rarest_rarity_control": 0.034493266019141565,
+      "se_rarest": 0.0019606003170955654,
+      "bands": [
+        {
+          "quartile": 0,
+          "n": 122,
+          "read": 0.014349733312601197,
+          "n_gram": 0.10437568204026493,
+          "unigram": 0.009132420888339944,
+          "rarity": 0.034493266019141565
+        },
+        {
+          "quartile": 1,
+          "n": 126,
+          "read": 0.05196622463365328,
+          "n_gram": 0.23022154958124189,
+          "unigram": 0.035076185913137437,
+          "rarity": 0.0044406402116555
+        },
+        {
+          "quartile": 2,
+          "n": 115,
+          "read": 0.09418282233586033,
+          "n_gram": 0.17737763602735293,
+          "unigram": 0.11154620599633389,
+          "rarity": 0.004048604966844853
+        },
+        {
+          "quartile": 3,
+          "n": 137,
+          "read": 0.54205280958474,
+          "n_gram": 0.5761599711600259,
+          "unigram": 0.5327250608272506,
+          "rarity": 0.003931137250153351
+        }
+      ],
+      "floor_margin": 0.004091538906732944,
+      "floor_margin_in_standard_errors": 0.29368351044880275,
+      "rarest_over_control": -0.020143532706540367,
+      "rarest_band_is_resolvable": true,
+      "rarest_over_control_in_standard_errors": -10.274165790394756,
+      "clears_both": false
+    },
+    {
+      "weighting": "aperture",
+      "normalisation": "root",
+      "tests": 500,
+      "cache": 500,
+      "mrr_read": 0.1386940369499751,
+      "mrr_n_gram": 0.2821481852964358,
+      "mrr_unigram": 0.18268980359268902,
+      "mrr_rarity": 0.011543708990924061,
+      "se_read": 0.011798956431909534,
+      "live_share": 0.2156,
+      "rarest_read": 0.026537537192146785,
+      "rarest_n_gram": 0.10437568204026493,
+      "rarest_rarity_control": 0.034493266019141565,
+      "se_rarest": 0.008818240156364131,
+      "bands": [
+        {
+          "quartile": 0,
+          "n": 122,
+          "read": 0.026537537192146785,
+          "n_gram": 0.10437568204026493,
+          "unigram": 0.009132420888339944,
+          "rarity": 0.034493266019141565
+        },
+        {
+          "quartile": 1,
+          "n": 126,
+          "read": 0.05278727444050261,
+          "n_gram": 0.23022154958124189,
+          "unigram": 0.035076185913137437,
+          "rarity": 0.0044406402116555
+        },
+        {
+          "quartile": 2,
+          "n": 115,
+          "read": 0.08232107959013456,
+          "n_gram": 0.17737763602735293,
+          "unigram": 0.11154620599633389,
+          "rarity": 0.004048604966844853
+        },
+        {
+          "quartile": 3,
+          "n": 137,
+          "read": 0.36490013288450246,
+          "n_gram": 0.5761599711600259,
+          "unigram": 0.5327250608272506,
+          "rarity": 0.003931137250153351
+        }
+      ],
+      "floor_margin": -0.04399576664271393,
+      "floor_margin_in_standard_errors": -3.7287845663816634,
+      "rarest_over_control": -0.00795572882699478,
+      "rarest_band_is_resolvable": true,
+      "rarest_over_control_in_standard_errors": -0.9021900839537834,
+      "clears_both": false
+    }
+  ],
+  "best_by_weighting": {
+    "cosine": 0.20292789865352753,
+    "association": 0.19275179218856267,
+    "aperture": 0.18678134249942197
+  },
+  "association_over_cosine": -0.010176106464964862,
+  "association_over_cosine_in_standard_errors": -0.5168399626770334,
+  "standard_error_of_a_difference": 0.019689085983708617,
+  "cells_clearing_both": 0,
+  "cells_swept": 6,
+  "seconds": 1094.8559556007385
+}

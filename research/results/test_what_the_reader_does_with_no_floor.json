@@ -1,0 +1,103 @@
+{
+  "arms": {
+    "one hop, floored": {
+      "above_chance": -0.00036075036075036075,
+      "answers_at_all": 0.023809523809523808,
+      "by_chance": 0.00036075036075036075,
+      "by_its_landing": 0.0,
+      "its_best": 0.0,
+      "questions": 84,
+      "reached": 0,
+      "read": 0.0,
+      "right_when_it_speaks": 0.0,
+      "says_it_first": 0.0,
+      "vertices_kept": 0.023809523809523808
+    },
+    "one hop, no floor": {
+      "above_chance": 0.31493506493506496,
+      "answers_at_all": 0.9880952380952381,
+      "by_chance": 0.0422077922077922,
+      "by_its_landing": 0.14285714285714285,
+      "its_best": 0.2976190476190476,
+      "questions": 84,
+      "reached": 30,
+      "read": 0.35714285714285715,
+      "right_when_it_speaks": 0.3614457831325301,
+      "says_it_first": 0.2976190476190476,
+      "vertices_kept": 2.7857142857142856
+    },
+    "run out, floored": {
+      "above_chance": 0.01966089466089466,
+      "answers_at_all": 0.2619047619047619,
+      "by_chance": 0.004148629148629147,
+      "by_its_landing": 0.023809523809523808,
+      "its_best": 0.023809523809523808,
+      "questions": 84,
+      "reached": 2,
+      "read": 0.023809523809523808,
+      "right_when_it_speaks": 0.09090909090909091,
+      "says_it_first": 0.023809523809523808,
+      "vertices_kept": 0.27380952380952384
+    },
+    "run out, no floor": {
+      "above_chance": 0.21158008658008656,
+      "answers_at_all": 0.8809523809523809,
+      "by_chance": 0.026515151515151512,
+      "by_its_landing": 0.17857142857142858,
+      "its_best": 0.21428571428571427,
+      "questions": 84,
+      "reached": 20,
+      "read": 0.23809523809523808,
+      "right_when_it_speaks": 0.2702702702702703,
+      "says_it_first": 0.21428571428571427,
+      "vertices_kept": 1.75
+    }
+  },
+  "asked": 84,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "paired": {
+    "one hop, no floor against one hop, floored": {
+      "first_only": 30,
+      "p": 1.862645149230957e-09,
+      "questions": 84,
+      "second_only": 0
+    },
+    "one hop, no floor against run out, floored": {
+      "first_only": 29,
+      "p": 5.774199962615967e-08,
+      "questions": 84,
+      "second_only": 1
+    },
+    "one hop, no floor against run out, no floor": {
+      "first_only": 11,
+      "p": 0.00634765625,
+      "questions": 84,
+      "second_only": 1
+    },
+    "run out, no floor against run out, floored": {
+      "first_only": 18,
+      "p": 7.62939453125e-06,
+      "questions": 84,
+      "second_only": 0
+    }
+  },
+  "paired_on_the_first": {
+    "one hop, no floor against run out, floored": {
+      "first_only": 24,
+      "p": 1.5497207641601562e-06,
+      "questions": 84,
+      "second_only": 1
+    },
+    "run out, no floor against run out, floored": {
+      "first_only": 16,
+      "p": 3.0517578125e-05,
+      "questions": 84,
+      "second_only": 0
+    }
+  },
+  "recorded": "2026-11-10",
+  "script": "test_what_the_reader_does_with_no_floor.py"
+}

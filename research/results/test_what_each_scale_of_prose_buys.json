@@ -1,0 +1,161 @@
+{
+  "askable_at": 2,
+  "askable_at_held_out": 3,
+  "body": "0869a1657e5f8871.txt",
+  "by_rung": {
+    "+ paragraphs": {
+      "biggest_relation": 2242,
+      "concepts": 886,
+      "median_askable_relation": 4,
+      "relations": 118,
+      "relations_askable": 115,
+      "relations_askable_held_out": 87,
+      "share_of_relations_askable": 0.9745762711864406,
+      "share_of_statements_askable": 0.9995517705064993,
+      "share_of_statements_askable_held_out": 0.9911848199611535,
+      "statements": 6693,
+      "through_a_median": {
+        "operator_rows": 5,
+        "relation_uses": 4,
+        "rows": 24,
+        "rows_beyond_the_candidates": 4,
+        "work": 2751,
+        "work_per_row": 114.625
+      },
+      "through_the_biggest": {
+        "operator_rows": 829,
+        "relation_uses": 2242,
+        "rows": 830,
+        "rows_beyond_the_candidates": 810,
+        "work": 31897,
+        "work_per_row": 38.43012048192771
+      },
+      "vertices": 7579
+    },
+    "+ sentences": {
+      "biggest_relation": 2242,
+      "concepts": 846,
+      "median_askable_relation": 4,
+      "relations": 117,
+      "relations_askable": 114,
+      "relations_askable_held_out": 86,
+      "share_of_relations_askable": 0.9743589743589743,
+      "share_of_statements_askable": 0.9993768176152887,
+      "share_of_statements_askable_held_out": 0.9877440797673452,
+      "statements": 4814,
+      "through_a_median": {
+        "operator_rows": 5,
+        "relation_uses": 4,
+        "rows": 24,
+        "rows_beyond_the_candidates": 4,
+        "work": 2631,
+        "work_per_row": 109.625
+      },
+      "through_the_biggest": {
+        "operator_rows": 829,
+        "relation_uses": 2242,
+        "rows": 830,
+        "rows_beyond_the_candidates": 810,
+        "work": 28411,
+        "work_per_row": 34.23012048192771
+      },
+      "vertices": 5660
+    },
+    "+ the document": {
+      "biggest_relation": 2242,
+      "concepts": 888,
+      "median_askable_relation": 5,
+      "relations": 119,
+      "relations_askable": 116,
+      "relations_askable_held_out": 88,
+      "share_of_relations_askable": 0.9747899159663865,
+      "share_of_statements_askable": 0.9995947041340179,
+      "share_of_statements_askable_held_out": 0.9920291813023507,
+      "statements": 7402,
+      "through_a_median": {
+        "operator_rows": 8,
+        "relation_uses": 5,
+        "rows": 28,
+        "rows_beyond_the_candidates": 8,
+        "work": 2898,
+        "work_per_row": 103.5
+      },
+      "through_the_biggest": {
+        "operator_rows": 829,
+        "relation_uses": 2242,
+        "rows": 830,
+        "rows_beyond_the_candidates": 810,
+        "work": 34111,
+        "work_per_row": 41.09759036144578
+      },
+      "vertices": 8290
+    },
+    "spans": {
+      "biggest_relation": 1250,
+      "concepts": 725,
+      "median_askable_relation": 4,
+      "relations": 116,
+      "relations_askable": 113,
+      "relations_askable_held_out": 85,
+      "share_of_relations_askable": 0.9741379310344828,
+      "share_of_statements_askable": 0.9988335925349923,
+      "share_of_statements_askable_held_out": 0.9770606531881804,
+      "statements": 2572,
+      "through_a_median": {
+        "operator_rows": 4,
+        "relation_uses": 4,
+        "rows": 23,
+        "rows_beyond_the_candidates": 3,
+        "work": 3186,
+        "work_per_row": 138.52173913043478
+      },
+      "through_the_biggest": {
+        "operator_rows": 673,
+        "relation_uses": 1250,
+        "rows": 675,
+        "rows_beyond_the_candidates": 655,
+        "work": 57065,
+        "work_per_row": 84.54074074074074
+      },
+      "vertices": 3297
+    }
+  },
+  "by_step": [
+    {
+      "askable_gained": 0.010683426579164879,
+      "from": "spans",
+      "points_per_times_the_read": 1.2937057043412887,
+      "times_the_read": 0.8258003766478342,
+      "to": "+ sentences"
+    },
+    {
+      "askable_gained": 0.003440740193808245,
+      "from": "+ sentences",
+      "points_per_times_the_read": 0.3290653380555977,
+      "times_the_read": 1.0456100342075256,
+      "to": "+ paragraphs"
+    },
+    {
+      "askable_gained": 0.0008443613411972528,
+      "from": "+ paragraphs",
+      "points_per_times_the_read": 0.08015314180930444,
+      "times_the_read": 1.0534351145038168,
+      "to": "+ the document"
+    }
+  ],
+  "label_collisions": {
+    "placed_in_document": 0,
+    "placed_in_paragraph": 0,
+    "placed_in_sentence": 0
+  },
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "paragraphs_read": 39,
+  "recorded": "2026-11-10",
+  "script": "test_what_each_scale_of_prose_buys.py",
+  "sentences": 120,
+  "sentences_read": 120,
+  "spans": 2572
+}

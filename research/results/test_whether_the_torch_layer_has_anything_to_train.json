@@ -1,0 +1,253 @@
+{
+  "by_setting": {
+    "0.001/0.25": {
+      "answered": 1.0,
+      "any_negative": 0.0,
+      "draws": 20,
+      "far": 0.001,
+      "mean_row_sum": 0.9884157345953248,
+      "noise": 0.25,
+      "noise_query_refused": 1.0,
+      "right": 1.0
+    },
+    "0.001/1.0": {
+      "answered": 1.0,
+      "any_negative": 0.0,
+      "draws": 20,
+      "far": 0.001,
+      "mean_row_sum": 0.8624358576957502,
+      "noise": 1.0,
+      "noise_query_refused": 1.0,
+      "right": 1.0
+    },
+    "0.001/16.0": {
+      "answered": 0.15,
+      "any_negative": 0.0,
+      "draws": 20,
+      "far": 0.001,
+      "mean_row_sum": 0.03154961772989197,
+      "noise": 16.0,
+      "noise_query_refused": 1.0,
+      "right": 0.15
+    },
+    "0.001/32.0": {
+      "answered": 0.0,
+      "any_negative": 0.0,
+      "draws": 20,
+      "far": 0.001,
+      "mean_row_sum": 0.0,
+      "noise": 32.0,
+      "noise_query_refused": 1.0,
+      "right": 0.0
+    },
+    "0.001/4.0": {
+      "answered": 1.0,
+      "any_negative": 0.0,
+      "draws": 20,
+      "far": 0.001,
+      "mean_row_sum": 0.3981509617408777,
+      "noise": 4.0,
+      "noise_query_refused": 0.95,
+      "right": 1.0
+    },
+    "0.001/64.0": {
+      "answered": 0.0,
+      "any_negative": 0.0,
+      "draws": 20,
+      "far": 0.001,
+      "mean_row_sum": 0.0,
+      "noise": 64.0,
+      "noise_query_refused": 1.0,
+      "right": 0.0
+    },
+    "0.001/8.0": {
+      "answered": 0.5,
+      "any_negative": 0.0,
+      "draws": 20,
+      "far": 0.001,
+      "mean_row_sum": 0.12506615689220224,
+      "noise": 8.0,
+      "noise_query_refused": 1.0,
+      "right": 0.5
+    },
+    "0.01/0.25": {
+      "answered": 1.0,
+      "any_negative": 0.05,
+      "draws": 20,
+      "far": 0.01,
+      "mean_row_sum": 0.9876206619767851,
+      "noise": 0.25,
+      "noise_query_refused": 0.8,
+      "right": 1.0
+    },
+    "0.01/1.0": {
+      "answered": 1.0,
+      "any_negative": 0.0,
+      "draws": 20,
+      "far": 0.01,
+      "mean_row_sum": 0.8678208928556472,
+      "noise": 1.0,
+      "noise_query_refused": 0.85,
+      "right": 1.0
+    },
+    "0.01/16.0": {
+      "answered": 0.5,
+      "any_negative": 0.0,
+      "draws": 20,
+      "far": 0.01,
+      "mean_row_sum": 0.08690469691528879,
+      "noise": 16.0,
+      "noise_query_refused": 0.95,
+      "right": 0.45
+    },
+    "0.01/32.0": {
+      "answered": 0.0,
+      "any_negative": 0.0,
+      "draws": 20,
+      "far": 0.01,
+      "mean_row_sum": 0.0,
+      "noise": 32.0,
+      "noise_query_refused": 0.95,
+      "right": 0.0
+    },
+    "0.01/4.0": {
+      "answered": 1.0,
+      "any_negative": 0.05,
+      "draws": 20,
+      "far": 0.01,
+      "mean_row_sum": 0.4122616020100918,
+      "noise": 4.0,
+      "noise_query_refused": 1.0,
+      "right": 1.0
+    },
+    "0.01/64.0": {
+      "answered": 0.1,
+      "any_negative": 0.05,
+      "draws": 20,
+      "far": 0.01,
+      "mean_row_sum": -2.0854215099745667e-05,
+      "noise": 64.0,
+      "noise_query_refused": 0.95,
+      "right": 0.05
+    },
+    "0.01/8.0": {
+      "answered": 0.8,
+      "any_negative": 0.0,
+      "draws": 20,
+      "far": 0.01,
+      "mean_row_sum": 0.1837560265029802,
+      "noise": 8.0,
+      "noise_query_refused": 0.95,
+      "right": 0.8
+    },
+    "0.05/0.25": {
+      "answered": 1.0,
+      "any_negative": 0.05,
+      "draws": 20,
+      "far": 0.05,
+      "mean_row_sum": 0.9890848043559352,
+      "noise": 0.25,
+      "noise_query_refused": 0.6,
+      "right": 1.0
+    },
+    "0.05/1.0": {
+      "answered": 1.0,
+      "any_negative": 0.25,
+      "draws": 20,
+      "far": 0.05,
+      "mean_row_sum": 0.856515477060382,
+      "noise": 1.0,
+      "noise_query_refused": 0.7,
+      "right": 1.0
+    },
+    "0.05/16.0": {
+      "answered": 0.65,
+      "any_negative": 0.05,
+      "draws": 20,
+      "far": 0.05,
+      "mean_row_sum": 0.09518491085786102,
+      "noise": 16.0,
+      "noise_query_refused": 0.6,
+      "right": 0.55
+    },
+    "0.05/32.0": {
+      "answered": 0.5,
+      "any_negative": 0.1,
+      "draws": 20,
+      "far": 0.05,
+      "mean_row_sum": 0.05011156329265524,
+      "noise": 32.0,
+      "noise_query_refused": 0.7,
+      "right": 0.2
+    },
+    "0.05/4.0": {
+      "answered": 1.0,
+      "any_negative": 0.3,
+      "draws": 20,
+      "far": 0.05,
+      "mean_row_sum": 0.39965254979559894,
+      "noise": 4.0,
+      "noise_query_refused": 0.8,
+      "right": 1.0
+    },
+    "0.05/64.0": {
+      "answered": 0.25,
+      "any_negative": 0.2,
+      "draws": 20,
+      "far": 0.05,
+      "mean_row_sum": -0.016447764540027287,
+      "noise": 64.0,
+      "noise_query_refused": 0.65,
+      "right": 0.0
+    },
+    "0.05/8.0": {
+      "answered": 1.0,
+      "any_negative": 0.1,
+      "draws": 20,
+      "far": 0.05,
+      "mean_row_sum": 0.23077231294822198,
+      "noise": 8.0,
+      "noise_query_refused": 0.8,
+      "right": 0.95
+    }
+  },
+  "draws": 20,
+  "far": [
+    0.05,
+    0.01,
+    0.001
+  ],
+  "keys": 6,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "multihead": {
+    "buffer_elements": 0,
+    "buffers": 0,
+    "parameter_elements": 1088,
+    "parameters": 4,
+    "requires_grad": true
+  },
+  "noise": [
+    0.25,
+    1.0,
+    4.0,
+    8.0,
+    16.0,
+    32.0,
+    64.0
+  ],
+  "ours": {
+    "buffer_elements": 0,
+    "buffers": 0,
+    "parameter_elements": 0,
+    "parameters": 0,
+    "requires_grad": false
+  },
+  "rank": 3,
+  "recorded": "2026-11-10",
+  "script": "test_whether_the_torch_layer_has_anything_to_train.py",
+  "steps": 24,
+  "width": 16
+}

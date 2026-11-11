@@ -1,0 +1,130 @@
+{
+  "design": {
+    "far": 0.05,
+    "window": 6,
+    "segment_sweep": [
+      32,
+      48,
+      64,
+      96,
+      128
+    ],
+    "random_pairs": 200,
+    "top_pairs": 200,
+    "seed": 20260915
+  },
+  "identity_component": {
+    "raw": {
+      "resolving": 302,
+      "total": 302,
+      "mean_rank": 1.4569536423841059,
+      "max_rank": 7
+    },
+    "baseline removed": {
+      "resolving": 193,
+      "total": 302,
+      "mean_rank": 0.7582781456953642,
+      "max_rank": 4
+    }
+  },
+  "segment_sweep": [
+    {
+      "segments": 32,
+      "resolving": 302,
+      "total": 302
+    },
+    {
+      "segments": 48,
+      "resolving": 302,
+      "total": 302
+    },
+    {
+      "segments": 64,
+      "resolving": 302,
+      "total": 302
+    },
+    {
+      "segments": 96,
+      "resolving": 302,
+      "total": 302
+    },
+    {
+      "segments": 128,
+      "resolving": 302,
+      "total": 302
+    }
+  ],
+  "collocations": {
+    "named": [
+      {
+        "pair": "mock/turtle",
+        "z": 9.69693429747557,
+        "tightness": 0.9939909676958347
+      },
+      {
+        "pair": "march/hare",
+        "z": 10.05933833927581,
+        "tightness": 0.981857154041743
+      },
+      {
+        "pair": "white/rabbit",
+        "z": 8.264106178586385,
+        "tightness": 0.9391914134902449
+      },
+      {
+        "pair": "gryphon/turtle",
+        "z": 7.327132916478342,
+        "tightness": 0.990157430226609
+      },
+      {
+        "pair": "alice/said",
+        "z": 10.370121255474738,
+        "tightness": 0.7554262761351932
+      }
+    ],
+    "random": {
+      "n": 200,
+      "mean": 1.0792420084763794,
+      "p95": 4.440605683161046
+    }
+  },
+  "axis_dial": [
+    {
+      "text": "alice",
+      "pairs": 4465,
+      "axis_related": -0.0077998378774098796,
+      "axis_median": -0.012121056641545773,
+      "axis_separation": 0.004321218764135893,
+      "profile_related": 0.904185220778275,
+      "profile_separation": 0.12144839739865121
+    },
+    {
+      "text": "moby",
+      "pairs": 30876,
+      "axis_related": 0.07136218452181073,
+      "axis_median": 0.0028592448428123264,
+      "axis_separation": 0.0685029396789984,
+      "profile_related": 0.9677853814972456,
+      "profile_separation": 0.11308911733468685
+    }
+  ],
+  "second_order": [
+    {
+      "text": "alice",
+      "questions": 6,
+      "random": 0.125,
+      "subspace": 0.3333333333333333,
+      "vector_cosine": 0.5,
+      "first_order_pmi": 0.16666666666666666
+    },
+    {
+      "text": "moby",
+      "questions": 111,
+      "random": 0.125,
+      "subspace": 0.2972972972972973,
+      "vector_cosine": 0.6396396396396397,
+      "first_order_pmi": 0.3063063063063063
+    }
+  ],
+  "seconds": 55.88186597824097
+}

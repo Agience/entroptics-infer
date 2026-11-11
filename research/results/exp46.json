@@ -1,0 +1,112 @@
+{
+  "design": {
+    "far": 0.05,
+    "seed": 20260915,
+    "queries": 120,
+    "candidates": 12,
+    "draws": 24,
+    "smoke": false
+  },
+  "tasks": [
+    {
+      "task": "same activity",
+      "asked": 120,
+      "chance": 0.08333333333333333,
+      "scores": {
+        "association": 0.175,
+        "association, corrected null": 0.058333333333333334,
+        "cos": 0.23333333333333334,
+        "random": 0.075
+      },
+      "association, corrected null minus association": -0.11666666666666667,
+      "association, corrected null minus association, in paired standard errors": -3.44612300236863,
+      "cos minus association": 0.058333333333333334,
+      "cos minus association, in paired standard errors": 2.3781661217864496,
+      "corrected minus cos": -0.175,
+      "corrected minus cos, in paired standard errors": -4.5285339972364795,
+      "arm": "raw",
+      "row_autocorrelation": 0.6600366314151274
+    },
+    {
+      "task": "same subject",
+      "asked": 120,
+      "chance": 0.08333333333333333,
+      "scores": {
+        "association": 0.10833333333333334,
+        "association, corrected null": 0.1,
+        "cos": 0.1,
+        "random": 0.075
+      },
+      "association, corrected null minus association": -0.008333333333333333,
+      "association, corrected null minus association, in paired standard errors": -0.33209532224707317,
+      "cos minus association": -0.008333333333333333,
+      "cos minus association, in paired standard errors": -0.5757398050506645,
+      "corrected minus cos": 0.0,
+      "corrected minus cos, in paired standard errors": 0.0,
+      "arm": "raw",
+      "row_autocorrelation": 0.6600366314151274
+    },
+    {
+      "task": "same activity",
+      "asked": 120,
+      "chance": 0.08333333333333333,
+      "scores": {
+        "association": 0.23333333333333334,
+        "association, corrected null": 0.15,
+        "cos": 0.25,
+        "random": 0.075
+      },
+      "association, corrected null minus association": -0.08333333333333333,
+      "association, corrected null minus association, in paired standard errors": -2.164495176727992,
+      "cos minus association": 0.016666666666666666,
+      "cos minus association, in paired standard errors": 1.0,
+      "corrected minus cos": -0.1,
+      "corrected minus cos, in paired standard errors": -2.50263019536184,
+      "arm": "corpus mean removed",
+      "row_autocorrelation": 0.701123503259175
+    },
+    {
+      "task": "same subject",
+      "asked": 120,
+      "chance": 0.08333333333333333,
+      "scores": {
+        "association": 0.1,
+        "association, corrected null": 0.10833333333333334,
+        "cos": 0.08333333333333333,
+        "random": 0.075
+      },
+      "association, corrected null minus association": 0.008333333333333333,
+      "association, corrected null minus association, in paired standard errors": 0.33209532224707333,
+      "cos minus association": -0.016666666666666666,
+      "cos minus association, in paired standard errors": -1.420193350407744,
+      "corrected minus cos": 0.025,
+      "corrected minus cos, in paired standard errors": 1.0000000000000002,
+      "arm": "corpus mean removed",
+      "row_autocorrelation": 0.701123503259175
+    }
+  ],
+  "tasks_where_correcting_the_null_moved_the_score": 2,
+  "tasks_scored": 4,
+  "surrogate_spread": {
+    "pairs": 25,
+    "spread_for_pairs_sharing_an_activity": 3.8603041844700976,
+    "spread_for_pairs_that_do_not": 1.6755469649231285,
+    "ratio": 2.3039068825189286
+  },
+  "surrogate_spread_by_arm": {
+    "raw": {
+      "pairs": 25,
+      "spread_for_pairs_sharing_an_activity": 3.8603041844700976,
+      "spread_for_pairs_that_do_not": 1.6755469649231285,
+      "ratio": 2.3039068825189286
+    },
+    "corpus mean removed": {
+      "pairs": 25,
+      "spread_for_pairs_sharing_an_activity": 4.548006414049544,
+      "spread_for_pairs_that_do_not": 2.0679085227971647,
+      "ratio": 2.1993266935704026
+    }
+  },
+  "largest_move_in_paired_standard_errors": 3.44612300236863,
+  "seconds": 86.6210105419159
+}

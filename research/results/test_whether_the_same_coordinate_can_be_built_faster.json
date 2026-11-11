@@ -1,0 +1,64 @@
+{
+  "by_store": {
+    "ontology": {
+      "axes": 284,
+      "cells": 42600,
+      "cells_differing": 0,
+      "cells_differing_held_out": 0,
+      "cells_held_out": 41869,
+      "neighbours_offered": 4355,
+      "neighbours_offered_per_start": 29.033333333333335,
+      "settled_per_start": 4.12,
+      "statements": 84,
+      "vertices": 150,
+      "worst_cell": 0.0,
+      "worst_cell_held_out": 0.0
+    },
+    "prose spans": {
+      "axes": 7541,
+      "cells": 24862677,
+      "cells_differing": 0,
+      "cells_differing_held_out": 0,
+      "cells_held_out": 24837710,
+      "neighbours_offered": 2069322,
+      "neighbours_offered_per_start": 627.6378525932666,
+      "settled_per_start": 4.230512587200486,
+      "statements": 2572,
+      "vertices": 3297,
+      "worst_cell": 0.0,
+      "worst_cell_held_out": 0.0
+    },
+    "prose, two scales": {
+      "axes": 12854,
+      "cells": 72753640,
+      "cells_differing": 0,
+      "cells_differing_held_out": 0,
+      "cells_held_out": 72723809,
+      "neighbours_offered": 7404138,
+      "neighbours_offered_per_start": 1308.151590106007,
+      "settled_per_start": 4.240282685512367,
+      "statements": 4814,
+      "vertices": 5660,
+      "worst_cell": 0.0,
+      "worst_cell_held_out": 0.0
+    }
+  },
+  "cells_in_all": 97658917,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "script": "test_whether_the_same_coordinate_can_be_built_faster.py",
+  "timings": {
+    "ontology": {
+      "seconds_for_the_coordinate": 0.005359826143831015
+    },
+    "prose spans": {
+      "seconds_for_the_coordinate": 1.483763316180557
+    },
+    "prose, two scales": {
+      "seconds_for_the_coordinate": 4.387569282203913
+    }
+  }
+}

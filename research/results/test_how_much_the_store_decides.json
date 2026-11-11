@@ -1,0 +1,31 @@
+{
+  "askable": 68,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "script": "test_how_much_the_store_decides.py",
+  "statements": 84,
+  "subsets": {
+    "1 in 4": {
+      "askable": 43.083333333333336,
+      "dropped_one_in": 4,
+      "high": 0.3409090909090909,
+      "low": 0.14285714285714285,
+      "median": 0.2563685636856369,
+      "statements": 63.0,
+      "subsets": 12
+    },
+    "1 in 8": {
+      "askable": 55.0,
+      "dropped_one_in": 8,
+      "high": 0.32727272727272727,
+      "low": 0.17543859649122806,
+      "median": 0.27518593644354294,
+      "statements": 74.0,
+      "subsets": 12
+    }
+  },
+  "whole_store": 0.27941176470588236
+}

@@ -1,0 +1,52 @@
+{
+  "a_carried_nothing_ordering_would_sit_at": 806.5,
+  "asked": 1601,
+  "bodies": [
+    "0869a1657e5f8871.txt",
+    "7bdb16e90e9d083f.txt",
+    "9ec00bbb6eee46d4.txt",
+    "a4d0344a81eeba23.txt",
+    "cc5a6b513af13800.txt",
+    "f5e6c04c26342578.txt"
+  ],
+  "by_arm": {
+    "counting": {
+      "candidates": 1612,
+      "mean_reciprocal_rank": 0.26338589776573873,
+      "median_rank": 15.0,
+      "questions": 1601,
+      "top_1": 0.16989381636477202,
+      "top_10": 0.45034353529044346,
+      "top_5": 0.3641474078700812,
+      "top_50": 0.6483447845096815
+    },
+    "the read": {
+      "candidates": 1612,
+      "mean_reciprocal_rank": 0.1573393813656093,
+      "median_rank": 218.0,
+      "questions": 1601,
+      "top_1": 0.10930668332292318,
+      "top_10": 0.24734540911930045,
+      "top_5": 0.20174890693316677,
+      "top_50": 0.3504059962523423
+    }
+  },
+  "candidates": 1612,
+  "depths": [
+    1,
+    5,
+    10,
+    50
+  ],
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "questions": 2000,
+  "recorded": "2026-11-10",
+  "script": "test_where_the_right_token_sits_when_the_read_misses.py",
+  "seed": 0,
+  "sentences": 800,
+  "tokens": 1613,
+  "train_spans": 10408
+}

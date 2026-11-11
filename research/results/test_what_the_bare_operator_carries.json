@@ -1,0 +1,45 @@
+{
+  "by_count": {
+    "200": {
+      "a_draw_in_the_group": 0.24034364261168384,
+      "a_draw_would": 0.02960837266629573,
+      "count": 200,
+      "in_the_right_group": 0.9133709981167608,
+      "once_in_the_group": 0.2556701030927835,
+      "p": 1.367255770797073e-71,
+      "pool": 33.8060263653484,
+      "questions": 531,
+      "right": 0.2335216572504708,
+      "right_count": 124,
+      "times_the_draw": 7.8870142537856145,
+      "times_the_draw_in_the_group": 1.0637689448098369,
+      "where_the_truth_ranks": 0.10914823412893718
+    },
+    "320": {
+      "a_draw_in_the_group": 0.2716666666666667,
+      "a_draw_would": 0.02999266529580751,
+      "count": 320,
+      "in_the_right_group": 0.9640102827763496,
+      "once_in_the_group": 0.264,
+      "p": 9.768243718497046e-120,
+      "pool": 33.38046272493573,
+      "questions": 778,
+      "right": 0.2544987146529563,
+      "right_count": 198,
+      "times_the_draw": 8.485365076525264,
+      "times_the_draw_in_the_group": 0.9717791411042943,
+      "where_the_truth_ranks": 0.07376259525174725
+    }
+  },
+  "counts": [
+    200,
+    320
+  ],
+  "draws": 3,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "script": "test_what_the_bare_operator_carries.py"
+}

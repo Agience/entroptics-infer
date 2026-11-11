@@ -1,0 +1,34 @@
+{
+  "body": "0869a1657e5f8871.txt",
+  "collisions_across_the_ladder": {
+    "placed_in_document": 0,
+    "placed_in_paragraph": 0,
+    "placed_in_sentence": 0
+  },
+  "concepts": 846,
+  "every_rung_identical": true,
+  "extents_match_what_corpus_reports": true,
+  "ingestion_extents": {
+    "2": 1250,
+    "3": 1284,
+    "4": 38
+  },
+  "ingestion_paragraphs": 39,
+  "ingestion_placings": 2242,
+  "ingestion_sentences": 120,
+  "ingestion_spans": 2572,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "placings_identical": true,
+  "recorded": "2026-11-10",
+  "relations": 117,
+  "research_placings": 2242,
+  "research_spans": 2572,
+  "script": "test_whether_the_shipped_ingestion_writes_the_measured_store.py",
+  "sentences": 120,
+  "sentences_match": true,
+  "spans_identical": true,
+  "vertices": 5660
+}

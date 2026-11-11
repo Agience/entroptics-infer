@@ -1,0 +1,102 @@
+{
+  "design": {
+    "far": 0.05,
+    "seed": 5,
+    "sources": 16,
+    "questions": 80,
+    "draws": 250,
+    "arrivals": [
+      "alpha",
+      "beta",
+      "gamma",
+      "delta"
+    ],
+    "smoke": false
+  },
+  "steps": [
+    {
+      "arrived": [
+        "alpha",
+        "beta"
+      ],
+      "counted": 2,
+      "declared": 2,
+      "counted_right": true,
+      "answered": 34,
+      "asked_answerable": 37,
+      "answers_that_moved": 0,
+      "moved": [],
+      "separations": {
+        "alpha": 7.363272057535564,
+        "beta": 9.453827442253989
+      },
+      "records": 48
+    },
+    {
+      "arrived": [
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "counted": 3,
+      "declared": 3,
+      "counted_right": true,
+      "answered": 50,
+      "asked_answerable": 55,
+      "answers_that_moved": 0,
+      "moved": [],
+      "separations": {
+        "alpha": 8.387456072338736,
+        "beta": 10.765901868998295,
+        "gamma": 6.265171369210701
+      },
+      "records": 64
+    },
+    {
+      "arrived": [
+        "alpha",
+        "beta",
+        "gamma",
+        "delta"
+      ],
+      "counted": 4,
+      "declared": 4,
+      "counted_right": true,
+      "answered": 71,
+      "asked_answerable": 80,
+      "answers_that_moved": 0,
+      "moved": [],
+      "separations": {
+        "alpha": 4.781351320566165,
+        "beta": 6.143573654577665,
+        "gamma": 3.5658417530190234,
+        "delta": 6.870241210405346
+      },
+      "records": 80
+    }
+  ],
+  "arrivals_measured": 3,
+  "steps_where_the_count_is_right": 3,
+  "answers_that_moved": 0,
+  "the_count_never_went_backwards": true,
+  "drift_of_the_relations_already_present": {
+    "alpha": {
+      "first": 7.363272057535564,
+      "last": 4.781351320566165,
+      "widest_move": 3.6061047517725715,
+      "still_present_throughout": true
+    },
+    "beta": {
+      "first": 9.453827442253989,
+      "last": 6.143573654577665,
+      "widest_move": 4.62232821442063,
+      "still_present_throughout": true
+    }
+  },
+  "widest_move_of_an_existing_relation": 4.62232821442063,
+  "records_at_the_first_step": 48,
+  "records_at_the_last_step": 80,
+  "answered_at_the_first_step": 34,
+  "answered_at_the_last_step": 71,
+  "seconds": 13.347992420196533
+}

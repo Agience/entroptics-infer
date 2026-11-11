@@ -1,0 +1,76 @@
+{
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "same_method": {
+    "concepts": 66,
+    "largest_coordinate_difference": 0.0,
+    "largest_landing_difference": 0.0,
+    "largest_operator_difference": 0.0,
+    "relations_both_refused": 1,
+    "relations_compared": 5,
+    "relations_disagreeing_on_refusal": 0,
+    "statements": 84
+  },
+  "script": "test_whether_the_shipped_engine_reads_what_the_research_one_reads.py",
+  "through_the_lattice": {
+    "answers": [
+      {
+        "agree": true,
+        "in_memory": "mammal",
+        "pool": 65,
+        "reached": 12,
+        "relation": "is_a",
+        "source": "dog",
+        "the_store_states_it": false,
+        "through_the_lattice": "mammal"
+      },
+      {
+        "agree": true,
+        "in_memory": "ocean",
+        "pool": 65,
+        "reached": 6,
+        "relation": "lives_in",
+        "source": "salmon",
+        "the_store_states_it": false,
+        "through_the_lattice": "ocean"
+      },
+      {
+        "agree": true,
+        "in_memory": "place",
+        "pool": 65,
+        "reached": 12,
+        "relation": "is_a",
+        "source": "oak",
+        "the_store_states_it": false,
+        "through_the_lattice": "place"
+      },
+      {
+        "agree": true,
+        "in_memory": "cutting",
+        "pool": 65,
+        "reached": 2,
+        "relation": "used_for",
+        "source": "hammer",
+        "the_store_states_it": false,
+        "through_the_lattice": "cutting"
+      },
+      {
+        "agree": true,
+        "in_memory": null,
+        "pool": 65,
+        "reached": 16,
+        "relation": "part_of",
+        "source": "wheel",
+        "the_store_states_it": false,
+        "through_the_lattice": null
+      }
+    ],
+    "edges_counted": 252,
+    "edges_written": 252,
+    "statements_read_back": 84,
+    "the_store_survived": true
+  }
+}

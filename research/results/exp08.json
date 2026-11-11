@@ -1,0 +1,69 @@
+{
+  "texts": [
+    {
+      "name": "alice",
+      "questions": 163,
+      "scores": {
+        "random": 0.125,
+        "pmi_sum": 0.25153374233128833,
+        "pmi_max": 0.25153374233128833,
+        "pmi_mean": 0.25153374233128833,
+        "z_sum": 0.1901840490797546,
+        "breadth": 0.1656441717791411,
+        "breadth_then_z": 0.1901840490797546,
+        "colimit": 0.12269938650306748
+      },
+      "join_dim_mean": 2.3435582822085887,
+      "join_dim_range": [
+        2,
+        5
+      ],
+      "best_count": 0.25153374233128833,
+      "best_association": 0.1901840490797546,
+      "edge": -0.06134969325153372,
+      "design": {
+        "n_candidates": 8,
+        "context": 6,
+        "far": 0.05,
+        "seed": 20260915,
+        "segments": 16,
+        "n_features": 128,
+        "min_count": 20,
+        "readable_vocabulary": 19
+      }
+    },
+    {
+      "name": "moby-dick",
+      "questions": 250,
+      "scores": {
+        "random": 0.125,
+        "pmi_sum": 0.288,
+        "pmi_max": 0.24,
+        "pmi_mean": 0.288,
+        "z_sum": 0.236,
+        "breadth": 0.128,
+        "breadth_then_z": 0.16,
+        "colimit": 0.14
+      },
+      "join_dim_mean": 4.64,
+      "join_dim_range": [
+        2,
+        12
+      ],
+      "best_count": 0.288,
+      "best_association": 0.236,
+      "edge": -0.05199999999999999,
+      "design": {
+        "n_candidates": 8,
+        "context": 6,
+        "far": 0.05,
+        "seed": 20260915,
+        "segments": 48,
+        "n_features": 192,
+        "min_count": 40,
+        "readable_vocabulary": 144
+      }
+    }
+  ],
+  "seconds": 98.74765491485596
+}

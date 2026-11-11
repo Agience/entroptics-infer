@@ -1,0 +1,79 @@
+{
+  "between_the_prose_stores": {
+    "rows_a_read_needs_grew": 0.16850828729281764,
+    "vertices_grew": 0.7174506828528073
+  },
+  "by_store": {
+    "ontology": {
+      "candidates": 66,
+      "cells": 37092,
+      "cells_differing": 0,
+      "share": 0.4429530201342282,
+      "statements": 84,
+      "steps_all_rows": 4257,
+      "steps_only": 1267,
+      "steps_saved": 0.7023725628376791,
+      "times_less_work": 3.3599052880820834,
+      "touched": 66,
+      "vertices": 149,
+      "worst_cell": 0.0
+    },
+    "prose spans": {
+      "candidates": 724,
+      "cells": 10915024,
+      "cells_differing": 0,
+      "share": 0.21972685887708648,
+      "statements": 2572,
+      "steps_all_rows": 2067999,
+      "steps_only": 58951,
+      "steps_saved": 0.9714936999485977,
+      "times_less_work": 35.07996471645943,
+      "touched": 724,
+      "vertices": 3295,
+      "worst_cell": 0.0
+    },
+    "prose, two scales": {
+      "candidates": 846,
+      "cells": 21743892,
+      "cells_differing": 0,
+      "share": 0.14949637745184663,
+      "statements": 4814,
+      "steps_all_rows": 7405298,
+      "steps_only": 33047,
+      "steps_saved": 0.9955373841808932,
+      "times_less_work": 224.08382001391956,
+      "touched": 846,
+      "vertices": 5659,
+      "worst_cell": 0.0
+    }
+  },
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "script": "test_what_a_read_actually_touches.py",
+  "timings": {
+    "ontology": {
+      "all_rows_seconds": 0.00413301819935441,
+      "only_and_array_seconds": 0.002119768876582384,
+      "only_seconds": 0.002084511797875166,
+      "times_faster": 1.9827271803246096,
+      "times_faster_both": 1.9497494491087655
+    },
+    "prose spans": {
+      "all_rows_seconds": 0.9641439649276435,
+      "only_and_array_seconds": 0.09172374615445733,
+      "only_seconds": 0.10330158192664385,
+      "times_faster": 9.333293323739206,
+      "times_faster_both": 10.511388875287349
+    },
+    "prose, two scales": {
+      "all_rows_seconds": 2.689312422182411,
+      "only_and_array_seconds": 0.11547474004328251,
+      "only_seconds": 0.12365867896005511,
+      "times_faster": 21.747866343058114,
+      "times_faster_both": 23.289183601317454
+    }
+  }
+}

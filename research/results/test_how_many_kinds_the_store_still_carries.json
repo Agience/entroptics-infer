@@ -1,0 +1,37 @@
+{
+  "closest_pair": 0.013043104981792817,
+  "draws": 50,
+  "how_aligned": {
+    "is_a and lives_in": 0.00794370256544002,
+    "is_a and part_of": 0.013043104981792817,
+    "is_a and used_for": -0.0005285275037657487,
+    "lives_in and part_of": -0.0009012249137547994,
+    "lives_in and used_for": -0.0021997863628575127,
+    "part_of and used_for": 0.012387904711094737
+  },
+  "kinds": 3.999214922539192,
+  "left_out": 2,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "p": 0.0196078431372549,
+  "recorded": "2026-11-10",
+  "relations": 4,
+  "script": "test_how_many_kinds_the_store_still_carries.py",
+  "singular_values": {
+    "1": 1.0090074213432294,
+    "2": 1.003658956597598,
+    "3": 0.996815096818947,
+    "4": 0.9904203073794211
+  },
+  "statements": 84,
+  "the_null": 3.8820848459550645,
+  "the_null_at_its_widest": 3.9331279841863918,
+  "the_null_widest_at": {
+    "1": 1.1559676532707517,
+    "2": 1.0226330397390517,
+    "3": 0.976442657495573,
+    "4": 0.9402904215542883
+  }
+}

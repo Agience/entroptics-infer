@@ -1,0 +1,68 @@
+{
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "script": "test_inference_on_a_partly_stated_structure.py",
+  "shares": {
+    "0.2": {
+      "asked": 537,
+      "floor": 0.13573915453619534,
+      "read": 0.9441340782122905,
+      "repaired": 0.2346368715083799,
+      "share": 0.2,
+      "statements": 126.8
+    },
+    "0.4": {
+      "asked": 535,
+      "floor": 0.10382927433039157,
+      "read": 0.9962616822429906,
+      "repaired": 0.2411214953271028,
+      "share": 0.4,
+      "statements": 259.0
+    },
+    "0.6": {
+      "asked": 505,
+      "floor": 0.07489135410559218,
+      "read": 1.0,
+      "repaired": 0.2633663366336634,
+      "share": 0.6,
+      "statements": 383.2
+    },
+    "0.8": {
+      "asked": 386,
+      "floor": 0.05120565719032207,
+      "read": 1.0,
+      "repaired": 0.23834196891191708,
+      "share": 0.8,
+      "statements": 502.4
+    }
+  },
+  "shares_paired": {
+    "0.2": {
+      "losses": 6,
+      "p": 4.958620669195304e-106,
+      "questions": 537,
+      "wins": 387
+    },
+    "0.4": {
+      "losses": 0,
+      "p": 4.840739893561648e-122,
+      "questions": 535,
+      "wins": 404
+    },
+    "0.6": {
+      "losses": 0,
+      "p": 2.07908195312898e-112,
+      "questions": 505,
+      "wins": 372
+    },
+    "0.8": {
+      "losses": 0,
+      "p": 6.28363963558109e-89,
+      "questions": 386,
+      "wins": 294
+    }
+  }
+}

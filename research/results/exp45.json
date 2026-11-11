@@ -1,0 +1,290 @@
+{
+  "design": {
+    "far": 0.05,
+    "seed": 5,
+    "rows": 125,
+    "channels": 16,
+    "rhos": [
+      0.0,
+      0.3,
+      0.6,
+      0.8,
+      0.9,
+      0.95,
+      0.99
+    ],
+    "pairs": 400,
+    "draws": 300,
+    "smoke": false
+  },
+  "cutoff": 1.9599639845400543,
+  "cells": [
+    {
+      "rho": 0.0,
+      "as_stated": 0.045,
+      "with_the_decoupled_null": 0.055,
+      "mean_abs_z": 0.7877812665591051,
+      "surrogate_mean": 0.0818334518360268,
+      "surrogate_spread": 0.9292664111963905,
+      "excess_in_spreads": -0.458831467741124,
+      "level_is_delivered": true
+    },
+    {
+      "rho": 0.3,
+      "as_stated": 0.0725,
+      "with_the_decoupled_null": 0.045,
+      "mean_abs_z": 0.833979250028147,
+      "surrogate_mean": 0.07716672441497406,
+      "surrogate_spread": 1.081362137243449,
+      "excess_in_spreads": 2.064741604835055,
+      "level_is_delivered": false
+    },
+    {
+      "rho": 0.6,
+      "as_stated": 0.165,
+      "with_the_decoupled_null": 0.0475,
+      "mean_abs_z": 1.1804329957015924,
+      "surrogate_mean": -0.10848018056133407,
+      "surrogate_spread": 1.4648341712147368,
+      "excess_in_spreads": 10.553123758045842,
+      "level_is_delivered": false
+    },
+    {
+      "rho": 0.8,
+      "as_stated": 0.35,
+      "with_the_decoupled_null": 0.025,
+      "mean_abs_z": 1.6399645635496314,
+      "surrogate_mean": 0.17193143173283493,
+      "surrogate_spread": 2.3040838794621155,
+      "excess_in_spreads": 27.52988806446741,
+      "level_is_delivered": false
+    },
+    {
+      "rho": 0.9,
+      "as_stated": 0.4875,
+      "with_the_decoupled_null": 0.0625,
+      "mean_abs_z": 2.2800536413209795,
+      "surrogate_mean": 0.0782287707433026,
+      "surrogate_spread": 2.7106439269375135,
+      "excess_in_spreads": 40.14775342734831,
+      "level_is_delivered": false
+    },
+    {
+      "rho": 0.95,
+      "as_stated": 0.6525,
+      "with_the_decoupled_null": 0.0575,
+      "mean_abs_z": 3.266557454697315,
+      "surrogate_mean": 0.16664603213199386,
+      "surrogate_spread": 3.749719312565142,
+      "excess_in_spreads": 55.28919186280538,
+      "level_is_delivered": false
+    },
+    {
+      "rho": 0.99,
+      "as_stated": 0.7475,
+      "with_the_decoupled_null": 0.065,
+      "mean_abs_z": 4.360507116300938,
+      "surrogate_mean": -0.27990077306985217,
+      "surrogate_spread": 4.792882642397403,
+      "excess_in_spreads": 64.00698974988674,
+      "level_is_delivered": false
+    }
+  ],
+  "power": [
+    {
+      "rho": 0.0,
+      "shared": 0.0,
+      "as_stated": 0.06,
+      "with_the_decoupled_null": 0.07
+    },
+    {
+      "rho": 0.0,
+      "shared": 0.3,
+      "as_stated": 1.0,
+      "with_the_decoupled_null": 1.0
+    },
+    {
+      "rho": 0.0,
+      "shared": 0.6,
+      "as_stated": 1.0,
+      "with_the_decoupled_null": 1.0
+    },
+    {
+      "rho": 0.0,
+      "shared": 1.0,
+      "as_stated": 1.0,
+      "with_the_decoupled_null": 1.0
+    },
+    {
+      "rho": 0.6,
+      "shared": 0.0,
+      "as_stated": 0.18,
+      "with_the_decoupled_null": 0.095
+    },
+    {
+      "rho": 0.6,
+      "shared": 0.3,
+      "as_stated": 1.0,
+      "with_the_decoupled_null": 1.0
+    },
+    {
+      "rho": 0.6,
+      "shared": 0.6,
+      "as_stated": 1.0,
+      "with_the_decoupled_null": 1.0
+    },
+    {
+      "rho": 0.6,
+      "shared": 1.0,
+      "as_stated": 1.0,
+      "with_the_decoupled_null": 1.0
+    },
+    {
+      "rho": 0.9,
+      "shared": 0.0,
+      "as_stated": 0.545,
+      "with_the_decoupled_null": 0.09
+    },
+    {
+      "rho": 0.9,
+      "shared": 0.3,
+      "as_stated": 0.94,
+      "with_the_decoupled_null": 0.73
+    },
+    {
+      "rho": 0.9,
+      "shared": 0.6,
+      "as_stated": 1.0,
+      "with_the_decoupled_null": 1.0
+    },
+    {
+      "rho": 0.9,
+      "shared": 1.0,
+      "as_stated": 1.0,
+      "with_the_decoupled_null": 1.0
+    }
+  ],
+  "corpora": [
+    {
+      "corpus": "curriculum: nursery",
+      "row_autocorrelation": 0.016543047225445667,
+      "realised_far_at_its_autocorrelation": 0.04651644599566585,
+      "inside_the_affected_regime": false
+    },
+    {
+      "corpus": "curriculum: kindergarten",
+      "row_autocorrelation": -0.0007923935913924025,
+      "realised_far_at_its_autocorrelation": 0.045,
+      "inside_the_affected_regime": false
+    },
+    {
+      "corpus": "curriculum: grade two",
+      "row_autocorrelation": -0.011869500144238135,
+      "realised_far_at_its_autocorrelation": 0.045,
+      "inside_the_affected_regime": false
+    },
+    {
+      "corpus": "curriculum: grade five",
+      "row_autocorrelation": -0.014694576744908677,
+      "realised_far_at_its_autocorrelation": 0.045,
+      "inside_the_affected_regime": false
+    },
+    {
+      "corpus": "exp12: synthetic off-axis",
+      "row_autocorrelation": -0.015455355506688003,
+      "realised_far_at_its_autocorrelation": 0.045,
+      "inside_the_affected_regime": false
+    },
+    {
+      "corpus": "exp12: synthetic mid",
+      "row_autocorrelation": -0.018478253980472783,
+      "realised_far_at_its_autocorrelation": 0.045,
+      "inside_the_affected_regime": false
+    },
+    {
+      "corpus": "exp12: synthetic on-axis",
+      "row_autocorrelation": -0.027230279939939706,
+      "realised_far_at_its_autocorrelation": 0.045,
+      "inside_the_affected_regime": false
+    },
+    {
+      "corpus": "exp12: triple corpus",
+      "row_autocorrelation": 0.010520532988241854,
+      "realised_far_at_its_autocorrelation": 0.045964382190588834,
+      "inside_the_affected_regime": false
+    },
+    {
+      "corpus": "exp12: alice",
+      "row_autocorrelation": -0.04664730538896591,
+      "realised_far_at_its_autocorrelation": 0.045,
+      "inside_the_affected_regime": false
+    },
+    {
+      "corpus": "exp12: moby-dick",
+      "row_autocorrelation": -0.006463307996726719,
+      "realised_far_at_its_autocorrelation": 0.045,
+      "inside_the_affected_regime": false
+    },
+    {
+      "corpus": "exp13: weather, raw",
+      "row_autocorrelation": 0.6768696490031713,
+      "realised_far_at_its_autocorrelation": 0.2361044253279334,
+      "inside_the_affected_regime": true
+    },
+    {
+      "corpus": "exp13: weather, national mean removed",
+      "row_autocorrelation": 0.226969723600612,
+      "realised_far_at_its_autocorrelation": 0.06580555799672276,
+      "inside_the_affected_regime": false
+    },
+    {
+      "corpus": "exp14: Beijing, raw",
+      "row_autocorrelation": 0.5423716163734024,
+      "realised_far_at_its_autocorrelation": 0.14723124838179907,
+      "inside_the_affected_regime": true
+    },
+    {
+      "corpus": "exp14: Beijing, centred",
+      "row_autocorrelation": 0.26321551762550227,
+      "realised_far_at_its_autocorrelation": 0.06912808911567103,
+      "inside_the_affected_regime": false
+    },
+    {
+      "corpus": "exp19: character inference, arm 1",
+      "row_autocorrelation": 0.6667779276857394,
+      "realised_far_at_its_autocorrelation": 0.22676958310930895,
+      "inside_the_affected_regime": true
+    },
+    {
+      "corpus": "exp19: character inference, arm 2",
+      "row_autocorrelation": 0.6645552186147295,
+      "realised_far_at_its_autocorrelation": 0.22471357721862484,
+      "inside_the_affected_regime": true
+    },
+    {
+      "corpus": "exp19: character inference, arm 3",
+      "row_autocorrelation": 0.707999936747675,
+      "realised_far_at_its_autocorrelation": 0.26489994149159934,
+      "inside_the_affected_regime": true
+    },
+    {
+      "corpus": "exp19: character inference, arm 4",
+      "row_autocorrelation": 0.7046694032870368,
+      "realised_far_at_its_autocorrelation": 0.26181919804050896,
+      "inside_the_affected_regime": true
+    }
+  ],
+  "stated_far": 0.05,
+  "realised_far_with_no_autocorrelation": 0.045,
+  "worst_realised_far": 0.7475,
+  "worst_realised_far_at_rho": 0.99,
+  "worst_realised_far_with_the_decoupled_null": 0.065,
+  "lowest_rho_measured": 0.0,
+  "affected_from_rho": 0.3,
+  "worst_realised_far_among_the_corpora_read_here": 0.26489994149159934,
+  "corpora_inside_the_affected_regime": 6,
+  "corpora_placed": 18,
+  "power_kept_at_full_sharing": 1.0,
+  "power_lost_at_weak_sharing": 0.73,
+  "seconds": 6.89188814163208
+}

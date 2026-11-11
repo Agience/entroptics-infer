@@ -1,0 +1,18 @@
+{
+  "by_file": {},
+  "measured_on": {
+    "numpy": "2.4.4",
+    "python": "3.12.10"
+  },
+  "modules": 15,
+  "numbers_left": 0,
+  "recorded": "2026-11-10",
+  "script": "test_what_constants_are_left_in_the_answer_path.py",
+  "structural_allowed": [
+    -1,
+    0,
+    0.5,
+    1,
+    2
+  ]
+}

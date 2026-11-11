@@ -1,0 +1,666 @@
+{
+  "sources": [
+    {
+      "url": "https://www.gutenberg.org/files/11/11-0.txt",
+      "sha256": "a3a27f8edbf7fcd9b8ba8435494440e24952deaa3e2f2d65192d4cb7ca403754",
+      "tokens": 27427
+    },
+    {
+      "url": "https://www.gutenberg.org/files/2701/2701-0.txt",
+      "sha256": "547de799c1643ef231cc1efe45ffccefcb876ff3fe8f2206e7488529ad08f999",
+      "tokens": 219054
+    },
+    {
+      "url": "https://www.gutenberg.org/files/1342/1342-0.txt",
+      "sha256": "81300b79e8a8d65ac530a97578417d06137e3bbc90622a10a65e5036183d2500",
+      "tokens": 128565
+    },
+    {
+      "url": "https://www.gutenberg.org/files/84/84-0.txt",
+      "sha256": "06c37d2c52d208d3d81eb12c3b10b5edbd7728b73554325ddceadbe2fb427e77",
+      "tokens": 75328
+    },
+    {
+      "url": "https://www.gutenberg.org/files/1661/1661-0.txt",
+      "sha256": "b9c105a5c0cf9fcb37c7d0211658851ed56074519c9455d15e20f04c0c5a3174",
+      "tokens": 108924
+    },
+    {
+      "url": "https://www.gutenberg.org/files/98/98-0.txt",
+      "sha256": "e3dfeb67feb904ac0f73a35204a175c58248422c2be8556802cb8820d958d67c",
+      "tokens": 138490
+    }
+  ],
+  "design": {
+    "far": 0.05,
+    "seed": 11,
+    "vocabulary": 1024,
+    "window": 8,
+    "co_window": 4,
+    "cones": [
+      2,
+      4,
+      8
+    ],
+    "scalings": [
+      "unit",
+      "shared"
+    ],
+    "cache": 8000,
+    "tests": 4000,
+    "quartiles": 4,
+    "smoke": false,
+    "word_positions": 697788
+  },
+  "cells": [
+    {
+      "basis": "one-hot",
+      "scaling": "n/a",
+      "window": 8,
+      "cone": 2,
+      "tests": 4000,
+      "mrr_operator": 0.15360924996696212,
+      "mrr_cosine": 0.18311690152076415,
+      "mrr_n_gram": 0.23758649754408037,
+      "mrr_unigram": 0.13646502073565198,
+      "mrr_rarity": 0.0036880079923881717,
+      "se_operator": 0.004650341978629379,
+      "se_cosine": 0.004788873622849313,
+      "se_n_gram": 0.005290852323205806,
+      "se_unigram": 0.0039719739949639,
+      "se_rarity": 0.0002445468909661074,
+      "operator_over_unigram": 0.01714422923131015,
+      "n_gram_over_unigram": 0.1011214768084284,
+      "rarest_operator": 0.011423272673605557,
+      "rarest_n_gram": 0.04299373705492321,
+      "rarest_rarity_control": 0.011739886124943694
+    },
+    {
+      "basis": "one-hot",
+      "scaling": "n/a",
+      "window": 8,
+      "cone": 4,
+      "tests": 4000,
+      "mrr_operator": 0.1474476267675966,
+      "mrr_cosine": 0.16747208012192857,
+      "mrr_n_gram": 0.23758649754408037,
+      "mrr_unigram": 0.13646502073565198,
+      "mrr_rarity": 0.0036880079923881717,
+      "se_operator": 0.004577828218145348,
+      "se_cosine": 0.004495158795473085,
+      "se_n_gram": 0.005290852323205806,
+      "se_unigram": 0.0039719739949639,
+      "se_rarity": 0.0002445468909661074,
+      "operator_over_unigram": 0.01098260603194462,
+      "n_gram_over_unigram": 0.1011214768084284,
+      "rarest_operator": 0.011295071258225627,
+      "rarest_n_gram": 0.04299373705492321,
+      "rarest_rarity_control": 0.011739886124943694
+    },
+    {
+      "basis": "one-hot",
+      "scaling": "n/a",
+      "window": 8,
+      "cone": 8,
+      "tests": 4000,
+      "mrr_operator": 0.14309106352077025,
+      "mrr_cosine": 0.15892017579217407,
+      "mrr_n_gram": 0.23758649754408037,
+      "mrr_unigram": 0.13646502073565198,
+      "mrr_rarity": 0.0036880079923881717,
+      "se_operator": 0.004533024257227615,
+      "se_cosine": 0.004380706788418447,
+      "se_n_gram": 0.005290852323205806,
+      "se_unigram": 0.0039719739949639,
+      "se_rarity": 0.0002445468909661074,
+      "operator_over_unigram": 0.006626042785118275,
+      "n_gram_over_unigram": 0.1011214768084284,
+      "rarest_operator": 0.009552692639355194,
+      "rarest_n_gram": 0.04299373705492321,
+      "rarest_rarity_control": 0.011739886124943694
+    },
+    {
+      "basis": "counted",
+      "scaling": "unit",
+      "window": 8,
+      "cone": 2,
+      "tests": 4000,
+      "mrr_operator": 0.17919981795683987,
+      "mrr_cosine": 0.1362265368322426,
+      "mrr_n_gram": 0.23758649754408037,
+      "mrr_unigram": 0.13646502073565198,
+      "mrr_rarity": 0.0036880079923881717,
+      "se_operator": 0.004909284181161565,
+      "se_cosine": 0.003984577221072473,
+      "se_n_gram": 0.005290852323205806,
+      "se_unigram": 0.0039719739949639,
+      "se_rarity": 0.0002445468909661074,
+      "operator_over_unigram": 0.04273479722118789,
+      "n_gram_over_unigram": 0.1011214768084284,
+      "rarest_operator": 0.007791590397640425,
+      "rarest_n_gram": 0.04299373705492321,
+      "rarest_rarity_control": 0.011739886124943694
+    },
+    {
+      "basis": "counted",
+      "scaling": "unit",
+      "window": 8,
+      "cone": 4,
+      "tests": 4000,
+      "mrr_operator": 0.17794115289612913,
+      "mrr_cosine": 0.13599263101409279,
+      "mrr_n_gram": 0.23758649754408037,
+      "mrr_unigram": 0.13646502073565198,
+      "mrr_rarity": 0.0036880079923881717,
+      "se_operator": 0.004922987974378862,
+      "se_cosine": 0.003981065313283955,
+      "se_n_gram": 0.005290852323205806,
+      "se_unigram": 0.0039719739949639,
+      "se_rarity": 0.0002445468909661074,
+      "operator_over_unigram": 0.04147613216047716,
+      "n_gram_over_unigram": 0.1011214768084284,
+      "rarest_operator": 0.007684355802828163,
+      "rarest_n_gram": 0.04299373705492321,
+      "rarest_rarity_control": 0.011739886124943694
+    },
+    {
+      "basis": "counted",
+      "scaling": "unit",
+      "window": 8,
+      "cone": 8,
+      "tests": 4000,
+      "mrr_operator": 0.17177790531057513,
+      "mrr_cosine": 0.13576826375167167,
+      "mrr_n_gram": 0.23758649754408037,
+      "mrr_unigram": 0.13646502073565198,
+      "mrr_rarity": 0.0036880079923881717,
+      "se_operator": 0.004843075207241698,
+      "se_cosine": 0.003977499650093109,
+      "se_n_gram": 0.005290852323205806,
+      "se_unigram": 0.0039719739949639,
+      "se_rarity": 0.0002445468909661074,
+      "operator_over_unigram": 0.03531288457492315,
+      "n_gram_over_unigram": 0.1011214768084284,
+      "rarest_operator": 0.008046431351717797,
+      "rarest_n_gram": 0.04299373705492321,
+      "rarest_rarity_control": 0.011739886124943694
+    },
+    {
+      "basis": "counted",
+      "scaling": "shared",
+      "window": 8,
+      "cone": 2,
+      "tests": 4000,
+      "mrr_operator": 0.16495375309631577,
+      "mrr_cosine": 0.13590343442670308,
+      "mrr_n_gram": 0.23758649754408037,
+      "mrr_unigram": 0.13646502073565198,
+      "mrr_rarity": 0.0036880079923881717,
+      "se_operator": 0.0047928089098463016,
+      "se_cosine": 0.003966037604839219,
+      "se_n_gram": 0.005290852323205806,
+      "se_unigram": 0.0039719739949639,
+      "se_rarity": 0.0002445468909661074,
+      "operator_over_unigram": 0.028488732360663793,
+      "n_gram_over_unigram": 0.1011214768084284,
+      "rarest_operator": 0.011531975044799055,
+      "rarest_n_gram": 0.04299373705492321,
+      "rarest_rarity_control": 0.011739886124943694
+    },
+    {
+      "basis": "counted",
+      "scaling": "shared",
+      "window": 8,
+      "cone": 4,
+      "tests": 4000,
+      "mrr_operator": 0.16692710513263195,
+      "mrr_cosine": 0.1357035770511215,
+      "mrr_n_gram": 0.23758649754408037,
+      "mrr_unigram": 0.13646502073565198,
+      "mrr_rarity": 0.0036880079923881717,
+      "se_operator": 0.004836013204174063,
+      "se_cosine": 0.003968436336903591,
+      "se_n_gram": 0.005290852323205806,
+      "se_unigram": 0.0039719739949639,
+      "se_rarity": 0.0002445468909661074,
+      "operator_over_unigram": 0.030462084396979977,
+      "n_gram_over_unigram": 0.1011214768084284,
+      "rarest_operator": 0.010358684257990842,
+      "rarest_n_gram": 0.04299373705492321,
+      "rarest_rarity_control": 0.011739886124943694
+    },
+    {
+      "basis": "counted",
+      "scaling": "shared",
+      "window": 8,
+      "cone": 8,
+      "tests": 4000,
+      "mrr_operator": 0.16414913497584963,
+      "mrr_cosine": 0.13595452792152413,
+      "mrr_n_gram": 0.23758649754408037,
+      "mrr_unigram": 0.13646502073565198,
+      "mrr_rarity": 0.0036880079923881717,
+      "se_operator": 0.0048174172433001145,
+      "se_cosine": 0.003975661208028549,
+      "se_n_gram": 0.005290852323205806,
+      "se_unigram": 0.0039719739949639,
+      "se_rarity": 0.0002445468909661074,
+      "operator_over_unigram": 0.02768411424019765,
+      "n_gram_over_unigram": 0.1011214768084284,
+      "rarest_operator": 0.009544431225400473,
+      "rarest_n_gram": 0.04299373705492321,
+      "rarest_rarity_control": 0.011739886124943694
+    }
+  ],
+  "bands": [
+    {
+      "basis": "one-hot",
+      "scaling": "n/a",
+      "cone": 2,
+      "bands": [
+        {
+          "quartile": 0,
+          "n": 998,
+          "operator": 0.011423272673605557,
+          "cosine": 0.00772791665914393,
+          "n_gram": 0.04299373705492321,
+          "unigram": 0.0025740634433762373,
+          "rarity": 0.011739886124943694
+        },
+        {
+          "quartile": 1,
+          "n": 1002,
+          "operator": 0.06358444884483797,
+          "cosine": 0.051436112454087884,
+          "n_gram": 0.1322470009729886,
+          "unigram": 0.015224014465397626,
+          "rarity": 0.001061031087190477
+        },
+        {
+          "quartile": 2,
+          "n": 932,
+          "operator": 0.14829274235785092,
+          "cosine": 0.13867275907737775,
+          "n_gram": 0.22923365388002967,
+          "unigram": 0.061546893918229616,
+          "rarity": 0.000994338644838729
+        },
+        {
+          "quartile": 3,
+          "n": 1068,
+          "operator": 0.3755768914977018,
+          "cosine": 0.5093381546049801,
+          "n_gram": 0.5255439889554175,
+          "unigram": 0.44070692883895135,
+          "rarity": 0.0009791655903598592
+        }
+      ]
+    },
+    {
+      "basis": "one-hot",
+      "scaling": "n/a",
+      "cone": 4,
+      "bands": [
+        {
+          "quartile": 0,
+          "n": 998,
+          "operator": 0.011295071258225627,
+          "cosine": 0.005857953459575202,
+          "n_gram": 0.04299373705492321,
+          "unigram": 0.0025740634433762373,
+          "rarity": 0.011739886124943694
+        },
+        {
+          "quartile": 1,
+          "n": 1002,
+          "operator": 0.05785720432923188,
+          "cosine": 0.034540506291743794,
+          "n_gram": 0.1322470009729886,
+          "unigram": 0.015224014465397626,
+          "rarity": 0.001061031087190477
+        },
+        {
+          "quartile": 2,
+          "n": 932,
+          "operator": 0.15331525812386967,
+          "cosine": 0.10150227497410802,
+          "n_gram": 0.22923365388002967,
+          "unigram": 0.061546893918229616,
+          "rarity": 0.000994338644838729
+        },
+        {
+          "quartile": 3,
+          "n": 1068,
+          "operator": 0.3536098189563112,
+          "cosine": 0.500779377673092,
+          "n_gram": 0.5255439889554175,
+          "unigram": 0.44070692883895135,
+          "rarity": 0.0009791655903598592
+        }
+      ]
+    },
+    {
+      "basis": "one-hot",
+      "scaling": "n/a",
+      "cone": 8,
+      "bands": [
+        {
+          "quartile": 0,
+          "n": 998,
+          "operator": 0.009552692639355194,
+          "cosine": 0.0040954813601282395,
+          "n_gram": 0.04299373705492321,
+          "unigram": 0.0025740634433762373,
+          "rarity": 0.011739886124943694
+        },
+        {
+          "quartile": 1,
+          "n": 1002,
+          "operator": 0.05157854068738861,
+          "cosine": 0.025379832001151608,
+          "n_gram": 0.1322470009729886,
+          "unigram": 0.015224014465397626,
+          "rarity": 0.001061031087190477
+        },
+        {
+          "quartile": 2,
+          "n": 932,
+          "operator": 0.14906443290300908,
+          "cosine": 0.08377397921774532,
+          "n_gram": 0.22923365388002967,
+          "unigram": 0.061546893918229616,
+          "rarity": 0.000994338644838729
+        },
+        {
+          "quartile": 3,
+          "n": 1068,
+          "operator": 0.3485214584219446,
+          "cosine": 0.49446205287939676,
+          "n_gram": 0.5255439889554175,
+          "unigram": 0.44070692883895135,
+          "rarity": 0.0009791655903598592
+        }
+      ]
+    },
+    {
+      "basis": "counted",
+      "scaling": "unit",
+      "cone": 2,
+      "bands": [
+        {
+          "quartile": 0,
+          "n": 998,
+          "operator": 0.007791590397640425,
+          "cosine": 0.0025601997118859794,
+          "n_gram": 0.04299373705492321,
+          "unigram": 0.0025740634433762373,
+          "rarity": 0.011739886124943694
+        },
+        {
+          "quartile": 1,
+          "n": 1002,
+          "operator": 0.05009920645851667,
+          "cosine": 0.014683135797320212,
+          "n_gram": 0.1322470009729886,
+          "unigram": 0.015224014465397626,
+          "rarity": 0.001061031087190477
+        },
+        {
+          "quartile": 2,
+          "n": 932,
+          "operator": 0.16336565685617893,
+          "cosine": 0.05910151670240445,
+          "n_gram": 0.22923365388002967,
+          "unigram": 0.061546893918229616,
+          "rarity": 0.000994338644838729
+        },
+        {
+          "quartile": 3,
+          "n": 1068,
+          "operator": 0.47431373366022644,
+          "cosine": 0.44246812020688425,
+          "n_gram": 0.5255439889554175,
+          "unigram": 0.44070692883895135,
+          "rarity": 0.0009791655903598592
+        }
+      ]
+    },
+    {
+      "basis": "counted",
+      "scaling": "unit",
+      "cone": 4,
+      "bands": [
+        {
+          "quartile": 0,
+          "n": 998,
+          "operator": 0.007684355802828163,
+          "cosine": 0.002553038927993067,
+          "n_gram": 0.04299373705492321,
+          "unigram": 0.0025740634433762373,
+          "rarity": 0.011739886124943694
+        },
+        {
+          "quartile": 1,
+          "n": 1002,
+          "operator": 0.04821830283365509,
+          "cosine": 0.014670070483459462,
+          "n_gram": 0.1322470009729886,
+          "unigram": 0.015224014465397626,
+          "rarity": 0.001061031087190477
+        },
+        {
+          "quartile": 2,
+          "n": 932,
+          "operator": 0.15685638889089973,
+          "cosine": 0.05901347804097487,
+          "n_gram": 0.22923365388002967,
+          "unigram": 0.061546893918229616,
+          "rarity": 0.000994338644838729
+        },
+        {
+          "quartile": 3,
+          "n": 1068,
+          "operator": 0.477144878846117,
+          "cosine": 0.4416878455502051,
+          "n_gram": 0.5255439889554175,
+          "unigram": 0.44070692883895135,
+          "rarity": 0.0009791655903598592
+        }
+      ]
+    },
+    {
+      "basis": "counted",
+      "scaling": "unit",
+      "cone": 8,
+      "bands": [
+        {
+          "quartile": 0,
+          "n": 998,
+          "operator": 0.008046431351717797,
+          "cosine": 0.002544635097426241,
+          "n_gram": 0.04299373705492321,
+          "unigram": 0.0025740634433762373,
+          "rarity": 0.011739886124943694
+        },
+        {
+          "quartile": 1,
+          "n": 1002,
+          "operator": 0.045058111989236926,
+          "cosine": 0.014658396209177601,
+          "n_gram": 0.1322470009729886,
+          "unigram": 0.015224014465397626,
+          "rarity": 0.001061031087190477
+        },
+        {
+          "quartile": 2,
+          "n": 932,
+          "operator": 0.14681172591034222,
+          "cosine": 0.05896621294374857,
+          "n_gram": 0.22923365388002967,
+          "unigram": 0.061546893918229616,
+          "rarity": 0.000994338644838729
+        },
+        {
+          "quartile": 3,
+          "n": 1068,
+          "operator": 0.4654536760221273,
+          "cosine": 0.44090757089352595,
+          "n_gram": 0.5255439889554175,
+          "unigram": 0.44070692883895135,
+          "rarity": 0.0009791655903598592
+        }
+      ]
+    },
+    {
+      "basis": "counted",
+      "scaling": "shared",
+      "cone": 2,
+      "bands": [
+        {
+          "quartile": 0,
+          "n": 998,
+          "operator": 0.011531975044799055,
+          "cosine": 0.0026498254724557795,
+          "n_gram": 0.04299373705492321,
+          "unigram": 0.0025740634433762373,
+          "rarity": 0.011739886124943694
+        },
+        {
+          "quartile": 1,
+          "n": 1002,
+          "operator": 0.06601273835888001,
+          "cosine": 0.015131393108168042,
+          "n_gram": 0.1322470009729886,
+          "unigram": 0.015224014465397626,
+          "rarity": 0.001061031087190477
+        },
+        {
+          "quartile": 2,
+          "n": 932,
+          "operator": 0.1627253500442161,
+          "cosine": 0.06075177170494895,
+          "n_gram": 0.22923365388002967,
+          "unigram": 0.061546893918229616,
+          "rarity": 0.000994338644838729
+        },
+        {
+          "quartile": 3,
+          "n": 1068,
+          "operator": 0.4030911153686765,
+          "cosine": 0.43931358123773856,
+          "n_gram": 0.5255439889554175,
+          "unigram": 0.44070692883895135,
+          "rarity": 0.0009791655903598592
+        }
+      ]
+    },
+    {
+      "basis": "counted",
+      "scaling": "shared",
+      "cone": 4,
+      "bands": [
+        {
+          "quartile": 0,
+          "n": 998,
+          "operator": 0.010358684257990842,
+          "cosine": 0.002609301571692009,
+          "n_gram": 0.04299373705492321,
+          "unigram": 0.0025740634433762373,
+          "rarity": 0.011739886124943694
+        },
+        {
+          "quartile": 1,
+          "n": 1002,
+          "operator": 0.06302433605878531,
+          "cosine": 0.014928404054405544,
+          "n_gram": 0.1322470009729886,
+          "unigram": 0.015224014465397626,
+          "rarity": 0.001061031087190477
+        },
+        {
+          "quartile": 2,
+          "n": 932,
+          "operator": 0.16930218609940176,
+          "cosine": 0.06006367524227907,
+          "n_gram": 0.22923365388002967,
+          "unigram": 0.061546893918229616,
+          "rarity": 0.000994338644838729
+        },
+        {
+          "quartile": 3,
+          "n": 1068,
+          "operator": 0.4086427260912993,
+          "cosine": 0.4393938380595684,
+          "n_gram": 0.5255439889554175,
+          "unigram": 0.44070692883895135,
+          "rarity": 0.0009791655903598592
+        }
+      ]
+    },
+    {
+      "basis": "counted",
+      "scaling": "shared",
+      "cone": 8,
+      "bands": [
+        {
+          "quartile": 0,
+          "n": 998,
+          "operator": 0.009544431225400473,
+          "cosine": 0.002583868448183055,
+          "n_gram": 0.04299373705492321,
+          "unigram": 0.0025740634433762373,
+          "rarity": 0.011739886124943694
+        },
+        {
+          "quartile": 1,
+          "n": 1002,
+          "operator": 0.05690125503328446,
+          "cosine": 0.014813672021949546,
+          "n_gram": 0.1322470009729886,
+          "unigram": 0.015224014465397626,
+          "rarity": 0.001061031087190477
+        },
+        {
+          "quartile": 2,
+          "n": 932,
+          "operator": 0.16337283570691233,
+          "cosine": 0.05973550703991127,
+          "n_gram": 0.22923365388002967,
+          "unigram": 0.061546893918229616,
+          "rarity": 0.000994338644838729
+        },
+        {
+          "quartile": 3,
+          "n": 1068,
+          "operator": 0.40991821827552016,
+          "cosine": 0.44075151596219014,
+          "n_gram": 0.5255439889554175,
+          "unigram": 0.44070692883895135,
+          "rarity": 0.0009791655903598592
+        }
+      ]
+    }
+  ],
+  "best_mrr_operator": 0.17919981795683987,
+  "comparisons": {
+    "best_operator": 0.17919981795683987,
+    "best_one_hot_operator": 0.15360924996696212,
+    "counted_over_one_hot": 0.025590567989877744,
+    "counted_over_one_hot_in_standard_errors": 3.784380095867226,
+    "operator_over_unigram": 0.04273479722118789,
+    "operator_over_unigram_in_standard_errors": 6.319700135954587,
+    "lookup_over_operator": 0.0583866795872405,
+    "lookup_over_operator_in_standard_errors": 8.634329186485001,
+    "standard_error_of_a_difference": 0.006762155846296784
+  },
+  "best_cell": {
+    "basis": "counted",
+    "scaling": "unit",
+    "cone": 2
+  },
+  "cells_where_the_operator_outranks_the_lookup": 0,
+  "cells_where_it_outranks_it_on_the_rarest_quartile": 0,
+  "cells_where_it_also_outranks_the_rarity_control": 0,
+  "cells_swept": 9,
+  "seconds": 1913.0909547805786
+}

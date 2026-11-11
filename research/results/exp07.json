@@ -1,0 +1,835 @@
+{
+  "texts": [
+    {
+      "name": "alice",
+      "text": {
+        "url": "https://www.gutenberg.org/files/11/11-0.txt",
+        "sha256": "a3a27f8edbf7fcd9b8ba8435494440e24952deaa3e2f2d65192d4cb7ca403754",
+        "tokens": 27427,
+        "first_half": 13713,
+        "second_half": 13714
+      },
+      "design": {
+        "segments": 16,
+        "window": 6,
+        "n_features": 128,
+        "min_count": 20,
+        "n_candidates": 8,
+        "far": 0.05,
+        "seed": 20260915,
+        "freq_tolerance": 0.5
+      },
+      "vocabulary": {
+        "both_halves": 95,
+        "with_record": 95,
+        "resolving": 19
+      },
+      "questions": 8,
+      "top1": {
+        "random": 0.125,
+        "pmi_first_half": 0.125,
+        "association_z": 0.125,
+        "gated_precision": 0.25,
+        "gated_coverage": 0.5
+      },
+      "per_query": [
+        {
+          "query": "in",
+          "truth": "rabbit",
+          "z_correct": 0
+        },
+        {
+          "query": "of",
+          "truth": "some",
+          "z_correct": 0
+        },
+        {
+          "query": "be",
+          "truth": "don",
+          "z_correct": 0
+        },
+        {
+          "query": "some",
+          "truth": "have",
+          "z_correct": 0
+        },
+        {
+          "query": "said",
+          "truth": "your",
+          "z_correct": 0
+        },
+        {
+          "query": "now",
+          "truth": "just",
+          "z_correct": 0
+        },
+        {
+          "query": "your",
+          "truth": "rabbit",
+          "z_correct": 0
+        },
+        {
+          "query": "he",
+          "truth": "his",
+          "z_correct": 1
+        }
+      ]
+    },
+    {
+      "name": "moby-dick",
+      "text": {
+        "url": "https://www.gutenberg.org/files/2701/2701-0.txt",
+        "sha256": "547de799c1643ef231cc1efe45ffccefcb876ff3fe8f2206e7488529ad08f999",
+        "tokens": 219054,
+        "first_half": 109527,
+        "second_half": 109527
+      },
+      "design": {
+        "segments": 48,
+        "window": 6,
+        "n_features": 192,
+        "min_count": 40,
+        "n_candidates": 8,
+        "far": 0.05,
+        "seed": 20260915,
+        "freq_tolerance": 0.5
+      },
+      "vocabulary": {
+        "both_halves": 249,
+        "with_record": 249,
+        "resolving": 144
+      },
+      "questions": 144,
+      "top1": {
+        "random": 0.125,
+        "pmi_first_half": 0.5208333333333334,
+        "association_z": 0.3055555555555556,
+        "gated_precision": 0.3541666666666667,
+        "gated_coverage": 0.3333333333333333
+      },
+      "per_query": [
+        {
+          "query": "the",
+          "truth": "pequod",
+          "z_correct": 1
+        },
+        {
+          "query": "whale",
+          "truth": "sperm",
+          "z_correct": 1
+        },
+        {
+          "query": "ship",
+          "truth": "went",
+          "z_correct": 0
+        },
+        {
+          "query": "his",
+          "truth": "own",
+          "z_correct": 0
+        },
+        {
+          "query": "ahab",
+          "truth": "cried",
+          "z_correct": 0
+        },
+        {
+          "query": "to",
+          "truth": "be",
+          "z_correct": 1
+        },
+        {
+          "query": "him",
+          "truth": "tell",
+          "z_correct": 0
+        },
+        {
+          "query": "stubb",
+          "truth": "flask",
+          "z_correct": 1
+        },
+        {
+          "query": "mast",
+          "truth": "head",
+          "z_correct": 1
+        },
+        {
+          "query": "head",
+          "truth": "mast",
+          "z_correct": 1
+        },
+        {
+          "query": "deck",
+          "truth": "along",
+          "z_correct": 0
+        },
+        {
+          "query": "night",
+          "truth": "went",
+          "z_correct": 1
+        },
+        {
+          "query": "of",
+          "truth": "part",
+          "z_correct": 1
+        },
+        {
+          "query": "boat",
+          "truth": "crew",
+          "z_correct": 1
+        },
+        {
+          "query": "crew",
+          "truth": "boat",
+          "z_correct": 1
+        },
+        {
+          "query": "whales",
+          "truth": "many",
+          "z_correct": 0
+        },
+        {
+          "query": "flask",
+          "truth": "stubb",
+          "z_correct": 1
+        },
+        {
+          "query": "right",
+          "truth": "whale",
+          "z_correct": 0
+        },
+        {
+          "query": "sperm",
+          "truth": "whale",
+          "z_correct": 1
+        },
+        {
+          "query": "great",
+          "truth": "sperm",
+          "z_correct": 1
+        },
+        {
+          "query": "pequod",
+          "truth": "soon",
+          "z_correct": 0
+        },
+        {
+          "query": "fish",
+          "truth": "because",
+          "z_correct": 0
+        },
+        {
+          "query": "hand",
+          "truth": "own",
+          "z_correct": 0
+        },
+        {
+          "query": "leg",
+          "truth": "poor",
+          "z_correct": 0
+        },
+        {
+          "query": "he",
+          "truth": "face",
+          "z_correct": 0
+        },
+        {
+          "query": "starbuck",
+          "truth": "cried",
+          "z_correct": 0
+        },
+        {
+          "query": "queequeg",
+          "truth": "poor",
+          "z_correct": 0
+        },
+        {
+          "query": "is",
+          "truth": "called",
+          "z_correct": 0
+        },
+        {
+          "query": "was",
+          "truth": "whether",
+          "z_correct": 0
+        },
+        {
+          "query": "hard",
+          "truth": "found",
+          "z_correct": 0
+        },
+        {
+          "query": "i",
+          "truth": "ll",
+          "z_correct": 1
+        },
+        {
+          "query": "see",
+          "truth": "ye",
+          "z_correct": 1
+        },
+        {
+          "query": "it",
+          "truth": "whether",
+          "z_correct": 0
+        },
+        {
+          "query": "while",
+          "truth": "little",
+          "z_correct": 0
+        },
+        {
+          "query": "take",
+          "truth": "leg",
+          "z_correct": 0
+        },
+        {
+          "query": "what",
+          "truth": "fish",
+          "z_correct": 0
+        },
+        {
+          "query": "be",
+          "truth": "may",
+          "z_correct": 1
+        },
+        {
+          "query": "called",
+          "truth": "along",
+          "z_correct": 1
+        },
+        {
+          "query": "almost",
+          "truth": "thought",
+          "z_correct": 0
+        },
+        {
+          "query": "that",
+          "truth": "should",
+          "z_correct": 1
+        },
+        {
+          "query": "not",
+          "truth": "could",
+          "z_correct": 0
+        },
+        {
+          "query": "seen",
+          "truth": "white",
+          "z_correct": 0
+        },
+        {
+          "query": "poor",
+          "truth": "queequeg",
+          "z_correct": 1
+        },
+        {
+          "query": "could",
+          "truth": "tell",
+          "z_correct": 0
+        },
+        {
+          "query": "far",
+          "truth": "thus",
+          "z_correct": 1
+        },
+        {
+          "query": "eye",
+          "truth": "strange",
+          "z_correct": 1
+        },
+        {
+          "query": "said",
+          "truth": "stubb",
+          "z_correct": 0
+        },
+        {
+          "query": "thought",
+          "truth": "almost",
+          "z_correct": 0
+        },
+        {
+          "query": "leviathan",
+          "truth": "make",
+          "z_correct": 0
+        },
+        {
+          "query": "many",
+          "truth": "after",
+          "z_correct": 0
+        },
+        {
+          "query": "own",
+          "truth": "seemed",
+          "z_correct": 0
+        },
+        {
+          "query": "so",
+          "truth": "soon",
+          "z_correct": 0
+        },
+        {
+          "query": "thee",
+          "truth": "thou",
+          "z_correct": 1
+        },
+        {
+          "query": "whose",
+          "truth": "little",
+          "z_correct": 0
+        },
+        {
+          "query": "thou",
+          "truth": "thee",
+          "z_correct": 0
+        },
+        {
+          "query": "even",
+          "truth": "eye",
+          "z_correct": 0
+        },
+        {
+          "query": "but",
+          "truth": "few",
+          "z_correct": 0
+        },
+        {
+          "query": "full",
+          "truth": "something",
+          "z_correct": 0
+        },
+        {
+          "query": "eyes",
+          "truth": "stood",
+          "z_correct": 0
+        },
+        {
+          "query": "ye",
+          "truth": "look",
+          "z_correct": 0
+        },
+        {
+          "query": "shall",
+          "truth": "thou",
+          "z_correct": 0
+        },
+        {
+          "query": "your",
+          "truth": "us",
+          "z_correct": 1
+        },
+        {
+          "query": "against",
+          "truth": "high",
+          "z_correct": 0
+        },
+        {
+          "query": "god",
+          "truth": "stand",
+          "z_correct": 0
+        },
+        {
+          "query": "after",
+          "truth": "hard",
+          "z_correct": 0
+        },
+        {
+          "query": "think",
+          "truth": "i",
+          "z_correct": 1
+        },
+        {
+          "query": "sea",
+          "truth": "under",
+          "z_correct": 0
+        },
+        {
+          "query": "thing",
+          "truth": "another",
+          "z_correct": 1
+        },
+        {
+          "query": "most",
+          "truth": "far",
+          "z_correct": 0
+        },
+        {
+          "query": "two",
+          "truth": "between",
+          "z_correct": 1
+        },
+        {
+          "query": "came",
+          "truth": "along",
+          "z_correct": 0
+        },
+        {
+          "query": "us",
+          "truth": "let",
+          "z_correct": 1
+        },
+        {
+          "query": "also",
+          "truth": "place",
+          "z_correct": 0
+        },
+        {
+          "query": "their",
+          "truth": "eyes",
+          "z_correct": 0
+        },
+        {
+          "query": "things",
+          "truth": "strange",
+          "z_correct": 0
+        },
+        {
+          "query": "whether",
+          "truth": "tell",
+          "z_correct": 0
+        },
+        {
+          "query": "let",
+          "truth": "us",
+          "z_correct": 1
+        },
+        {
+          "query": "me",
+          "truth": "let",
+          "z_correct": 1
+        },
+        {
+          "query": "certain",
+          "truth": "might",
+          "z_correct": 0
+        },
+        {
+          "query": "death",
+          "truth": "god",
+          "z_correct": 0
+        },
+        {
+          "query": "sir",
+          "truth": "oh",
+          "z_correct": 1
+        },
+        {
+          "query": "men",
+          "truth": "stand",
+          "z_correct": 0
+        },
+        {
+          "query": "might",
+          "truth": "certain",
+          "z_correct": 0
+        },
+        {
+          "query": "years",
+          "truth": "three",
+          "z_correct": 0
+        },
+        {
+          "query": "t",
+          "truth": "don",
+          "z_correct": 1
+        },
+        {
+          "query": "without",
+          "truth": "death",
+          "z_correct": 0
+        },
+        {
+          "query": "come",
+          "truth": "along",
+          "z_correct": 1
+        },
+        {
+          "query": "feet",
+          "truth": "something",
+          "z_correct": 0
+        },
+        {
+          "query": "saw",
+          "truth": "face",
+          "z_correct": 0
+        },
+        {
+          "query": "should",
+          "truth": "why",
+          "z_correct": 0
+        },
+        {
+          "query": "sail",
+          "truth": "moment",
+          "z_correct": 0
+        },
+        {
+          "query": "white",
+          "truth": "against",
+          "z_correct": 0
+        },
+        {
+          "query": "stand",
+          "truth": "men",
+          "z_correct": 0
+        },
+        {
+          "query": "may",
+          "truth": "be",
+          "z_correct": 1
+        },
+        {
+          "query": "captain",
+          "truth": "stood",
+          "z_correct": 0
+        },
+        {
+          "query": "round",
+          "truth": "went",
+          "z_correct": 0
+        },
+        {
+          "query": "little",
+          "truth": "poor",
+          "z_correct": 0
+        },
+        {
+          "query": "make",
+          "truth": "sail",
+          "z_correct": 0
+        },
+        {
+          "query": "found",
+          "truth": "hard",
+          "z_correct": 0
+        },
+        {
+          "query": "seemed",
+          "truth": "strange",
+          "z_correct": 1
+        },
+        {
+          "query": "same",
+          "truth": "place",
+          "z_correct": 0
+        },
+        {
+          "query": "boats",
+          "truth": "three",
+          "z_correct": 0
+        },
+        {
+          "query": "soon",
+          "truth": "boats",
+          "z_correct": 0
+        },
+        {
+          "query": "high",
+          "truth": "against",
+          "z_correct": 0
+        },
+        {
+          "query": "air",
+          "truth": "high",
+          "z_correct": 0
+        },
+        {
+          "query": "small",
+          "truth": "strange",
+          "z_correct": 1
+        },
+        {
+          "query": "each",
+          "truth": "two",
+          "z_correct": 0
+        },
+        {
+          "query": "where",
+          "truth": "shall",
+          "z_correct": 1
+        },
+        {
+          "query": "she",
+          "truth": "her",
+          "z_correct": 1
+        },
+        {
+          "query": "her",
+          "truth": "she",
+          "z_correct": 1
+        },
+        {
+          "query": "look",
+          "truth": "ye",
+          "z_correct": 0
+        },
+        {
+          "query": "my",
+          "truth": "god",
+          "z_correct": 0
+        },
+        {
+          "query": "three",
+          "truth": "boats",
+          "z_correct": 0
+        },
+        {
+          "query": "half",
+          "truth": "think",
+          "z_correct": 0
+        },
+        {
+          "query": "hands",
+          "truth": "both",
+          "z_correct": 0
+        },
+        {
+          "query": "himself",
+          "truth": "death",
+          "z_correct": 0
+        },
+        {
+          "query": "moment",
+          "truth": "sail",
+          "z_correct": 0
+        },
+        {
+          "query": "another",
+          "truth": "without",
+          "z_correct": 0
+        },
+        {
+          "query": "something",
+          "truth": "feet",
+          "z_correct": 0
+        },
+        {
+          "query": "under",
+          "truth": "certain",
+          "z_correct": 0
+        },
+        {
+          "query": "few",
+          "truth": "against",
+          "z_correct": 0
+        },
+        {
+          "query": "oh",
+          "truth": "sir",
+          "z_correct": 0
+        },
+        {
+          "query": "part",
+          "truth": "along",
+          "z_correct": 0
+        },
+        {
+          "query": "sight",
+          "truth": "seen",
+          "z_correct": 0
+        },
+        {
+          "query": "strange",
+          "truth": "things",
+          "z_correct": 0
+        },
+        {
+          "query": "tell",
+          "truth": "whether",
+          "z_correct": 0
+        },
+        {
+          "query": "thus",
+          "truth": "far",
+          "z_correct": 1
+        },
+        {
+          "query": "why",
+          "truth": "don",
+          "z_correct": 1
+        },
+        {
+          "query": "because",
+          "truth": "called",
+          "z_correct": 0
+        },
+        {
+          "query": "don",
+          "truth": "t",
+          "z_correct": 1
+        },
+        {
+          "query": "nor",
+          "truth": "indeed",
+          "z_correct": 0
+        },
+        {
+          "query": "between",
+          "truth": "two",
+          "z_correct": 1
+        },
+        {
+          "query": "good",
+          "truth": "queequeg",
+          "z_correct": 0
+        },
+        {
+          "query": "place",
+          "truth": "also",
+          "z_correct": 0
+        },
+        {
+          "query": "stood",
+          "truth": "captain",
+          "z_correct": 0
+        },
+        {
+          "query": "went",
+          "truth": "round",
+          "z_correct": 0
+        },
+        {
+          "query": "both",
+          "truth": "hands",
+          "z_correct": 0
+        },
+        {
+          "query": "along",
+          "truth": "called",
+          "z_correct": 0
+        },
+        {
+          "query": "times",
+          "truth": "indeed",
+          "z_correct": 0
+        },
+        {
+          "query": "indeed",
+          "truth": "times",
+          "z_correct": 0
+        },
+        {
+          "query": "ll",
+          "truth": "flask",
+          "z_correct": 0
+        },
+        {
+          "query": "cried",
+          "truth": "aye",
+          "z_correct": 1
+        },
+        {
+          "query": "face",
+          "truth": "saw",
+          "z_correct": 0
+        },
+        {
+          "query": "aye",
+          "truth": "cried",
+          "z_correct": 1
+        }
+      ]
+    }
+  ],
+  "seconds": 25.48111867904663
+}

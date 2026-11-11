@@ -1,0 +1,22 @@
+{
+  "a_draw_among_the_supported": 0.11172866681341256,
+  "a_draw_would": 0.015463060224089612,
+  "among_the_supported": 0.4067796610169492,
+  "concepts": 66,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "p": 7.506545414795239e-28,
+  "pool": 64.67647058823529,
+  "questions": 68,
+  "questions_among_the_supported": 59,
+  "recorded": "2026-11-10",
+  "right": 0.36764705882352944,
+  "right_count": 25,
+  "script": "test_what_the_bare_operator_carries_on_the_ontology.py",
+  "statements": 84,
+  "times_the_draw": 23.775827908293273,
+  "times_the_draw_among_the_supported": 3.6407814808734202,
+  "where_the_truth_ranks": 0.28241042720851783
+}

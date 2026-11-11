@@ -1,0 +1,307 @@
+{
+  "askable_at": 2,
+  "balls": [
+    1200,
+    4800,
+    19200
+  ],
+  "by_store": {
+    "ontology": {
+      "biggest_relation": 35,
+      "biggest_relation_share": 0.4166666666666667,
+      "candidates_held": 20,
+      "concepts": 66,
+      "held_candidates_biggest": {
+        "operator_rows": 38,
+        "relation_uses": 35,
+        "rows": 46,
+        "rows_beyond_the_candidates": 26,
+        "work": 758,
+        "work_per_row": 16.47826086956522
+      },
+      "held_candidates_median": {
+        "operator_rows": 17,
+        "relation_uses": 10,
+        "rows": 34,
+        "rows_beyond_the_candidates": 14,
+        "work": 537,
+        "work_per_row": 15.794117647058824
+      },
+      "median_askable_relation": 10,
+      "relations": 6,
+      "relations_askable": 5,
+      "share_of_relations_askable": 0.8333333333333334,
+      "share_of_statements_askable": 0.9880952380952381,
+      "statements": 84,
+      "statements_askable": 83,
+      "through_a_median": {
+        "operator_rows": 17,
+        "relation_uses": 10,
+        "rows": 66,
+        "rows_beyond_the_candidates": 0,
+        "work": 1277,
+        "work_per_row": 19.348484848484848
+      },
+      "through_the_biggest": {
+        "operator_rows": 38,
+        "relation_uses": 35,
+        "rows": 66,
+        "rows_beyond_the_candidates": 0,
+        "work": 1277,
+        "work_per_row": 19.348484848484848
+      },
+      "vertices": 150,
+      "work_per_row_whole": 19,
+      "work_ratio_with_candidates_held": 1.4115456238361266
+    },
+    "prose spans": {
+      "biggest_relation": 1250,
+      "biggest_relation_share": 0.4860031104199067,
+      "candidates_held": 20,
+      "concepts": 725,
+      "held_candidates_biggest": {
+        "operator_rows": 673,
+        "relation_uses": 1250,
+        "rows": 675,
+        "rows_beyond_the_candidates": 655,
+        "work": 57065,
+        "work_per_row": 84.54074074074074
+      },
+      "held_candidates_median": {
+        "operator_rows": 4,
+        "relation_uses": 4,
+        "rows": 23,
+        "rows_beyond_the_candidates": 3,
+        "work": 3186,
+        "work_per_row": 138.52173913043478
+      },
+      "median_askable_relation": 4,
+      "relations": 116,
+      "relations_askable": 113,
+      "share_of_relations_askable": 0.9741379310344828,
+      "share_of_statements_askable": 0.9988335925349923,
+      "statements": 2572,
+      "statements_askable": 2569,
+      "through_a_median": {
+        "operator_rows": 4,
+        "relation_uses": 4,
+        "rows": 725,
+        "rows_beyond_the_candidates": 0,
+        "work": 59396,
+        "work_per_row": 81.92551724137931
+      },
+      "through_the_biggest": {
+        "operator_rows": 673,
+        "relation_uses": 1250,
+        "rows": 725,
+        "rows_beyond_the_candidates": 0,
+        "work": 59396,
+        "work_per_row": 81.92551724137931
+      },
+      "vertices": 3297,
+      "work_per_row_whole": 81,
+      "work_ratio_with_candidates_held": 17.911173885750156
+    },
+    "prose, two scales": {
+      "biggest_relation": 2242,
+      "biggest_relation_share": 0.46572496884088077,
+      "candidates_held": 20,
+      "concepts": 846,
+      "held_candidates_biggest": {
+        "operator_rows": 829,
+        "relation_uses": 2242,
+        "rows": 830,
+        "rows_beyond_the_candidates": 810,
+        "work": 28411,
+        "work_per_row": 34.23012048192771
+      },
+      "held_candidates_median": {
+        "operator_rows": 5,
+        "relation_uses": 4,
+        "rows": 24,
+        "rows_beyond_the_candidates": 4,
+        "work": 2631,
+        "work_per_row": 109.625
+      },
+      "median_askable_relation": 4,
+      "relations": 117,
+      "relations_askable": 114,
+      "share_of_relations_askable": 0.9743589743589743,
+      "share_of_statements_askable": 0.9993768176152887,
+      "statements": 4814,
+      "statements_askable": 4811,
+      "through_a_median": {
+        "operator_rows": 5,
+        "relation_uses": 4,
+        "rows": 846,
+        "rows_beyond_the_candidates": 0,
+        "work": 30805,
+        "work_per_row": 36.41252955082742
+      },
+      "through_the_biggest": {
+        "operator_rows": 829,
+        "relation_uses": 2242,
+        "rows": 846,
+        "rows_beyond_the_candidates": 0,
+        "work": 30805,
+        "work_per_row": 36.41252955082742
+      },
+      "vertices": 5660,
+      "work_per_row_whole": 36,
+      "work_ratio_with_candidates_held": 10.798555682250095
+    },
+    "wordnet 1200": {
+      "biggest_relation": 125,
+      "biggest_relation_share": 0.7267441860465116,
+      "candidates_held": 20,
+      "concepts": 118,
+      "held_candidates_biggest": {
+        "operator_rows": 114,
+        "relation_uses": 125,
+        "rows": 115,
+        "rows_beyond_the_candidates": 95,
+        "work": 1376,
+        "work_per_row": 11.965217391304348
+      },
+      "held_candidates_median": {
+        "operator_rows": 54,
+        "relation_uses": 38,
+        "rows": 67,
+        "rows_beyond_the_candidates": 47,
+        "work": 772,
+        "work_per_row": 11.522388059701493
+      },
+      "median_askable_relation": 38,
+      "relations": 3,
+      "relations_askable": 3,
+      "share_of_relations_askable": 1.0,
+      "share_of_statements_askable": 1.0,
+      "statements": 172,
+      "statements_askable": 172,
+      "through_a_median": {
+        "operator_rows": 54,
+        "relation_uses": 38,
+        "rows": 118,
+        "rows_beyond_the_candidates": 0,
+        "work": 1575,
+        "work_per_row": 13.347457627118644
+      },
+      "through_the_biggest": {
+        "operator_rows": 114,
+        "relation_uses": 125,
+        "rows": 118,
+        "rows_beyond_the_candidates": 0,
+        "work": 1575,
+        "work_per_row": 13.347457627118644
+      },
+      "vertices": 290,
+      "work_per_row_whole": 13,
+      "work_ratio_with_candidates_held": 1.782383419689119
+    },
+    "wordnet 19200": {
+      "biggest_relation": 3693,
+      "biggest_relation_share": 0.6818685376661743,
+      "candidates_held": 20,
+      "concepts": 3377,
+      "held_candidates_biggest": {
+        "operator_rows": 3288,
+        "relation_uses": 3693,
+        "rows": 3288,
+        "rows_beyond_the_candidates": 3268,
+        "work": 39269,
+        "work_per_row": 11.943126520681265
+      },
+      "held_candidates_median": {
+        "operator_rows": 1178,
+        "relation_uses": 893,
+        "rows": 1192,
+        "rows_beyond_the_candidates": 1172,
+        "work": 14279,
+        "work_per_row": 11.979026845637584
+      },
+      "median_askable_relation": 893,
+      "relations": 4,
+      "relations_askable": 4,
+      "share_of_relations_askable": 1.0,
+      "share_of_statements_askable": 1.0,
+      "statements": 5416,
+      "statements_askable": 5416,
+      "through_a_median": {
+        "operator_rows": 1178,
+        "relation_uses": 893,
+        "rows": 3377,
+        "rows_beyond_the_candidates": 0,
+        "work": 45549,
+        "work_per_row": 13.488007106899616
+      },
+      "through_the_biggest": {
+        "operator_rows": 3288,
+        "relation_uses": 3693,
+        "rows": 3377,
+        "rows_beyond_the_candidates": 0,
+        "work": 45549,
+        "work_per_row": 13.488007106899616
+      },
+      "vertices": 8793,
+      "work_per_row_whole": 13,
+      "work_ratio_with_candidates_held": 2.750122557602073
+    },
+    "wordnet 4800": {
+      "biggest_relation": 513,
+      "biggest_relation_share": 0.7276595744680852,
+      "candidates_held": 20,
+      "concepts": 476,
+      "held_candidates_biggest": {
+        "operator_rows": 466,
+        "relation_uses": 513,
+        "rows": 466,
+        "rows_beyond_the_candidates": 446,
+        "work": 5503,
+        "work_per_row": 11.80901287553648
+      },
+      "held_candidates_median": {
+        "operator_rows": 178,
+        "relation_uses": 120,
+        "rows": 191,
+        "rows_beyond_the_candidates": 171,
+        "work": 2131,
+        "work_per_row": 11.157068062827225
+      },
+      "median_askable_relation": 120,
+      "relations": 4,
+      "relations_askable": 3,
+      "share_of_relations_askable": 0.75,
+      "share_of_statements_askable": 0.9985815602836879,
+      "statements": 705,
+      "statements_askable": 704,
+      "through_a_median": {
+        "operator_rows": 178,
+        "relation_uses": 120,
+        "rows": 476,
+        "rows_beyond_the_candidates": 0,
+        "work": 6296,
+        "work_per_row": 13.22689075630252
+      },
+      "through_the_biggest": {
+        "operator_rows": 466,
+        "relation_uses": 513,
+        "rows": 476,
+        "rows_beyond_the_candidates": 0,
+        "work": 6296,
+        "work_per_row": 13.22689075630252
+      },
+      "vertices": 1181,
+      "work_per_row_whole": 13,
+      "work_ratio_with_candidates_held": 2.5823557015485687
+    }
+  },
+  "candidates_held": 20,
+  "largest_ratio": 17.911173885750156,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "script": "test_whether_many_small_relations_read_cheaply.py",
+  "smallest_ratio": 1.4115456238361266
+}

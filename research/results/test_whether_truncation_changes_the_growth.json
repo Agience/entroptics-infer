@@ -1,0 +1,216 @@
+{
+  "balls": [
+    150,
+    300,
+    600,
+    1200,
+    2400,
+    4800
+  ],
+  "by_size_and_level": {
+    "1200/its own aperture": {
+      "axes": 584,
+      "ball": 1200,
+      "below": "its own aperture",
+      "level": "its own aperture",
+      "nonzero_entries": 19568,
+      "seconds": 0.01591246807947755,
+      "share": 0.11554085970713272,
+      "statements": 172,
+      "touched_mean": 67.47586206896551,
+      "vertices": 290
+    },
+    "1200/read to its end": {
+      "axes": 584,
+      "ball": 1200,
+      "below": "read to its end",
+      "level": "read to its end",
+      "nonzero_entries": 169360,
+      "seconds": 0.16038234578445554,
+      "share": 1.0,
+      "statements": 172,
+      "touched_mean": 584.0,
+      "vertices": 290
+    },
+    "2400/its own aperture": {
+      "axes": 1217,
+      "ball": 2400,
+      "below": "its own aperture",
+      "level": "its own aperture",
+      "nonzero_entries": 80799,
+      "seconds": 0.051017967984080315,
+      "share": 0.10992044273454973,
+      "statements": 363,
+      "touched_mean": 133.77317880794703,
+      "vertices": 604
+    },
+    "2400/read to its end": {
+      "axes": 1217,
+      "ball": 2400,
+      "below": "read to its end",
+      "level": "read to its end",
+      "nonzero_entries": 735068,
+      "seconds": 0.753328809980303,
+      "share": 1.0,
+      "statements": 363,
+      "touched_mean": 1217.0,
+      "vertices": 604
+    },
+    "300/its own aperture": {
+      "axes": 172,
+      "ball": 300,
+      "below": "its own aperture",
+      "level": "its own aperture",
+      "nonzero_entries": 2135,
+      "seconds": 0.004157525021582842,
+      "share": 0.14105443974630022,
+      "statements": 50,
+      "touched_mean": 24.261363636363637,
+      "vertices": 88
+    },
+    "300/read to its end": {
+      "axes": 172,
+      "ball": 300,
+      "below": "read to its end",
+      "level": "read to its end",
+      "nonzero_entries": 15136,
+      "seconds": 0.015436410438269377,
+      "share": 1.0,
+      "statements": 50,
+      "touched_mean": 172.0,
+      "vertices": 88
+    },
+    "4800/its own aperture": {
+      "axes": 2382,
+      "ball": 4800,
+      "below": "its own aperture",
+      "level": "its own aperture",
+      "nonzero_entries": 293394,
+      "seconds": 0.1701683709397912,
+      "share": 0.10429405980928086,
+      "statements": 705,
+      "touched_mean": 248.42845046570702,
+      "vertices": 1181
+    },
+    "4800/read to its end": {
+      "axes": 2382,
+      "ball": 4800,
+      "below": "read to its end",
+      "level": "read to its end",
+      "nonzero_entries": 2813142,
+      "seconds": 3.9397576982155442,
+      "share": 1.0,
+      "statements": 705,
+      "touched_mean": 2382.0,
+      "vertices": 1181
+    },
+    "600/its own aperture": {
+      "axes": 205,
+      "ball": 600,
+      "below": "its own aperture",
+      "level": "its own aperture",
+      "nonzero_entries": 2920,
+      "seconds": 0.0054407562129199505,
+      "share": 0.13696060037523453,
+      "statements": 60,
+      "touched_mean": 28.076923076923077,
+      "vertices": 104
+    },
+    "600/read to its end": {
+      "axes": 205,
+      "ball": 600,
+      "below": "read to its end",
+      "level": "read to its end",
+      "nonzero_entries": 21320,
+      "seconds": 0.019493333995342255,
+      "share": 1.0,
+      "statements": 60,
+      "touched_mean": 205.0,
+      "vertices": 104
+    }
+  },
+  "growth": {
+    "its own aperture": {
+      "entries_grew": 137.42107728337237,
+      "exponent": 1.8604401242835977,
+      "linear_would_be": 14.1,
+      "quadratic_would_be": 198.81,
+      "share_first": 0.14105443974630022,
+      "share_last": 0.10429405980928086,
+      "shares": [
+        0.14105443974630022,
+        0.13696060037523453,
+        0.11554085970713272,
+        0.10992044273454973,
+        0.10429405980928086
+      ],
+      "statements_grew": 14.1
+    },
+    "read to its end": {
+      "entries_grew": 185.85769027484145,
+      "exponent": 1.9745412434530425,
+      "linear_would_be": 14.1,
+      "quadratic_would_be": 198.81,
+      "share_first": 1.0,
+      "share_last": 1.0,
+      "shares": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "statements_grew": 14.1
+    }
+  },
+  "levels": [
+    "read to its end",
+    "its own aperture"
+  ],
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "read_up_to": 1200,
+  "reads": {
+    "1200/its own aperture": {
+      "questions": 172,
+      "right": 0.2616279069767442,
+      "times_the_draw": 30.527440789479172,
+      "times_the_draw_among_the_reached": 19.044193804406415
+    },
+    "1200/read to its end": {
+      "questions": 172,
+      "right": 0.18604651162790697,
+      "times_the_draw": 21.708402339185188,
+      "times_the_draw_among_the_reached": 13.248134820456634
+    },
+    "300/its own aperture": {
+      "questions": 48,
+      "right": 0.25,
+      "times_the_draw": 9.16423680503228,
+      "times_the_draw_among_the_reached": 4.490644490644492
+    },
+    "300/read to its end": {
+      "questions": 48,
+      "right": 0.25,
+      "times_the_draw": 9.16423680503228,
+      "times_the_draw_among_the_reached": 4.490644490644492
+    },
+    "600/its own aperture": {
+      "questions": 58,
+      "right": 0.20689655172413793,
+      "times_the_draw": 8.816399428480707,
+      "times_the_draw_among_the_reached": 4.97093023255814
+    },
+    "600/read to its end": {
+      "questions": 58,
+      "right": 0.22413793103448276,
+      "times_the_draw": 9.5510993808541,
+      "times_the_draw_among_the_reached": 4.97093023255814
+    }
+  },
+  "recorded": "2026-11-10",
+  "script": "test_whether_truncation_changes_the_growth.py",
+  "seed": "entity.n.01"
+}

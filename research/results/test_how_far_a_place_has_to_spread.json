@@ -1,0 +1,110 @@
+{
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "script": "test_how_far_a_place_has_to_spread.py",
+  "spread_depth": {
+    "generated": {
+      "by_depth": {
+        "1": {
+          "agrees": 1.0,
+          "hops": 1,
+          "largest_difference": 0.350480947161671,
+          "share_of_full": 0.05500848896434635,
+          "traversals": 1296
+        },
+        "2": {
+          "agrees": 1.0,
+          "hops": 2,
+          "largest_difference": 0.004906206745078865,
+          "share_of_full": 1.0275042444821731,
+          "traversals": 24208
+        },
+        "3": {
+          "agrees": 0.9259259259259259,
+          "hops": 3,
+          "largest_difference": 0.04013220814108251,
+          "share_of_full": 4.0069609507640065,
+          "traversals": 94404
+        },
+        "4": {
+          "agrees": 0.9259259259259259,
+          "hops": 4,
+          "largest_difference": 0.040118181364803045,
+          "share_of_full": 10.04804753820034,
+          "traversals": 236732
+        },
+        "6": {
+          "agrees": 0.9259259259259259,
+          "hops": 6,
+          "largest_difference": 0.041019377225467224,
+          "share_of_full": 14.02716468590832,
+          "traversals": 330480
+        },
+        "8": {
+          "agrees": 0.9259259259259259,
+          "hops": 8,
+          "largest_difference": 0.041019377225467224,
+          "share_of_full": 14.02716468590832,
+          "traversals": 330480
+        }
+      },
+      "copy_largest_difference": 0.0,
+      "full_traversals": 23560,
+      "most_settled_by_a_place": 19,
+      "statements": 216
+    },
+    "the ontology": {
+      "by_depth": {
+        "1": {
+          "agrees": 1.0,
+          "hops": 1,
+          "largest_difference": 0.9045340337332909,
+          "share_of_full": 0.11572904707233066,
+          "traversals": 504
+        },
+        "2": {
+          "agrees": 1.0,
+          "hops": 2,
+          "largest_difference": 0.20100756305184242,
+          "share_of_full": 0.938231917336395,
+          "traversals": 4086
+        },
+        "3": {
+          "agrees": 1.0,
+          "hops": 3,
+          "largest_difference": 0.1534291029830539,
+          "share_of_full": 3.3903559127439724,
+          "traversals": 14765
+        },
+        "4": {
+          "agrees": 0.9864864864864865,
+          "hops": 4,
+          "largest_difference": 0.15181232393646224,
+          "share_of_full": 7.887944890929965,
+          "traversals": 34352
+        },
+        "6": {
+          "agrees": 0.972972972972973,
+          "hops": 6,
+          "largest_difference": 0.1517026134236452,
+          "share_of_full": 15.845924225028703,
+          "traversals": 69009
+        },
+        "8": {
+          "agrees": 1.0,
+          "hops": 8,
+          "largest_difference": 0.15170253694365646,
+          "share_of_full": 17.32353616532721,
+          "traversals": 75444
+        }
+      },
+      "copy_largest_difference": 0.0,
+      "full_traversals": 4355,
+      "most_settled_by_a_place": 11,
+      "statements": 84
+    }
+  }
+}

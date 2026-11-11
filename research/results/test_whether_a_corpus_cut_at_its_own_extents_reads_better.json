@@ -1,0 +1,61 @@
+{
+  "bodies": [
+    "0869a1657e5f8871.txt",
+    "7bdb16e90e9d083f.txt",
+    "9ec00bbb6eee46d4.txt",
+    "a4d0344a81eeba23.txt",
+    "cc5a6b513af13800.txt",
+    "f5e6c04c26342578.txt"
+  ],
+  "by_write_down": {
+    "at its extents": {
+      "asked": 248,
+      "counting": {
+        "candidates": 620,
+        "mean_reciprocal_rank": 0.2884161473089863,
+        "median_rank": 11.0,
+        "questions": 248,
+        "top_1": 0.20161290322580644,
+        "top_10": 0.4879032258064516,
+        "top_5": 0.40725806451612906,
+        "top_50": 0.6774193548387096
+      },
+      "extents": {
+        "2": 1075,
+        "3": 915,
+        "4": 40
+      },
+      "held_out": 542,
+      "relations": 102,
+      "statements": 2030,
+      "the_read": {
+        "candidates": 620,
+        "mean_reciprocal_rank": 0.20351324993836004,
+        "median_rank": 62.0,
+        "questions": 248,
+        "top_1": 0.14516129032258066,
+        "top_10": 0.31048387096774194,
+        "top_5": 0.2661290322580645,
+        "top_50": 0.4798387096774194
+      },
+      "tokens": 621
+    }
+  },
+  "depths": [
+    1,
+    5,
+    10,
+    50
+  ],
+  "held_out_one_in": 5,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "questions": 400,
+  "recorded": "2026-11-10",
+  "script": "test_whether_a_corpus_cut_at_its_own_extents_reads_better.py",
+  "seed": 0,
+  "sentences": 120,
+  "the_read_over_counting": 0.7056236338956848
+}

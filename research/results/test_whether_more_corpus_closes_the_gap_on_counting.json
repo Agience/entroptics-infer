@@ -1,0 +1,83 @@
+{
+  "bodies": [
+    "0869a1657e5f8871.txt",
+    "7bdb16e90e9d083f.txt",
+    "9ec00bbb6eee46d4.txt",
+    "a4d0344a81eeba23.txt",
+    "cc5a6b513af13800.txt",
+    "f5e6c04c26342578.txt"
+  ],
+  "by_size": {
+    "120": {
+      "a_draw_would": 0.0016129032258064442,
+      "asked": 248,
+      "counting": 0.16129032258064516,
+      "held_out_spans": 542,
+      "seconds_for_the_one_coordinate": 0.12178992060944438,
+      "sentences": 120,
+      "the_read": 0.14919354838709678,
+      "the_read_over_counting": 0.925,
+      "the_read_times_the_draw": 92.50000000000043,
+      "tokens": 621,
+      "train_spans": 2030,
+      "vertices": 2668
+    },
+    "2000": {
+      "a_draw_would": 0.00033079722130334346,
+      "asked": 346,
+      "counting": 0.14739884393063585,
+      "held_out_spans": 6758,
+      "seconds_for_the_one_coordinate": 2.6118556689471006,
+      "sentences": 2000,
+      "the_read": 0.11271676300578035,
+      "the_read_over_counting": 0.7647058823529411,
+      "the_read_times_the_draw": 340.7427745664715,
+      "tokens": 3024,
+      "train_spans": 24407,
+      "vertices": 27551
+    },
+    "300": {
+      "a_draw_would": 0.000999000999000998,
+      "asked": 286,
+      "counting": 0.16083916083916083,
+      "held_out_spans": 1330,
+      "seconds_for_the_one_coordinate": 0.4152473038993776,
+      "sentences": 300,
+      "the_read": 0.11538461538461539,
+      "the_read_over_counting": 0.7173913043478262,
+      "the_read_times_the_draw": 115.50000000000013,
+      "tokens": 1002,
+      "train_spans": 4268,
+      "vertices": 5297
+    },
+    "800": {
+      "a_draw_would": 0.0006203473945409467,
+      "asked": 323,
+      "counting": 0.18575851393188855,
+      "held_out_spans": 3495,
+      "seconds_for_the_one_coordinate": 1.209813323803246,
+      "sentences": 800,
+      "the_read": 0.15789473684210525,
+      "the_read_over_counting": 0.8499999999999999,
+      "the_read_times_the_draw": 254.5263157894721,
+      "tokens": 1613,
+      "train_spans": 10408,
+      "vertices": 12086
+    }
+  },
+  "held_out_one_in": 5,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "questions": 400,
+  "recorded": "2026-11-10",
+  "script": "test_whether_more_corpus_closes_the_gap_on_counting.py",
+  "seed": 0,
+  "sizes": [
+    120,
+    300,
+    800,
+    2000
+  ]
+}

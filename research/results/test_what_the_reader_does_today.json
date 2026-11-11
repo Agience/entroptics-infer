@@ -1,0 +1,63 @@
+{
+  "asked": 68,
+  "by_relation": {
+    "is_a": {
+      "asked": 34,
+      "class": 12,
+      "right": 0,
+      "said_the_answer": 0.0
+    },
+    "lives_in": {
+      "asked": 10,
+      "class": 7,
+      "right": 0,
+      "said_the_answer": 0.0
+    },
+    "part_of": {
+      "asked": 17,
+      "class": 17,
+      "right": 0,
+      "said_the_answer": 0.0
+    },
+    "used_for": {
+      "asked": 7,
+      "class": 3,
+      "right": 2,
+      "said_the_answer": 0.2857142857142857
+    }
+  },
+  "class_size_against_success": -0.7406299557653439,
+  "could_not_be_put": 16,
+  "floor": 0.015384615384615382,
+  "hub_pull": {
+    "any concept": 1.2727272727272727,
+    "said when right": 2.0,
+    "said when wrong": 2.176470588235294,
+    "wanted": 2.1052631578947367
+  },
+  "hub_pull_counts": {
+    "any concept": 19,
+    "said when right": 2,
+    "said when wrong": 17,
+    "wanted": 19
+  },
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "refused": 49,
+  "refused_share": 0.7205882352941176,
+  "region": {
+    "in_it_by_chance": 0.24540441176470587,
+    "in_the_relations_class": 1.0,
+    "misses": 17
+  },
+  "relations_compared": 4,
+  "said_something": 17,
+  "said_the_answer": 2,
+  "said_the_answer_share": 0.029411764705882353,
+  "script": "test_what_the_reader_does_today.py",
+  "statements": 84,
+  "without_the_widest": -0.8322397195638237
+}

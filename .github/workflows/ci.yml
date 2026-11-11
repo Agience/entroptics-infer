@@ -1,0 +1,70 @@
+name: CI
+
+# The workspace gates a change internally with its own runner. This file exists because the
+# repository is public: an outside contributor opening a pull request has no access to that runner,
+# and a pull request nothing checks is one nobody can review with confidence.
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: [CITATION.cff]        # a DOI edit cannot change what CI tests
+  pull_request:
+    branches: [main]
+
+concurrency:                       # cancel superseded runs on the same ref
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}   # every main commit gets a full result
+
+jobs:
+  # numpy + entroptics + pytest: the whole default install. No corpus and no download.
+  test:
+    name: test (${{ matrix.os }}, py${{ matrix.python-version }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        # `requires-python` is >=3.11, a floor rather than a promise about every version above
+        # it. 3.13 is absent until the suite has been run on it once.
+        python-version: ["3.11", "3.12"]
+        include:
+          - os: windows-latest
+            python-version: "3.12"
+          - os: macos-latest
+            python-version: "3.12"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: python -m pip install -e ".[dev]"
+      - run: pytest -q
+
+  # The research gates that read only what is in the repository: the stored records, the ledger,
+  # the paper and the code. None re-measures anything, so none needs a corpus, a download or the
+  # reference machine. Re-measuring is `research/verify.py` with no flag and
+  # `research/verify_records.py`, which take hours and run on a configured host.
+  research-gates:
+    name: research gates
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: research
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install -e "..[dev]"
+      - name: every registered figure resolves in its stored record
+        run: python verify.py --paths
+      - name: every figure in the prose is backed by a record
+        run: python prose_check.py
+      - name: the ledger is consistent with the records
+        run: python checks/test_the_ledger_is_consistent.py
+      - name: every figure the method quotes is one it measured
+        run: python checks/test_the_method_quotes_what_it_measured.py
+      - name: the method carries no constant
+        run: python checks/test_the_method_carries_no_constant.py

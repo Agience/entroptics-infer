@@ -1,0 +1,110 @@
+{
+  "source": {
+    "url": "https://archive.ics.uci.edu/static/public/501/beijing+multi+site+air+quality+data.zip",
+    "sha256": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+  },
+  "design": {
+    "channels": [
+      "PM2.5",
+      "PM10",
+      "SO2",
+      "NO2",
+      "CO",
+      "O3",
+      "TEMP",
+      "PRES",
+      "DEWP",
+      "RAIN",
+      "WSPM"
+    ],
+    "min_hours": 20,
+    "far": 0.05,
+    "seed": 20260915,
+    "draws": 3
+  },
+  "admission": [
+    {
+      "arm": "raw",
+      "margin_z": 66.7614490751953,
+      "cutoff": 1.9599639845400543,
+      "admitted": true,
+      "rows": 559,
+      "row_autocorrelation": 0.5423716163734024
+    },
+    {
+      "arm": "city mean removed",
+      "margin_z": 10.994183227874718,
+      "cutoff": 1.9599639845400543,
+      "admitted": true,
+      "rows": 559,
+      "row_autocorrelation": 0.26321551762550227
+    }
+  ],
+  "facets": [
+    {
+      "arm": "raw",
+      "mean_rank": 2.0,
+      "max_rank": 2,
+      "channels": 11
+    },
+    {
+      "arm": "city mean removed",
+      "mean_rank": 1.75,
+      "max_rank": 3,
+      "channels": 11
+    }
+  ],
+  "configuration": [
+    {
+      "arm": "raw",
+      "breadth_mean": 10.098779059740808,
+      "breadth_min": 9.354963251076809,
+      "breadth_max": 10.780890540144657,
+      "breadth_vs_magnitude": 0.9061997528750899,
+      "narrow_and_loud": 0,
+      "pairs": 132
+    },
+    {
+      "arm": "city mean removed",
+      "breadth_mean": 5.768602037245781,
+      "breadth_min": 2.694133604559362,
+      "breadth_max": 8.594054929540302,
+      "breadth_vs_magnitude": 0.07511867546164833,
+      "narrow_and_loud": 12,
+      "pairs": 132
+    }
+  ],
+  "results": [
+    {
+      "arm": "raw",
+      "questions": 132,
+      "association": 0.9530721804227938,
+      "mean channel correlation": 0.954169899261175,
+      "max channel correlation": 0.958565935028916,
+      "leading-component correlation": 0.9507247000395058,
+      "random": 0.9205312260480517,
+      "oracle": 0.9663238487277568,
+      "best_scalar_read": "max channel correlation",
+      "edge_over_the_best_scalar": -0.005493754606122092,
+      "paired_standard_error": 0.0026213568913877818,
+      "edge_in_paired_standard_errors": -2.095767510395589,
+      "separated_at_two_standard_errors": true
+    },
+    {
+      "arm": "city mean removed",
+      "questions": 132,
+      "association": 0.4970251261886626,
+      "mean channel correlation": 0.5068112686134723,
+      "max channel correlation": 0.511086478293301,
+      "leading-component correlation": 0.4173846857361782,
+      "random": 0.2880562822821351,
+      "oracle": 0.6245727561051204,
+      "best_scalar_read": "max channel correlation",
+      "edge_over_the_best_scalar": -0.014061352104638405,
+      "paired_standard_error": 0.01640915364026356,
+      "edge_in_paired_standard_errors": -0.856921229022788,
+      "separated_at_two_standard_errors": false
+    }
+  ],
+  "seconds": 7.628112316131592
+}

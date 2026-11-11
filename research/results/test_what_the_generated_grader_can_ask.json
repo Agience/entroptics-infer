@@ -1,0 +1,17 @@
+{
+  "generated_accepts_least": 1,
+  "generated_accepts_median": 3.0,
+  "generated_accepts_more_than_one": 0.9467084639498433,
+  "generated_accepts_most": 6,
+  "generated_questions": 319,
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "ontology_accepts_exactly_one": 0.9066666666666666,
+  "ontology_accepts_median": 1.0,
+  "ontology_accepts_most": 3,
+  "ontology_questions": 75,
+  "recorded": "2026-11-10",
+  "script": "test_what_the_generated_grader_can_ask.py"
+}

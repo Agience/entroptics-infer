@@ -1,0 +1,30 @@
+{
+  "body": "0869a1657e5f8871.txt",
+  "by_store": {
+    "ontology": {
+      "a_vertexs_axes_that_are_shared": 0.5465007215007215,
+      "axes": 200,
+      "axes_shared": 35,
+      "share_of_axes_shared": 0.175,
+      "statements": 84,
+      "vertices": 66,
+      "widest_axis": 5
+    },
+    "prose": {
+      "a_vertexs_axes_that_are_shared": 0.6374736490334361,
+      "axes": 12564,
+      "axes_shared": 2119,
+      "share_of_axes_shared": 0.1686564788283986,
+      "statements": 7156,
+      "vertices": 1330,
+      "widest_axis": 141
+    }
+  },
+  "measured_on": {
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "recorded": "2026-11-10",
+  "script": "test_what_shape_prose_has_to_be_ingested_in.py",
+  "sentences": 400
+}

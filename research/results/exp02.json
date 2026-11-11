@@ -1,0 +1,603 @@
+{
+  "design": {
+    "T": 96,
+    "D": 32,
+    "n_keys": 12,
+    "trials": 80,
+    "base_seed": 20260915,
+    "far": 0.05,
+    "gain": 2.0,
+    "facets": [
+      2,
+      4,
+      6
+    ],
+    "noise": [
+      0.1,
+      0.2,
+      0.3,
+      0.5
+    ],
+    "min_answered_to_judge": 5
+  },
+  "rows": [
+    {
+      "facets": 2,
+      "subset_size": 1,
+      "breadth_ratio": 0.5,
+      "noise": 0.1,
+      "raw_accuracy": 1.0,
+      "coverage": 1.0,
+      "precision": 1.0,
+      "answered": 80,
+      "correct_but_refused": 0.0,
+      "reasons": {
+        "bound": 80
+      }
+    },
+    {
+      "facets": 2,
+      "subset_size": 1,
+      "breadth_ratio": 0.5,
+      "noise": 0.2,
+      "raw_accuracy": 1.0,
+      "coverage": 1.0,
+      "precision": 1.0,
+      "answered": 80,
+      "correct_but_refused": 0.0,
+      "reasons": {
+        "bound": 80
+      }
+    },
+    {
+      "facets": 2,
+      "subset_size": 1,
+      "breadth_ratio": 0.5,
+      "noise": 0.3,
+      "raw_accuracy": 0.95,
+      "coverage": 0.925,
+      "precision": 1.0,
+      "answered": 74,
+      "correct_but_refused": 0.025,
+      "reasons": {
+        "bound": 74,
+        "indistinguishable": 6
+      }
+    },
+    {
+      "facets": 2,
+      "subset_size": 1,
+      "breadth_ratio": 0.5,
+      "noise": 0.5,
+      "raw_accuracy": 0.075,
+      "coverage": 0.0,
+      "precision": null,
+      "answered": 0,
+      "correct_but_refused": 0.075,
+      "reasons": {
+        "indistinguishable": 80
+      }
+    },
+    {
+      "facets": 4,
+      "subset_size": 1,
+      "breadth_ratio": 0.25,
+      "noise": 0.1,
+      "raw_accuracy": 1.0,
+      "coverage": 0.9875,
+      "precision": 1.0,
+      "answered": 79,
+      "correct_but_refused": 0.0125,
+      "reasons": {
+        "bound": 79,
+        "indistinguishable": 1
+      }
+    },
+    {
+      "facets": 4,
+      "subset_size": 1,
+      "breadth_ratio": 0.25,
+      "noise": 0.2,
+      "raw_accuracy": 1.0,
+      "coverage": 0.9125,
+      "precision": 1.0,
+      "answered": 73,
+      "correct_but_refused": 0.0875,
+      "reasons": {
+        "bound": 73,
+        "indistinguishable": 7
+      }
+    },
+    {
+      "facets": 4,
+      "subset_size": 1,
+      "breadth_ratio": 0.25,
+      "noise": 0.3,
+      "raw_accuracy": 1.0,
+      "coverage": 0.075,
+      "precision": 1.0,
+      "answered": 6,
+      "correct_but_refused": 0.925,
+      "reasons": {
+        "indistinguishable": 74,
+        "bound": 6
+      }
+    },
+    {
+      "facets": 4,
+      "subset_size": 1,
+      "breadth_ratio": 0.25,
+      "noise": 0.5,
+      "raw_accuracy": 0.4875,
+      "coverage": 0.0,
+      "precision": null,
+      "answered": 0,
+      "correct_but_refused": 0.4875,
+      "reasons": {
+        "indistinguishable": 59,
+        "no shared channel": 21
+      }
+    },
+    {
+      "facets": 4,
+      "subset_size": 2,
+      "breadth_ratio": 0.5,
+      "noise": 0.1,
+      "raw_accuracy": 1.0,
+      "coverage": 0.9875,
+      "precision": 1.0,
+      "answered": 79,
+      "correct_but_refused": 0.0125,
+      "reasons": {
+        "bound": 79,
+        "indistinguishable": 1
+      }
+    },
+    {
+      "facets": 4,
+      "subset_size": 2,
+      "breadth_ratio": 0.5,
+      "noise": 0.2,
+      "raw_accuracy": 1.0,
+      "coverage": 0.775,
+      "precision": 1.0,
+      "answered": 62,
+      "correct_but_refused": 0.225,
+      "reasons": {
+        "bound": 62,
+        "indistinguishable": 18
+      }
+    },
+    {
+      "facets": 4,
+      "subset_size": 2,
+      "breadth_ratio": 0.5,
+      "noise": 0.3,
+      "raw_accuracy": 0.7625,
+      "coverage": 0.0,
+      "precision": null,
+      "answered": 0,
+      "correct_but_refused": 0.7625,
+      "reasons": {
+        "indistinguishable": 80
+      }
+    },
+    {
+      "facets": 4,
+      "subset_size": 2,
+      "breadth_ratio": 0.5,
+      "noise": 0.5,
+      "raw_accuracy": 0.025,
+      "coverage": 0.0,
+      "precision": null,
+      "answered": 0,
+      "correct_but_refused": 0.025,
+      "reasons": {
+        "indistinguishable": 59,
+        "no shared channel": 21
+      }
+    },
+    {
+      "facets": 4,
+      "subset_size": 3,
+      "breadth_ratio": 0.75,
+      "noise": 0.1,
+      "raw_accuracy": 1.0,
+      "coverage": 0.825,
+      "precision": 1.0,
+      "answered": 66,
+      "correct_but_refused": 0.175,
+      "reasons": {
+        "bound": 66,
+        "indistinguishable": 14
+      }
+    },
+    {
+      "facets": 4,
+      "subset_size": 3,
+      "breadth_ratio": 0.75,
+      "noise": 0.2,
+      "raw_accuracy": 0.8125,
+      "coverage": 0.175,
+      "precision": 1.0,
+      "answered": 14,
+      "correct_but_refused": 0.6375,
+      "reasons": {
+        "indistinguishable": 66,
+        "bound": 14
+      }
+    },
+    {
+      "facets": 4,
+      "subset_size": 3,
+      "breadth_ratio": 0.75,
+      "noise": 0.3,
+      "raw_accuracy": 0.0,
+      "coverage": 0.0,
+      "precision": null,
+      "answered": 0,
+      "correct_but_refused": 0.0,
+      "reasons": {
+        "indistinguishable": 80
+      }
+    },
+    {
+      "facets": 4,
+      "subset_size": 3,
+      "breadth_ratio": 0.75,
+      "noise": 0.5,
+      "raw_accuracy": 0.0,
+      "coverage": 0.0,
+      "precision": null,
+      "answered": 0,
+      "correct_but_refused": 0.0,
+      "reasons": {
+        "indistinguishable": 59,
+        "no shared channel": 21
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 1,
+      "breadth_ratio": 0.16666666666666666,
+      "noise": 0.1,
+      "raw_accuracy": 1.0,
+      "coverage": 0.95,
+      "precision": 1.0,
+      "answered": 76,
+      "correct_but_refused": 0.05,
+      "reasons": {
+        "bound": 76,
+        "indistinguishable": 4
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 1,
+      "breadth_ratio": 0.16666666666666666,
+      "noise": 0.2,
+      "raw_accuracy": 1.0,
+      "coverage": 0.025,
+      "precision": 1.0,
+      "answered": 2,
+      "correct_but_refused": 0.975,
+      "reasons": {
+        "indistinguishable": 78,
+        "bound": 2
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 1,
+      "breadth_ratio": 0.16666666666666666,
+      "noise": 0.3,
+      "raw_accuracy": 1.0,
+      "coverage": 0.0,
+      "precision": null,
+      "answered": 0,
+      "correct_but_refused": 1.0,
+      "reasons": {
+        "indistinguishable": 80
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 1,
+      "breadth_ratio": 0.16666666666666666,
+      "noise": 0.5,
+      "raw_accuracy": 0.725,
+      "coverage": 0.0,
+      "precision": null,
+      "answered": 0,
+      "correct_but_refused": 0.725,
+      "reasons": {
+        "no shared channel": 41,
+        "indistinguishable": 39
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 2,
+      "breadth_ratio": 0.3333333333333333,
+      "noise": 0.1,
+      "raw_accuracy": 1.0,
+      "coverage": 0.9375,
+      "precision": 1.0,
+      "answered": 75,
+      "correct_but_refused": 0.0625,
+      "reasons": {
+        "bound": 75,
+        "indistinguishable": 5
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 2,
+      "breadth_ratio": 0.3333333333333333,
+      "noise": 0.2,
+      "raw_accuracy": 1.0,
+      "coverage": 0.0125,
+      "precision": 1.0,
+      "answered": 1,
+      "correct_but_refused": 0.9875,
+      "reasons": {
+        "indistinguishable": 79,
+        "bound": 1
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 2,
+      "breadth_ratio": 0.3333333333333333,
+      "noise": 0.3,
+      "raw_accuracy": 0.975,
+      "coverage": 0.0,
+      "precision": null,
+      "answered": 0,
+      "correct_but_refused": 0.975,
+      "reasons": {
+        "indistinguishable": 80
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 2,
+      "breadth_ratio": 0.3333333333333333,
+      "noise": 0.5,
+      "raw_accuracy": 0.2375,
+      "coverage": 0.0,
+      "precision": null,
+      "answered": 0,
+      "correct_but_refused": 0.2375,
+      "reasons": {
+        "no shared channel": 41,
+        "indistinguishable": 39
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 3,
+      "breadth_ratio": 0.5,
+      "noise": 0.1,
+      "raw_accuracy": 1.0,
+      "coverage": 0.7875,
+      "precision": 1.0,
+      "answered": 63,
+      "correct_but_refused": 0.2125,
+      "reasons": {
+        "bound": 63,
+        "indistinguishable": 17
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 3,
+      "breadth_ratio": 0.5,
+      "noise": 0.2,
+      "raw_accuracy": 1.0,
+      "coverage": 0.0,
+      "precision": null,
+      "answered": 0,
+      "correct_but_refused": 1.0,
+      "reasons": {
+        "indistinguishable": 80
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 3,
+      "breadth_ratio": 0.5,
+      "noise": 0.3,
+      "raw_accuracy": 0.55,
+      "coverage": 0.0,
+      "precision": null,
+      "answered": 0,
+      "correct_but_refused": 0.55,
+      "reasons": {
+        "indistinguishable": 80
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 3,
+      "breadth_ratio": 0.5,
+      "noise": 0.5,
+      "raw_accuracy": 0.0125,
+      "coverage": 0.0,
+      "precision": null,
+      "answered": 0,
+      "correct_but_refused": 0.0125,
+      "reasons": {
+        "no shared channel": 39,
+        "indistinguishable": 41
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 4,
+      "breadth_ratio": 0.6666666666666666,
+      "noise": 0.1,
+      "raw_accuracy": 1.0,
+      "coverage": 0.525,
+      "precision": 1.0,
+      "answered": 42,
+      "correct_but_refused": 0.475,
+      "reasons": {
+        "bound": 42,
+        "indistinguishable": 38
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 4,
+      "breadth_ratio": 0.6666666666666666,
+      "noise": 0.2,
+      "raw_accuracy": 0.9125,
+      "coverage": 0.0,
+      "precision": null,
+      "answered": 0,
+      "correct_but_refused": 0.9125,
+      "reasons": {
+        "indistinguishable": 80
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 4,
+      "breadth_ratio": 0.6666666666666666,
+      "noise": 0.3,
+      "raw_accuracy": 0.0,
+      "coverage": 0.0125,
+      "precision": 0.0,
+      "answered": 1,
+      "correct_but_refused": 0.0,
+      "reasons": {
+        "indistinguishable": 79,
+        "bound": 1
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 4,
+      "breadth_ratio": 0.6666666666666666,
+      "noise": 0.5,
+      "raw_accuracy": 0.0,
+      "coverage": 0.0375,
+      "precision": 0.0,
+      "answered": 3,
+      "correct_but_refused": 0.0,
+      "reasons": {
+        "indistinguishable": 60,
+        "no shared channel": 17,
+        "bound": 3
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 5,
+      "breadth_ratio": 0.8333333333333334,
+      "noise": 0.1,
+      "raw_accuracy": 1.0,
+      "coverage": 0.1875,
+      "precision": 1.0,
+      "answered": 15,
+      "correct_but_refused": 0.8125,
+      "reasons": {
+        "indistinguishable": 65,
+        "bound": 15
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 5,
+      "breadth_ratio": 0.8333333333333334,
+      "noise": 0.2,
+      "raw_accuracy": 0.025,
+      "coverage": 0.0,
+      "precision": null,
+      "answered": 0,
+      "correct_but_refused": 0.025,
+      "reasons": {
+        "indistinguishable": 80
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 5,
+      "breadth_ratio": 0.8333333333333334,
+      "noise": 0.3,
+      "raw_accuracy": 0.0,
+      "coverage": 0.0,
+      "precision": null,
+      "answered": 0,
+      "correct_but_refused": 0.0,
+      "reasons": {
+        "indistinguishable": 80
+      }
+    },
+    {
+      "facets": 6,
+      "subset_size": 5,
+      "breadth_ratio": 0.8333333333333334,
+      "noise": 0.5,
+      "raw_accuracy": 0.0,
+      "coverage": 0.05,
+      "precision": 0.0,
+      "answered": 4,
+      "correct_but_refused": 0.0,
+      "reasons": {
+        "indistinguishable": 62,
+        "no shared channel": 14,
+        "bound": 4
+      }
+    }
+  ],
+  "cells_judged": 15,
+  "soundness_at_every_cut": [
+    {
+      "cut": 1,
+      "judged": 20,
+      "unsound": 3
+    },
+    {
+      "cut": 2,
+      "judged": 18,
+      "unsound": 2
+    },
+    {
+      "cut": 3,
+      "judged": 17,
+      "unsound": 2
+    },
+    {
+      "cut": 4,
+      "judged": 16,
+      "unsound": 1
+    },
+    {
+      "cut": 5,
+      "judged": 15,
+      "unsound": 0
+    },
+    {
+      "cut": 8,
+      "judged": 14,
+      "unsound": 0
+    },
+    {
+      "cut": 10,
+      "judged": 14,
+      "unsound": 0
+    },
+    {
+      "cut": 20,
+      "judged": 12,
+      "unsound": 0
+    }
+  ],
+  "cells_the_cut_excludes": 21,
+  "unsound_cells_the_cut_excludes": 3,
+  "the_cut_is_inert": false,
+  "cells_unsound": 0,
+  "seconds": 708.28559923172
+}

@@ -1,0 +1,161 @@
+{
+  "design": {
+    "far": 0.05,
+    "base_seed": 20260915,
+    "draws": 3,
+    "window": 6
+  },
+  "admission": [
+    {
+      "corpus": "synthetic lambda=0.0",
+      "observed": 11.586107692750414,
+      "decoupled": 13.064986322353434,
+      "margin_z": -1.7728055703861934,
+      "admitted": false,
+      "rows": 96,
+      "row_autocorrelation": -0.015455355506688003
+    },
+    {
+      "corpus": "synthetic lambda=0.2",
+      "observed": 22.571542418673538,
+      "decoupled": 13.129645605443185,
+      "margin_z": 5.959764047430711,
+      "admitted": true,
+      "rows": 96,
+      "row_autocorrelation": -0.018478253980472783
+    },
+    {
+      "corpus": "synthetic lambda=1.0",
+      "observed": 93.67837191977395,
+      "decoupled": 14.46545020422662,
+      "margin_z": 35.59978281246202,
+      "admitted": true,
+      "rows": 96,
+      "row_autocorrelation": -0.027230279939939706
+    },
+    {
+      "corpus": "triple corpus",
+      "observed": 97.6258009206904,
+      "decoupled": 24.851693182476293,
+      "margin_z": 39.098247456884465,
+      "admitted": true,
+      "rows": 96,
+      "row_autocorrelation": 0.010520532988241854,
+      "margin_z_with_scalar_statistic": 0.0720752141827842
+    },
+    {
+      "corpus": "real text: alice",
+      "observed": 0.18235996364759197,
+      "decoupled": 0.181553019189165,
+      "margin_z": 0.07831286104927,
+      "admitted": false,
+      "rows": 16,
+      "row_autocorrelation": -0.04664730538896591
+    },
+    {
+      "corpus": "real text: moby",
+      "observed": 0.33515886162235575,
+      "decoupled": 0.33306211616736014,
+      "margin_z": 0.12175070167579424,
+      "admitted": false,
+      "rows": 48,
+      "row_autocorrelation": -0.006463307996726719
+    }
+  ],
+  "frequency_strata": {
+    "cells": [
+      {
+        "text": "alice",
+        "third": "low",
+        "n": 2,
+        "z": 0.0,
+        "pmi": 0.0,
+        "z_leads": false
+      },
+      {
+        "text": "alice",
+        "third": "middle",
+        "n": 2,
+        "z": 0.5,
+        "pmi": 0.5,
+        "z_leads": false
+      },
+      {
+        "text": "alice",
+        "third": "high",
+        "n": 4,
+        "z": 0.0,
+        "pmi": 0.0,
+        "z_leads": false
+      },
+      {
+        "text": "moby",
+        "third": "low",
+        "n": 48,
+        "z": 0.20833333333333334,
+        "pmi": 0.4375,
+        "z_leads": false
+      },
+      {
+        "text": "moby",
+        "third": "middle",
+        "n": 48,
+        "z": 0.3333333333333333,
+        "pmi": 0.5208333333333334,
+        "z_leads": false
+      },
+      {
+        "text": "moby",
+        "third": "high",
+        "n": 48,
+        "z": 0.375,
+        "pmi": 0.6041666666666666,
+        "z_leads": false
+      }
+    ],
+    "z_leads_in": 0,
+    "of": 6
+  },
+  "transfer": [
+    {
+      "built_on": "moby",
+      "tested_on": "moby",
+      "n": 181,
+      "z": 0.30939226519337015,
+      "pmi": 0.4585635359116022,
+      "edge": -0.14917127071823205
+    },
+    {
+      "built_on": "moby",
+      "tested_on": "alice",
+      "n": 43,
+      "z": 0.3023255813953488,
+      "pmi": 0.37209302325581395,
+      "edge": -0.06976744186046513
+    },
+    {
+      "built_on": "alice",
+      "tested_on": "alice",
+      "n": 8,
+      "z": 0.125,
+      "pmi": 0.125,
+      "edge": 0.0
+    },
+    {
+      "built_on": "alice",
+      "tested_on": "moby",
+      "n": 62,
+      "z": 0.12903225806451613,
+      "pmi": 0.3225806451612903,
+      "edge": -0.1935483870967742
+    }
+  ],
+  "absence": {
+    "records": 254,
+    "mean_share": 0.0923461087756933,
+    "max_share": 0.8950848061581,
+    "mean_segments_present": 35.0728476821192,
+    "segments": 48
+  },
+  "seconds": 29.02848196029663
+}
