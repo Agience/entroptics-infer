@@ -1,6 +1,7 @@
 # entroptics-infer
 
 [![PyPI](https://img.shields.io/pypi/v/entroptics-infer)](https://pypi.org/project/entroptics-infer/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24143174.svg)](https://doi.org/10.5281/zenodo.24143174)
 [![Licence: AGPL-3.0-only or commercial](https://img.shields.io/badge/licence-AGPL--3.0--only%20or%20commercial-blue)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](pyproject.toml)
 [![Instrument](https://img.shields.io/badge/instrument-entroptics-4B0082)](https://github.com/Agience/entroptics)

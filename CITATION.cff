@@ -16,6 +16,14 @@ repository-code: "https://github.com/Agience/entroptics-infer"
 url: "https://agience.ai"
 license: AGPL-3.0-only
 version: 0.1.0
+doi: "10.5281/zenodo.24143174"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24143174"
+    description: "Concept DOI - all versions of this work; resolves to the newest release."
+  - type: doi
+    value: "10.5281/zenodo.24143175"
+    description: "Version DOI - v0.1.0."
 date-released: 2026-11-11
 keywords:
   - neurosymbolic
